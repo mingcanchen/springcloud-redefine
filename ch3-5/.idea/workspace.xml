@@ -2,42 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06c9170e-278a-49d6-b001-6fb5a47e97da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ch3-4/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch3-4/eureka-client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch3-4/eureka-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch3-4/eureka-client/src/main/java/com/ming/eurekaclient/EurekaClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch3-4/eureka-client/src/main/resources/application-security.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch3-4/eureka-client/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch3-4/eureka-client/src/test/java/com/ming/eurekaclient/EurekaClientApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch3-4/eureka-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch3-4/eureka-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch3-4/eureka-server/src/main/java/com/ming/eurekaserver/EurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch3-4/eureka-server/src/main/java/com/ming/eurekaserver/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch3-4/eureka-server/src/main/resources/application-security.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch3-4/eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch3-4/eureka-server/src/test/java/com/ming/eurekaserver/EurekaServerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch3-4/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/java/com/ming/eurekaclient/EurekaClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/java/com/ming/eurekaclient/config/EurekaHttpsClientConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/application-https.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/client.crt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/client.p12" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/server.crt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/src/test/java/com/ming/eurekaclient/EurekaClientApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/ming/eurekaserver/EurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application-https.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/client.crt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/server.crt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/server.p12" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/test/java/com/ming/eurekaserver/EurekaServerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch3-3/zuul-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch3-3/zuul-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch4-1/hello/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch4-1/hello/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch4-1/hello/src/main/java/com/ming/hello/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch4-1/hello/src/main/java/com/ming/hello/config/HelloFeignServiceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch4-1/hello/src/main/java/com/ming/hello/controller/HelloFeignController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch4-1/hello/src/main/java/com/ming/hello/service/HelloFeignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch4-1/hello/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch4-1/hello/src/test/java/com/ming/hello/HelloApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch4-1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,6 +27,7 @@
     <session id="-2091028481">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -93,11 +68,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="8" column="35" selection-start-line="6" selection-start-column="2" selection-end-line="8" selection-end-column="35" />
+            <state relative-caret-position="380">
+              <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -131,11 +106,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eureka-client/src/main/java/com/ming/eurekaclient/config/EurekaHttpsClientConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="267">
-              <caret line="36" column="35" lean-forward="true" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+              <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -205,7 +180,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1612" />
+    <option name="width" value="1616" />
     <option name="height" value="876" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -263,9 +238,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540352396534" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540439946381" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -362,15 +341,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540351181988</updated>
-      <workItem from="1540351183943" duration="1828000" />
+      <workItem from="1540351183943" duration="3856000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1828000" />
+    <option name="totallyTimeSpent" value="3856000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -444,13 +424,6 @@
     <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application-https.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="8" column="35" selection-start-line="6" selection-start-column="2" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-client/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -467,10 +440,17 @@
     <entry file="file://$PROJECT_DIR$/eureka-client/src/main/java/com/ming/eurekaclient/config/EurekaHttpsClientConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
-          <caret line="36" column="35" lean-forward="true" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
         </state>
       </provider>
     </entry>

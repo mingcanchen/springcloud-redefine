@@ -1,0 +1,10 @@
+server:
+  port: 8010
+spring:
+  application:
+    name: ch4-1-hello
+
+logging:
+     level:
+       com.ming.hello.service.HelloFeignService: debug
+

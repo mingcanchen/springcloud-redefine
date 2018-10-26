@@ -2,33 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0430293b-390e-4f34-ae35-49feeb085510" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/eureka-client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/java/com/ming/eurekaclient/EurekaClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/application-zone1.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/application-zone2.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/src/test/java/com/ming/eurekaclient/EurekaClientApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/ming/eurekaserver/EurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application-zone1a.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application-zone1b.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application-zone2a.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application-zone2b.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/test/java/com/ming/eurekaserver/EurekaServerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-gateway/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-gateway/src/main/java/com/ming/zuulgateway/ZuulGatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-gateway/src/main/resources/application-zone1.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-gateway/src/main/resources/application-zone2.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-gateway/src/test/java/com/ming/zuulgateway/ZuulGatewayApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch3-3/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch3-3/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch3-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch3-1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch4-1/hello/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch4-1/hello/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch4-1/hello/src/main/java/com/ming/hello/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch4-1/hello/src/main/java/com/ming/hello/config/HelloFeignServiceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch4-1/hello/src/main/java/com/ming/hello/controller/HelloFeignController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch4-1/hello/src/main/java/com/ming/hello/service/HelloFeignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch4-1/hello/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch4-1/hello/src/test/java/com/ming/hello/HelloApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch4-1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch3-5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch3-5/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,10 +34,10 @@
     <session id="-1501487969">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -125,8 +109,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+            <state relative-caret-position="-37">
+              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -255,6 +239,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -266,8 +252,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -442,17 +426,17 @@
       <updated>1540274620344</updated>
       <workItem from="1540274622107" duration="4775000" />
       <workItem from="1540280545980" duration="112000" />
+      <workItem from="1540448176977" duration="338000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4887000" />
+    <option name="totallyTimeSpent" value="5225000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20272021" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20272021" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -474,13 +458,13 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.36022252" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.3769124" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.3769124" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info active="true" anchor="right" id="Maven Projects" order="5" visible="true" weight="0.1845855" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.1845855" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -592,8 +576,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        <state relative-caret-position="-37">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
         </state>
       </provider>
     </entry>
