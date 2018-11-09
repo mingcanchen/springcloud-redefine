@@ -2,34 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15f62b4a-ff74-4c2e-9d32-4a6d70654d9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ch4-5/consumer/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch4-5/consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch4-5/consumer/src/main/java/com/ming/consumer/ConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch4-5/consumer/src/main/java/com/ming/consumer/config/ApplicationExceptionAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch4-5/consumer/src/main/java/com/ming/consumer/config/Swagger2Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch4-5/consumer/src/main/java/com/ming/consumer/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch4-5/consumer/src/main/java/com/ming/consumer/interceptor/FeignRequestInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch4-5/consumer/src/main/java/com/ming/consumer/interceptor/FeignTokenInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch4-5/consumer/src/main/java/com/ming/consumer/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch4-5/consumer/src/main/java/com/ming/consumer/service/UserFeignService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch4-5/consumer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch4-5/consumer/src/test/java/com/ming/consumer/ConsumerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch4-5/eureka-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch4-5/eureka-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch4-5/eureka-server/src/main/java/com/ming/eurekaserver/EurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch4-5/eureka-server/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch4-5/eureka-server/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch4-5/eureka-server/src/test/java/com/ming/eurekaserver/EurekaServerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch4-5/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch4-5/provider/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch4-5/provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch4-5/provider/src/main/java/com/ming/provider/ProviderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch4-5/provider/src/main/java/com/ming/provider/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch4-5/provider/src/main/java/com/ming/provider/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch4-5/provider/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch4-5/provider/src/test/java/com/ming/provider/ProviderApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch3-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch3-1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/eureka-server-info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/eureka-server-info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch4-5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch4-5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch4-5/consumer/src/main/java/com/ming/consumer/interceptor/FeignTokenInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch4-5/consumer/src/main/java/com/ming/consumer/interceptor/FeignTokenInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch4-5/logs/eureka-server-info.log" beforeDir="false" afterPath="$PROJECT_DIR$/../ch4-5/logs/eureka-server-info.log" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,9 +24,10 @@
     <session id="-1765392267">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.2" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -93,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/feign-upload-client/src/main/java/com/ming/feignuploadclient/controller/FeignUploadController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="437">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="18" column="74" lean-forward="true" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
+            <state relative-caret-position="342">
+              <caret line="18" column="74" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -114,8 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/feign-upload-client/src/main/java/com/ming/feignuploadclient/service/FileUploadFeignService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+            <state relative-caret-position="152">
+              <caret line="14" column="76" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,10 +114,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/feign-upload-client/src/main/java/com/ming/feignuploadclient/config/FeignMultipartSupportConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+            <state relative-caret-position="285">
+              <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
               <folding>
-                <element signature="e#544#545#0" expanded="true" />
                 <element signature="e#590#591#0" expanded="true" />
               </folding>
             </state>
@@ -148,7 +126,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/feign-upload-client/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
+            <state relative-caret-position="1482">
               <caret line="78" column="45" selection-start-line="78" selection-start-column="45" selection-end-line="78" selection-end-column="45" />
             </state>
           </provider>
@@ -157,7 +135,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/feign-upload-client/src/main/java/com/ming/feignuploadclient/config/Swagger2Config.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
+            <state relative-caret-position="418">
               <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
             </state>
           </provider>
@@ -175,8 +153,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/feign-file-server/src/main/java/com/ming/feignfileserver/controller/FeignUploadController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="152">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -277,6 +255,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -284,178 +263,12 @@
               <item name="ch4-4" type="b2602c69:ProjectViewProjectNode" />
               <item name="ch4-4" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ch4-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch4-4" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch4-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch4-4" type="462c0819:PsiDirectoryNode" />
-              <item name="feign-file-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch4-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch4-4" type="462c0819:PsiDirectoryNode" />
-              <item name="feign-file-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch4-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch4-4" type="462c0819:PsiDirectoryNode" />
-              <item name="feign-file-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch4-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch4-4" type="462c0819:PsiDirectoryNode" />
-              <item name="feign-file-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch4-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch4-4" type="462c0819:PsiDirectoryNode" />
-              <item name="feign-file-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch4-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch4-4" type="462c0819:PsiDirectoryNode" />
-              <item name="feign-file-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ming" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch4-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch4-4" type="462c0819:PsiDirectoryNode" />
-              <item name="feign-file-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ming" type="462c0819:PsiDirectoryNode" />
-              <item name="feignfileserver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch4-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch4-4" type="462c0819:PsiDirectoryNode" />
-              <item name="feign-file-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ming" type="462c0819:PsiDirectoryNode" />
-              <item name="feignfileserver" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch4-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch4-4" type="462c0819:PsiDirectoryNode" />
-              <item name="feign-upload-client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch4-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch4-4" type="462c0819:PsiDirectoryNode" />
-              <item name="feign-upload-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch4-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch4-4" type="462c0819:PsiDirectoryNode" />
-              <item name="feign-upload-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch4-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch4-4" type="462c0819:PsiDirectoryNode" />
-              <item name="feign-upload-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch4-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch4-4" type="462c0819:PsiDirectoryNode" />
-              <item name="feign-upload-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch4-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch4-4" type="462c0819:PsiDirectoryNode" />
-              <item name="feign-upload-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ming" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch4-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch4-4" type="462c0819:PsiDirectoryNode" />
-              <item name="feign-upload-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ming" type="462c0819:PsiDirectoryNode" />
-              <item name="feignuploadclient" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch4-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch4-4" type="462c0819:PsiDirectoryNode" />
-              <item name="feign-upload-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ming" type="462c0819:PsiDirectoryNode" />
-              <item name="feignuploadclient" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch4-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch4-4" type="462c0819:PsiDirectoryNode" />
-              <item name="feign-upload-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ming" type="462c0819:PsiDirectoryNode" />
-              <item name="feignuploadclient" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch4-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch4-4" type="462c0819:PsiDirectoryNode" />
-              <item name="feign-upload-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ming" type="462c0819:PsiDirectoryNode" />
-              <item name="feignuploadclient" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -466,6 +279,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540535361592" />
+    <property name="last_opened_file_path" value="D:/source/elephant-sms-demo(jwtest001)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -558,8 +372,8 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.EurekaServerApplication" />
-      <item itemvalue="Spring Boot.FeignFileServerApplication" />
       <item itemvalue="Spring Boot.FeignUploadClientApplication" />
+      <item itemvalue="Spring Boot.FeignFileServerApplication" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -574,21 +388,24 @@
       <updated>1540524663290</updated>
       <workItem from="1540524665279" duration="4526000" />
       <workItem from="1540547649878" duration="1735000" />
+      <workItem from="1541648982433" duration="4246000" />
+      <workItem from="1541731769117" duration="26000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6261000" />
+    <option name="totallyTimeSpent" value="10533000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49788135" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49788135" visible="true" weight="0.25453368" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" sideWeight="0.50211865" side_tool="true" visible="true" weight="0.25" />
+      <window_info id="Favorites" order="5" sideWeight="0.50211865" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -605,7 +422,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.34353268" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.34353268" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -688,6 +505,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/feign-upload-client/src/main/java/com/ming/feignuploadclient/controller/FeignUploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="74" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-upload-client/src/main/java/com/ming/feignuploadclient/service/FileUploadFeignService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="14" column="76" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-upload-client/src/main/java/com/ming/feignuploadclient/config/ApplicationExceptionAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-upload-client/src/main/java/com/ming/feignuploadclient/config/FeignMultipartSupportConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+          <folding>
+            <element signature="e#590#591#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-upload-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1482">
+          <caret line="78" column="45" selection-start-line="78" selection-start-column="45" selection-end-line="78" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-upload-client/src/main/java/com/ming/feignuploadclient/config/Swagger2Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/feign-file-server/src/main/java/com/ming/feignfileserver/FeignFileServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -702,69 +577,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="18" column="74" lean-forward="true" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feign-upload-client/src/main/java/com/ming/feignuploadclient/config/ApplicationExceptionAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feign-upload-client/src/main/java/com/ming/feignuploadclient/config/Swagger2Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feign-upload-client/src/main/java/com/ming/feignuploadclient/service/FileUploadFeignService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feign-upload-client/src/main/java/com/ming/feignuploadclient/config/FeignMultipartSupportConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-          <folding>
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feign-upload-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="78" column="45" selection-start-line="78" selection-start-column="45" selection-end-line="78" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feign-upload-client/src/main/java/com/ming/feignuploadclient/controller/FeignUploadController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/feign-file-server/src/main/java/com/ming/feignfileserver/controller/FeignUploadController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="152">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>

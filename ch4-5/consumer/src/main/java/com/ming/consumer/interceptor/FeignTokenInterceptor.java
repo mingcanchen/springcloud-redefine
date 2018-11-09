@@ -25,7 +25,9 @@ public class FeignTokenInterceptor implements RequestInterceptor {
             return;
         }
         //将获取Token对应的值往下面传
-        requestTemplate.header("oauthToken", getHeaders(getHttpServletRequest()).get("oauthToken"));
+//        String oauthToken = getHeaders(getHttpServletRequest()).get("oauthToken");
+        String oauthToken = getHttpServletRequest().getHeader("oauthToken");
+        requestTemplate.header("oauthToken", oauthToken);
     }
 
     private HttpServletRequest getHttpServletRequest() {
@@ -45,6 +47,7 @@ public class FeignTokenInterceptor implements RequestInterceptor {
         Map<String, String> map = new LinkedHashMap<>();
         Enumeration<String> enumeration = request.getHeaderNames();
         while (enumeration.hasMoreElements()) {
+//            此处key  oauthToken - > oauthtoken
             String key = enumeration.nextElement();
             String value = request.getHeader(key);
             map.put(key, value);
