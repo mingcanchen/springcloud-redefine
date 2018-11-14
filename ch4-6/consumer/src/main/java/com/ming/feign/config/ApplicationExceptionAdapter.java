@@ -1,4 +1,4 @@
-package com.ming.consumer.config;
+package com.ming.feign.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;

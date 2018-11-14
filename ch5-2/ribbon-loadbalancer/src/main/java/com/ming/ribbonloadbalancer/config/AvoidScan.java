@@ -1,4 +1,4 @@
-package cn.springcloud.book.config;
+package com.ming.ribbonloadbalancer.config;
 
 public @interface AvoidScan {
 

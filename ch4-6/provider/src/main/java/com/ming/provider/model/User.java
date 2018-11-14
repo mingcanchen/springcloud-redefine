@@ -1,4 +1,4 @@
-package cn.springcloud.book.feign.model;
+package com.ming.provider.model;
 
 public class User {
 

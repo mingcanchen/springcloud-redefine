@@ -1,25 +1,26 @@
-package cn.springcloud.book.feign.controller;
+package com.ming.provider.controller;
 
-import cn.springcloud.book.feign.model.User;
-import cn.springcloud.book.feign.service.UserService;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
+
+import com.ming.feign.model.User;
+import com.ming.feign.service.UserService;
 import org.springframework.web.bind.annotation.RestController;
 
 
+/**
+ * @author chenmingcan
+ */
 @RestController
 public class UserController implements UserService {
 
-	@Override
-	public String addUser(User user){
-		return "hello,"+user.getName();
-	}
+    @Override
+    public String addUser(User user) {
+        return "hello," + user.getName();
+    }
 
-	@Override
-	public String updateUser(User user){
-		return "hello,"+user.getName();
-	}
+    @Override
+    public String updateUser(User user) {
+        return "hello," + user.getName();
+    }
 
 
 }

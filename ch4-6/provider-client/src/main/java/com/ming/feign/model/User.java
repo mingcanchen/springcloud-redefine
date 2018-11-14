@@ -1,4 +1,4 @@
-package com.ming.providerclient.model;
+package com.ming.feign.model;
 
 public class User {
 

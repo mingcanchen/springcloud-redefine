@@ -1,4 +1,4 @@
-package com.ming.consumer;
+package com.ming.feign;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

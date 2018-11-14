@@ -1,4 +1,4 @@
-package com.ming.consumer.config;
+package com.ming.feign.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -21,7 +21,7 @@ public class Swagger2Config {
     public Docket createRestApi() {
         return new Docket(DocumentationType.SWAGGER_2).apiInfo(apiInfo()).select()
                 .apis(RequestHandlerSelectors
-                        .basePackage("com.ming.consumer.controller"))
+                        .basePackage("com.ming.feign.controller"))
                 .paths(PathSelectors.any()).build();
     }
     private ApiInfo apiInfo() {

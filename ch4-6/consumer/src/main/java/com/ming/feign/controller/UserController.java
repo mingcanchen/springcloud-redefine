@@ -1,7 +1,7 @@
-package com.ming.consumer.controller;
+package com.ming.feign.controller;
 
-import com.ming.providerclient.model.User;
-import com.ming.providerclient.service.UserService;
+import com.ming.feign.model.User;
+import com.ming.feign.service.UserService;
 import io.swagger.annotations.ApiParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;

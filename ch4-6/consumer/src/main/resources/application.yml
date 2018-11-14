@@ -2,7 +2,7 @@ server:
   port: 8011
 spring:
   application:
-    name: ch4-6-consumer
+    name: ch4-6-feign
 
 
 eureka:

@@ -1,6 +1,6 @@
-package com.ming.providerclient.service;
+package com.ming.feign.service;
 
-import com.ming.providerclient.model.User;
+import com.ming.feign.model.User;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
