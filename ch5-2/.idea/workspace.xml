@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e97a2909-ca0c-4828-9854-d2ec46b54697" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../ch4-5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch4-5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch4-6/consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch4-6/consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch4-6/consumer/src/main/java/com/ming/feign/ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch4-6/consumer/src/main/java/com/ming/feign/ConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch4-6/consumer/src/main/java/com/ming/feign/config/ApplicationExceptionAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch4-6/consumer/src/main/java/com/ming/feign/config/ApplicationExceptionAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch4-6/consumer/src/main/java/com/ming/feign/config/Swagger2Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch4-6/consumer/src/main/java/com/ming/feign/config/Swagger2Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch4-6/consumer/src/main/java/com/ming/feign/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch4-6/consumer/src/main/java/com/ming/feign/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch4-6/consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch4-6/consumer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch4-6/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch4-6/eureka-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch4-6/eureka-server/src/main/java/com/ming/eurekaserver/EurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch4-6/eureka-server/src/main/java/com/ming/eurekaserver/EurekaServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch4-6/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch4-6/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch4-6/provider-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch4-6/provider-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch4-6/provider-client/src/main/java/com/ming/feign/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch4-6/provider-client/src/main/java/com/ming/feign/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch4-6/provider-client/src/main/java/com/ming/feign/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch4-6/provider-client/src/main/java/com/ming/feign/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch4-6/provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch4-6/provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch4-6/provider/src/main/java/com/ming/provider/ProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch4-6/provider/src/main/java/com/ming/provider/ProviderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch4-6/provider/src/main/java/com/ming/provider/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch4-6/provider/src/main/java/com/ming/provider/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch4-6/provider/src/main/java/com/ming/provider/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch4-6/provider/src/main/java/com/ming/provider/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch5-1/client-a/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch5-1/client-a/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch5-1/client-a/src/main/java/com/ming/clienta/ClientAApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch5-1/client-a/src/main/java/com/ming/clienta/ClientAApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch5-1/client-a/src/main/java/com/ming/clienta/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch5-1/client-a/src/main/java/com/ming/clienta/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch5-1/client-a/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch5-1/client-a/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch5-1/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch5-1/eureka-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch5-1/eureka-server/src/main/java/com/ming/eurekaserver/EurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch5-1/eureka-server/src/main/java/com/ming/eurekaserver/EurekaServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch5-1/eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch5-1/eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch5-1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch5-1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch5-1/ribbon-loadbalancer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch5-1/ribbon-loadbalancer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch5-1/ribbon-loadbalancer/src/main/java/com/ming/ribbonloadbalancer/RibbonLoadbalancerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch5-1/ribbon-loadbalancer/src/main/java/com/ming/ribbonloadbalancer/RibbonLoadbalancerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch5-1/ribbon-loadbalancer/src/main/java/com/ming/ribbonloadbalancer/controller/LoadBalancerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch5-1/ribbon-loadbalancer/src/main/java/com/ming/ribbonloadbalancer/controller/LoadBalancerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch5-1/ribbon-loadbalancer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch5-1/ribbon-loadbalancer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-a/src/main/java/com/ming/clienta/ClientAApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/client-a/src/main/java/com/ming/clienta/ClientAApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-a/src/main/java/com/ming/clienta/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client-a/src/main/java/com/ming/clienta/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-a/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/client-a/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/java/com/ming/eurekaserver/EurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/ming/eurekaserver/EurekaServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-loadbalancer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon-loadbalancer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-loadbalancer/src/main/java/com/ming/ribbonloadbalancer/RibbonLoadbalancerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon-loadbalancer/src/main/java/com/ming/ribbonloadbalancer/RibbonLoadbalancerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-loadbalancer/src/main/java/com/ming/ribbonloadbalancer/config/AvoidScan.java" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon-loadbalancer/src/main/java/com/ming/ribbonloadbalancer/config/AvoidScan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-loadbalancer/src/main/java/com/ming/ribbonloadbalancer/config/TestConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon-loadbalancer/src/main/java/com/ming/ribbonloadbalancer/config/TestConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-loadbalancer/src/main/java/com/ming/ribbonloadbalancer/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon-loadbalancer/src/main/java/com/ming/ribbonloadbalancer/controller/TestController.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/client-a/target/" />
+    <ignored path="$PROJECT_DIR$/ribbon-loadbalancer/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1243278819">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="java" value="17" />
+          <entry key="xml" value="34" />
+          <entry key="yml" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="17" />
+          <entry key="XML" value="34" />
+          <entry key="YAML" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="IRule" value="2" />
+          <entry key="class" value="2" />
+          <entry key="java" value="13" />
+          <entry key="loadbalancer" value="2" />
+          <entry key="xml" value="6" />
+          <entry key="yml" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="13" />
+          <entry key="UML" value="4" />
+          <entry key="XML" value="6" />
+          <entry key="YAML" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ribbon-loadbalancer/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client-a/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client-a/src/main/java/com/ming/clienta/ClientAApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ribbon-loadbalancer/src/main/java/com/ming/ribbonloadbalancer/RibbonLoadbalancerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="25" column="99" selection-start-line="25" selection-start-column="99" selection-end-line="25" selection-end-column="99" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ribbon-loadbalancer/src/main/java/com/ming/ribbonloadbalancer/config/AvoidScan.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ribbon-loadbalancer/src/main/java/com/ming/ribbonloadbalancer/controller/TestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5.jar!/com/netflix/loadbalancer/IRule.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5.jar!/com/netflix/loadbalancer/RandomRule.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ribbon-loadbalancer/src/main/java/com/ming/ribbonloadbalancer/config/TestConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server/src/main/java/com/ming/eurekaserver/EurekaServerApplication.java" />
+        <option value="$PROJECT_DIR$/client-a/pom.xml" />
+        <option value="$PROJECT_DIR$/client-a/src/main/java/com/ming/clienta/ClientAApplication.java" />
+        <option value="$PROJECT_DIR$/client-a/src/main/java/com/ming/clienta/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ribbon-loadbalancer/pom.xml" />
+        <option value="$PROJECT_DIR$/ribbon-loadbalancer/src/main/java/com/ming/ribbonloadbalancer/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/ribbon-loadbalancer/src/main/java/com/ming/ribbonloadbalancer/config/TestConfiguration.java" />
+        <option value="$PROJECT_DIR$/ribbon-loadbalancer/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/client-a/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/ribbon-loadbalancer/src/main/java/com/ming/ribbonloadbalancer/RibbonLoadbalancerApplication.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.5.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1612" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CDI(Contexts and Dependency Injection) issues</id>
+          </State>
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>Encapsulation issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring AOPSpring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ch5-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ch5-2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ch5-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="ch5-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.netflix.ribbon:ribbon-loadbalancer:2.2.5" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="ch5-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.netflix.ribbon:ribbon-loadbalancer:2.2.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="ribbon-loadbalancer-2.2.5.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ch5-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.netflix.ribbon:ribbon-loadbalancer:2.2.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="ribbon-loadbalancer-2.2.5.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ch5-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.netflix.ribbon:ribbon-loadbalancer:2.2.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="ribbon-loadbalancer-2.2.5.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="netflix" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ch5-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.netflix.ribbon:ribbon-loadbalancer:2.2.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="ribbon-loadbalancer-2.2.5.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="netflix" type="462c0819:PsiDirectoryNode" />
+              <item name="loadbalancer" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542017387952" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Lombok plugin" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\springcloud-redefine\ch5-2\ribbon-loadbalancer\src\main\java\com\ming\ribbonloadbalancer" />
+      <recent name="E:\springcloud-redefine\ch5-2\ribbon-loadbalancer\src\main\resources" />
+      <recent name="E:\springcloud-redefine\ch5-2\client-a\src\main\java\com\ming\clienta" />
+      <recent name="E:\springcloud-redefine\ch5-2\client-a\src\main\resources" />
+      <recent name="E:\springcloud-redefine\ch5-2\eureka-server\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.2367374" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientAApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="client-a" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ming.clienta.ClientAApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ming.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RibbonLoadbalancerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ribbon-loadbalancer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ming.ribbonloadbalancer.RibbonLoadbalancerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.ClientAApplication" />
+      <item itemvalue="Spring Boot.RibbonLoadbalancerApplication" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e97a2909-ca0c-4828-9854-d2ec46b54697" name="Default Changelist" comment="" />
+      <created>1542005116496</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542005116496</updated>
+      <workItem from="1542005120775" duration="8374000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8374000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20531088" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Run Dashboard" visible="true" weight="0.32962447" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32962447" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32962447" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/ming/eurekaserver/EurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-a/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/source/spring-cloud-code/ch5-2/ch5-2-client-a/src/main/java/cn/springcloud/book/ClientAApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="35" selection-start-line="6" selection-start-column="1" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-loadbalancer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-loadbalancer/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/source/spring-cloud-code/ch5-2/ch5-2-ribbon-loadbalancer/src/main/java/cn/springcloud/book/RibbonLoadbalancerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="34" column="5" selection-start-line="30" selection-start-column="2" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/test/java/com/ming/eurekaserver/EurekaServerApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-a/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-a/src/main/java/com/ming/clienta/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-a/src/main/java/com/ming/clienta/ClientAApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-a/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-loadbalancer/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-loadbalancer/src/main/java/com/ming/ribbonloadbalancer/config/TestConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-loadbalancer/src/main/java/com/ming/ribbonloadbalancer/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.netflix.loadbalancer.IRule">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.netflix.loadbalancer.IRule</OriginalElement>
+          <nodes>
+            <node x="" y="">com.netflix.loadbalancer.IRule</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="47.5" y="17.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JIGSAW/ribbon.loadbalancer">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JIGSAW</ID>
+          <OriginalElement>ribbon.loadbalancer</OriginalElement>
+          <nodes>
+            <node x="" y="">ribbon.loadbalancer</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="88.5" y="17.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5.jar!/com/netflix/loadbalancer/IRule.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5.jar!/com/netflix/loadbalancer/RandomRule.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-loadbalancer/src/main/java/com/ming/ribbonloadbalancer/config/AvoidScan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-loadbalancer/src/main/java/com/ming/ribbonloadbalancer/RibbonLoadbalancerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="25" column="99" selection-start-line="25" selection-start-column="99" selection-end-line="25" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

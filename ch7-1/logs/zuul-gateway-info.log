@@ -1,0 +1,180 @@
+2018-11-21 14:59:21.908 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext
+				-Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@83298d7: startup date [Wed Nov 21 14:59:21 CST 2018]; root of context hierarchy
+2018-11-21 14:59:22.196 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor
+				-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-11-21 14:59:22.265 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				-Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$736609f8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-21 14:59:22.687 [main] INFO  c.m.zuulserver.ZuulServerApplication
+				-No active profile set, falling back to default profiles: default
+2018-11-21 14:59:22.709 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext
+				-Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@72805168: startup date [Wed Nov 21 14:59:22 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@83298d7
+2018-11-21 14:59:23.682 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory
+				-Overriding bean definition for bean 'proxyRequestHelper' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.zuul.ZuulProxyAutoConfiguration$EndpointConfiguration; factoryMethodName=proxyRequestHelper; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/zuul/ZuulProxyAutoConfiguration$EndpointConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.zuul.ZuulProxyAutoConfiguration$NoActuatorConfiguration; factoryMethodName=proxyRequestHelper; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/zuul/ZuulProxyAutoConfiguration$NoActuatorConfiguration.class]]
+2018-11-21 14:59:23.690 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory
+				-Overriding bean definition for bean 'counterFactory' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.zuul.ZuulServerAutoConfiguration$ZuulMetricsConfiguration; factoryMethodName=counterFactory; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/zuul/ZuulServerAutoConfiguration$ZuulMetricsConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.zuul.ZuulServerAutoConfiguration$ZuulCounterFactoryConfiguration; factoryMethodName=counterFactory; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/zuul/ZuulServerAutoConfiguration$ZuulCounterFactoryConfiguration.class]]
+2018-11-21 14:59:24.177 [main] INFO  o.s.cloud.context.scope.GenericScope
+				-BeanFactory id=2bdfbdf7-7f28-31a3-8634-43fd3a002fdc
+2018-11-21 14:59:24.216 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor
+				-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-11-21 14:59:25.760 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				-Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$736609f8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-21 14:59:26.001 [main] INFO  org.xnio
+				-XNIO version 3.3.8.Final
+2018-11-21 14:59:26.019 [main] INFO  org.xnio.nio
+				-XNIO NIO Implementation Version 3.3.8.Final
+2018-11-21 14:59:26.053 [main] WARN  io.undertow.websockets.jsr
+				-UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2018-11-21 14:59:26.053 [main] WARN  io.undertow.websockets.jsr
+				-UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2018-11-21 14:59:26.080 [main] INFO  io.undertow.servlet
+				-Initializing Spring embedded WebApplicationContext
+2018-11-21 14:59:26.080 [main] INFO  o.s.web.context.ContextLoader
+				-Root WebApplicationContext: initialization completed in 3371 ms
+2018-11-21 14:59:26.444 [main] WARN  c.n.c.sources.URLConfigurationSource
+				-No URLs will be polled as dynamic configuration sources.
+2018-11-21 14:59:26.445 [main] INFO  c.n.c.sources.URLConfigurationSource
+				-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-21 14:59:26.501 [main] INFO  c.n.config.DynamicPropertyFactory
+				-DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@6839203b
+2018-11-21 14:59:32.264 [main] INFO  o.s.b.w.s.ServletRegistrationBean
+				-Servlet dispatcherServlet mapped to [/]
+2018-11-21 14:59:32.268 [main] INFO  o.s.b.w.s.ServletRegistrationBean
+				-Servlet zuulServlet mapped to [/zuul/*]
+2018-11-21 14:59:32.272 [main] INFO  o.s.b.w.s.FilterRegistrationBean
+				-Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-21 14:59:32.273 [main] INFO  o.s.b.w.s.FilterRegistrationBean
+				-Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-21 14:59:32.273 [main] INFO  o.s.b.w.s.FilterRegistrationBean
+				-Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-11-21 14:59:32.273 [main] INFO  o.s.b.w.s.FilterRegistrationBean
+				-Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-21 14:59:32.274 [main] INFO  o.s.b.w.s.FilterRegistrationBean
+				-Mapping filter: 'httpTraceFilter' to: [/*]
+2018-11-21 14:59:32.274 [main] INFO  o.s.b.w.s.FilterRegistrationBean
+				-Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2018-11-21 14:59:32.889 [main] WARN  c.n.c.sources.URLConfigurationSource
+				-No URLs will be polled as dynamic configuration sources.
+2018-11-21 14:59:32.889 [main] INFO  c.n.c.sources.URLConfigurationSource
+				-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-21 14:59:33.003 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+				-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-21 14:59:33.347 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter
+				-Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@72805168: startup date [Wed Nov 21 14:59:22 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@83298d7
+2018-11-21 14:59:33.487 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-11-21 14:59:33.490 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-11-21 14:59:33.550 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+				-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-21 14:59:33.550 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+				-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-21 14:59:35.340 [main] INFO  o.s.c.n.zuul.ZuulFilterInitializer
+				-Starting filter initializer
+2018-11-21 14:59:35.413 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver
+				-Exposing 2 endpoint(s) beneath base path '/actuator'
+2018-11-21 14:59:35.426 [main] INFO  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping
+				-Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-11-21 14:59:35.427 [main] INFO  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping
+				-Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-11-21 14:59:35.428 [main] INFO  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping
+				-Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-11-21 14:59:35.490 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter
+				-Registering beans for JMX exposure on startup
+2018-11-21 14:59:35.500 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter
+				-Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-11-21 14:59:35.502 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter
+				-Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-11-21 14:59:35.502 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter
+				-Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-11-21 14:59:35.506 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter
+				-Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-11-21 14:59:35.515 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter
+				-Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-11-21 14:59:35.527 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter
+				-Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=72805168,type=ConfigurationPropertiesRebinder]
+2018-11-21 14:59:35.538 [main] INFO  o.s.c.s.DefaultLifecycleProcessor
+				-Starting beans in phase 0
+2018-11-21 14:59:35.550 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory
+				-Setting initial instance status as: STARTING
+2018-11-21 14:59:35.685 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Initializing Eureka in region us-east-1
+2018-11-21 14:59:35.788 [main] INFO  c.n.d.p.DiscoveryJerseyProvider
+				-Using JSON encoding codec LegacyJacksonJson
+2018-11-21 14:59:35.788 [main] INFO  c.n.d.p.DiscoveryJerseyProvider
+				-Using JSON decoding codec LegacyJacksonJson
+2018-11-21 14:59:35.959 [main] INFO  c.n.d.p.DiscoveryJerseyProvider
+				-Using XML encoding codec XStreamXml
+2018-11-21 14:59:35.959 [main] INFO  c.n.d.p.DiscoveryJerseyProvider
+				-Using XML decoding codec XStreamXml
+2018-11-21 14:59:36.250 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2018-11-21 14:59:36.357 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Disable delta property : false
+2018-11-21 14:59:36.357 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Single vip registry refresh property : null
+2018-11-21 14:59:36.357 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Force full registry fetch : false
+2018-11-21 14:59:36.357 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Application is null : false
+2018-11-21 14:59:36.357 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Registered Applications size is zero : true
+2018-11-21 14:59:36.357 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Application version is -1: true
+2018-11-21 14:59:36.357 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Getting all instance registry info from the eureka server
+2018-11-21 14:59:36.517 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-The response status is 200
+2018-11-21 14:59:36.520 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Starting heartbeat executor: renew interval is: 30
+2018-11-21 14:59:36.523 [main] INFO  c.n.discovery.InstanceInfoReplicator
+				-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-11-21 14:59:36.526 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Discovery Client initialized at timestamp 1542783576525 with initial instances count: 1
+2018-11-21 14:59:36.531 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry
+				-Registering application zuul-server with eureka with status UP
+2018-11-21 14:59:36.532 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Saw local status change event StatusChangeEvent [timestamp=1542783576532, current=UP, previous=STARTING]
+2018-11-21 14:59:36.537 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient
+				-DiscoveryClient_ZUUL-SERVER/CHENMINGCAN.jw.hongshu.com:zuul-server:5555: registering service...
+2018-11-21 14:59:36.593 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient
+				-DiscoveryClient_ZUUL-SERVER/CHENMINGCAN.jw.hongshu.com:zuul-server:5555 - registration status: 204
+2018-11-21 14:59:36.727 [main] INFO  o.s.b.w.e.u.UndertowServletWebServer
+				-Undertow started on port(s) 5555 (http) with context path ''
+2018-11-21 14:59:36.729 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration
+				-Updating port to 5555
+2018-11-21 14:59:36.731 [main] INFO  c.m.zuulserver.ZuulServerApplication
+				-Started ZuulServerApplication in 16.064 seconds (JVM running for 17.963)
+2018-11-21 14:59:36.940 [RMI TCP Connection(6)-127.0.0.1] INFO  io.undertow.servlet
+				-Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-11-21 14:59:36.940 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet
+				-FrameworkServlet 'dispatcherServlet': initialization started
+2018-11-21 14:59:36.971 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet
+				-FrameworkServlet 'dispatcherServlet': initialization completed in 31 ms
+2018-11-21 15:03:14.535 [XNIO-2 task-1] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping
+				-Mapped URL path [/client/**] onto handler of type [class org.springframework.cloud.netflix.zuul.web.ZuulController]
+2018-11-21 15:03:14.535 [XNIO-2 task-1] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping
+				-Mapped URL path [/client-a/**] onto handler of type [class org.springframework.cloud.netflix.zuul.web.ZuulController]
+2018-11-21 15:03:14.665 [XNIO-2 task-1] INFO  o.s.c.a.AnnotationConfigApplicationContext
+				-Refreshing SpringClientFactory-client-a: startup date [Wed Nov 21 15:03:14 CST 2018]; parent: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@72805168
+2018-11-21 15:03:14.711 [XNIO-2 task-1] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor
+				-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-11-21 15:03:14.955 [XNIO-2 task-1] INFO  c.n.config.ChainedDynamicProperty
+				-Flipping property: client-a.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2018-11-21 15:03:14.968 [XNIO-2 task-1] INFO  c.n.u.c.ShutdownEnabledTimer
+				-Shutdown hook installed for: NFLoadBalancer-PingTimer-client-a
+2018-11-21 15:03:15.001 [XNIO-2 task-1] INFO  c.n.loadbalancer.BaseLoadBalancer
+				-Client: client-a instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=client-a,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2018-11-21 15:03:15.008 [XNIO-2 task-1] INFO  c.n.l.DynamicServerListLoadBalancer
+				-Using serverListUpdater PollingServerListUpdater
+2018-11-21 15:03:15.036 [XNIO-2 task-1] INFO  c.n.config.ChainedDynamicProperty
+				-Flipping property: client-a.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2018-11-21 15:03:15.037 [XNIO-2 task-1] INFO  c.n.l.DynamicServerListLoadBalancer
+				-DynamicServerListLoadBalancer for client client-a initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=client-a,current list of Servers=[192.168.62.181:7070],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.62.181:7070;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@37e50803
+2018-11-21 15:03:15.159 [XNIO-2 task-1] WARN  o.s.c.n.z.f.r.s.AbstractRibbonCommand
+				-The Hystrix timeout of 600000ms for the command client-a is set lower than the combination of the Ribbon read and connect timeout, 4200000ms.
+2018-11-21 15:03:16.012 [PollingServerListUpdater-0] INFO  c.n.config.ChainedDynamicProperty
+				-Flipping property: client-a.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2018-11-21 15:04:36.367 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
