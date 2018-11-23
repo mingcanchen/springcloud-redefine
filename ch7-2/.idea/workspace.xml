@@ -2,72 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2525289-df9d-4f17-8eca-1389d21c3883" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ch7-1/client-a/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-1/client-a/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-1/client-a/src/main/java/com/ming/clienta/ClientAApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-1/client-a/src/main/java/com/ming/clienta/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-1/client-a/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-1/eureka-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-1/eureka-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-1/eureka-server/src/main/java/com/ming/eurekaserver/EurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-1/eureka-server/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-1/eureka-server/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-1/zuul-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-1/zuul-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-1/zuul-server/src/main/java/com/ming/zuulserver/ZuulServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-1/zuul-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-1/zuul-server/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-1/zuul-server/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-a/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-a/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-a/src/main/java/com/ming/clienta/ClientAApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-a/src/main/java/com/ming/clienta/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-a/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/ming/eurekaserver/EurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-server/src/main/java/com/ming/zuulserver/ZuulServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-server/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-server/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-3/client-a/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-3/client-a/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-3/client-a/src/main/java/com/ming/clienta/ClientAApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-3/client-a/src/main/java/com/ming/clienta/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-3/client-a/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-3/client-a/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-3/client-b/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-3/client-b/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-3/client-b/src/main/java/com/ming/clientb/ClientBApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-3/client-b/src/main/java/com/ming/clientb/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-3/client-b/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-3/client-b/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-3/eureka-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-3/eureka-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-3/eureka-server/src/main/java/com/ming/eurekaserver/EurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-3/eureka-server/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-3/eureka-server/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-3/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-3/zuul-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-3/zuul-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-3/zuul-server/src/main/java/com/ming/zuulserver/ZuulServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-3/zuul-server/src/main/java/com/ming/zuulserver/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-3/zuul-server/src/main/resources/application-example1.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-3/zuul-server/src/main/resources/application-example2.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-3/zuul-server/src/main/resources/application-example3.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-3/zuul-server/src/main/resources/application-example4.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-3/zuul-server/src/main/resources/application-example5.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-3/zuul-server/src/main/resources/application-example6.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-3/zuul-server/src/main/resources/application-example7.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-3/zuul-server/src/main/resources/application-example8.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-3/zuul-server/src/main/resources/application-example9.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-3/zuul-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-3/zuul-server/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch7-3/zuul-server/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch8-1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -84,6 +20,7 @@
     <session id="-985128259">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -168,9 +105,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/zuul-server/src/main/resources/bootstrap.yml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -178,11 +119,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/ming/zuulserver/ZuulServerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -295,9 +236,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542793883214" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542794329498" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -404,15 +349,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542792089426</updated>
-      <workItem from="1542792092044" duration="1694000" />
+      <workItem from="1542792092044" duration="2280000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1694000" />
+    <option name="totallyTimeSpent" value="2280000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -420,9 +366,9 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
       <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2130829" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2130829" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" visible="true" weight="0.32962447" />
+      <window_info anchor="bottom" id="Run Dashboard" visible="true" weight="0.32962447" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -514,9 +460,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://D:/source/spring-cloud-code/ch7-2/ch7-2-zuul-server/src/main/java/cn/springcloud/book/ZuulServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -530,7 +473,14 @@
     <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/ming/zuulserver/ZuulServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
         </state>
       </provider>
     </entry>
