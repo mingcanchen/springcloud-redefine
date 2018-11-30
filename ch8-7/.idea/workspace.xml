@@ -1,62 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a76f571-7499-4843-bd93-c226b0a5b4b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ch8-5/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch8-5/client-a/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch8-5/client-a/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch8-5/client-a/src/main/java/com/ming/clienta/ClientAApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch8-5/client-a/src/main/java/com/ming/clienta/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch8-5/client-a/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch8-5/client-a/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch8-5/eureka-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch8-5/eureka-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch8-5/eureka-server/src/main/java/com/ming/eurekaserver/EurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch8-5/eureka-server/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch8-5/eureka-server/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch8-5/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch8-5/zuul-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch8-5/zuul-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch8-5/zuul-server/src/main/java/com/ming/zuulserver/ZuulServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch8-5/zuul-server/src/main/java/com/ming/zuulserver/filter/GrayFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch8-5/zuul-server/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch8-5/zuul-server/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch8-5/zuul-server/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch8-6/eureka-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch8-6/eureka-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch8-6/eureka-server/src/main/java/com/ming/eurekaserver/EurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch8-6/eureka-server/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch8-6/eureka-server/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch8-6/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch8-6/zuul-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch8-6/zuul-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch8-6/zuul-server/src/main/java/com/ming/zuulserver/ZuulServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch8-6/zuul-server/src/main/java/com/ming/zuulserver/controller/ZuulUploadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch8-6/zuul-server/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch8-6/zuul-server/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-a/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-a/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-a/src/main/java/com/ming/clienta/ClientAApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-a/src/main/java/com/ming/clienta/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-a/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-a/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/ming/eurekaserver/EurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-server/src/main/java/com/ming/zuulserver/ZuulServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-server/src/main/java/com/ming/zuulserver/config/ApplicationExceptionAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-server/src/main/java/com/ming/zuulserver/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-server/src/main/java/com/ming/zuulserver/filter/HeaderDeliverFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-server/src/main/java/com/ming/zuulserver/filter/ModifyRequestEntityFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-server/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-server/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch8-4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch8-4/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9a76f571-7499-4843-bd93-c226b0a5b4b3" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
@@ -72,6 +17,7 @@
     <session id="-1838610509">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -394,7 +340,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543392750513" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543398838596" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -501,16 +447,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543370791346</updated>
-      <workItem from="1543370800304" duration="8789000" />
+      <workItem from="1543370800304" duration="9374000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8789000" />
+    <option name="totallyTimeSpent" value="9374000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
