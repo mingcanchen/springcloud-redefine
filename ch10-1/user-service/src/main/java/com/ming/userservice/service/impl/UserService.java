@@ -10,6 +10,7 @@ import org.springframework.web.client.RestTemplate;
 import java.util.List;
 
 /**
+ * @author chenmingcan
  */
 @Component
 public class UserService implements IUserService {

@@ -58,9 +58,10 @@ public class User implements Serializable {
 	 * @return http头键值对
 	 */
 	public Map<String, String> toHttpHeaders() {
-		Map<String, String> headers = new HashMap<>();
+		Map<String, String> headers = new HashMap<>(16);
 		headers.put(CONTEXT_KEY_USERID,userId);
 		return headers;
 	}
 
 }
+

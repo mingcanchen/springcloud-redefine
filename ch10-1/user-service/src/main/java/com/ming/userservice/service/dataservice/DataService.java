@@ -16,9 +16,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public interface DataService {
 	
 	@RequestMapping(value = "/getDefaultUser", method = RequestMethod.GET)
-    public String getDefaultUser();
+    String getDefaultUser();
     
     @RequestMapping(value = "/getContextUserId", method = RequestMethod.GET)
-    public String getContextUserId();
+    String getContextUserId();
 
 }

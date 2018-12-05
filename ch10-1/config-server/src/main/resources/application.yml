@@ -5,9 +5,9 @@ spring:
     config:
       server:
         git:
-          uri: https://gitee.com/zhudeming/spring-cloud-config.git
+          uri: https://github.com/mingcanchen/others.git
           #username:
           #password:
-          search-paths: SC-BOOK-CONFIG
+          search-paths: server-config
   application:
     name: sc-configserver

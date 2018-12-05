@@ -1,0 +1,14 @@
+server:
+  port: 9093
+
+spring:
+  application:
+    name: ch11-2-config-client-refresh
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: "*"

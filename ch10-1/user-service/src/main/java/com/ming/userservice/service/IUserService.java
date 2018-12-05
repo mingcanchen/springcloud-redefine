@@ -4,9 +4,10 @@ package com.ming.userservice.service;
 import java.util.List;	
 
 /**
+ * @author chenmingcan
  */
 public interface IUserService {
-    public String getDefaultUser();
-    public String getContextUserId();
-    public List<String> getProviderData();
+    String getDefaultUser();
+    String getContextUserId();
+    List<String> getProviderData();
 }

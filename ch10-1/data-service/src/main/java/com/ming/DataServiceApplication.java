@@ -1,21 +1,19 @@
-package com.ming.zuulserver;
+package com.ming;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 
 /**
  * @author chenmingcan
  */
 @SpringBootApplication
-@EnableZuulProxy
 @EnableDiscoveryClient
 @EnableCircuitBreaker
-public class ZuulServerApplication {
+public class DataServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ZuulServerApplication.class, args);
+        SpringApplication.run(DataServiceApplication.class, args);
     }
 }

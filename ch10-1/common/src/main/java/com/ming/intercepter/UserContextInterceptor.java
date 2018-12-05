@@ -12,6 +12,9 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+/**
+ * @author chenmingcan
+ */
 public class UserContextInterceptor implements HandlerInterceptor {
 	private static final Logger log = LoggerFactory.getLogger(UserContextInterceptor.class);
 	

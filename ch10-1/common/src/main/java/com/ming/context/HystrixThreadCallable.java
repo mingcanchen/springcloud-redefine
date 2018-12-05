@@ -5,6 +5,9 @@ import org.springframework.web.context.request.RequestContextHolder;
 
 import java.util.concurrent.Callable;
 
+/**
+ * @author chenmingcan
+ */
 public class HystrixThreadCallable<S> implements Callable<S>{
 	 private final RequestAttributes requestAttributes;  
 	 private final Callable<S> delegate;

@@ -1,5 +1,6 @@
 server:
   port: 9091
+#  从config服务获取配置文件
 spring:
   cloud:
     config:
