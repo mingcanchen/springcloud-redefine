@@ -5,4 +5,7 @@ spring:
             uri: http://localhost:9090
             name: config-info
             profile: dev
-            fallbackLocation: D:/sc/config/sc-book-local-config-test
+            username: root
+            password: 123
+            enabled: false
+            endpoint: http://localhost:9090/auth

@@ -1,4 +1,4 @@
-package com.ming;
+package com.ming.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.config.client.ConfigClientProperties;

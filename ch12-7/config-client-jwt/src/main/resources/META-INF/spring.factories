@@ -1,2 +1,2 @@
 org.springframework.cloud.bootstrap.BootstrapConfiguration=\
-com.ming.config.ConfigServerBootstrap
+com.ming.config.config.ConfigClientBootstrapConfiguration

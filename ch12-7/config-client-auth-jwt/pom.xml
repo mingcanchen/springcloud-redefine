@@ -4,29 +4,26 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.ming</groupId>
-        <artifactId>ch12-6</artifactId>
+        <artifactId>ch12-7</artifactId>
         <version>1.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath> <!-- lookup parent from repository -->
     </parent>
 
-    <artifactId>config-client-fallback</artifactId>
+    <artifactId>config-client-auth-jwt</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>config-client-fallback</name>
+    <name>config-client-auth-jwt</name>
     <description>Demo project for Spring Boot</description>
 
     <dependencies>
-
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-config-client</artifactId>
         </dependency>
-
         <dependency>
             <groupId>com.ming</groupId>
-            <artifactId>config-client-fallback-autoconfig</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <artifactId>config-client-jwt</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
-
     </dependencies>
 
     <build>
@@ -37,6 +34,5 @@
             </plugin>
         </plugins>
     </build>
-
 
 </project>
