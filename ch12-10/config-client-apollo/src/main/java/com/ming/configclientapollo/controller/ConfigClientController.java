@@ -1,4 +1,4 @@
-package com.ming.config.controller;
+package com.ming.configclientapollo.controller;
 
 
 import org.springframework.beans.factory.annotation.Value;
@@ -7,19 +7,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * Created with IntelliJ IDEA.
- *
- * @author: zzf
- * @date: 2018-6-30
- * @time: 22:34:29
- * @description : do some thing
+ * @author: zunfa.zhong
+ * @date: 2018-7-15 19:33:06
  */
 @RestController
 @RequestMapping("configConsumer")
 @RefreshScope
 public class ConfigClientController {
 
-    @Value("${com.ming.config.config}")
+    @Value("${config_info}")
     private String config;
 
     @RequestMapping("/getConfigInfo")

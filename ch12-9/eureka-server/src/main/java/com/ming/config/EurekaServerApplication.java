@@ -2,15 +2,17 @@ package com.ming.config;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 /**
  * @author chenmingcan
  */
 @SpringBootApplication
-public class ConfigClientAuthJwtApplication {
+@EnableEurekaServer
+public class EurekaServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ConfigClientAuthJwtApplication.class, args);
+        SpringApplication.run(EurekaServerApplication.class, args);
     }
 
 }

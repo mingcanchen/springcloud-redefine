@@ -36,7 +36,7 @@ public class MemberServiceImpl implements UserDetailsService {
 
         // 对密码进行加密
         String hardcodedPassword = BCRYPT.encode(password);
-        if (username.equals(hardcodedUser) == false) {
+        if (!username.equals(hardcodedUser)) {
             throw new UsernameNotFoundException(String.format("No user found with username '%s'.", username));
         }else{
 

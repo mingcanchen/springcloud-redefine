@@ -1,16 +1,13 @@
-package com.ming.config;
+package com.ming.configclientapollo2;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-/**
- * @author chenmingcan
- */
 @SpringBootApplication
-public class ConfigClientAuthJwtApplication {
+public class ConfigClientApollo2Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(ConfigClientAuthJwtApplication.class, args);
+        SpringApplication.run(ConfigClientApollo2Application.class, args);
     }
 
 }

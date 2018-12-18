@@ -23,10 +23,10 @@ public class WebAuthenticationDetailsSourceImpl implements AuthenticationDetails
     public JwtAuthenticationRequest buildDetails(HttpServletRequest request) {
 
          Gson gson = new Gson();
-        String json = new String();
-        String output = new String();
+        String json;
+        String output;
         BufferedReader br;
-        StringBuffer buffer = new StringBuffer(16384);
+        StringBuilder buffer = new StringBuilder(16384);
         JwtAuthenticationRequest jwtAuthenticationRequest = new JwtAuthenticationRequest();
         try {
             br = new BufferedReader(new InputStreamReader(request.getInputStream()));

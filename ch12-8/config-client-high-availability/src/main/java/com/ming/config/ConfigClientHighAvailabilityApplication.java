@@ -7,10 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author chenmingcan
  */
 @SpringBootApplication
-public class ConfigClientAuthJwtApplication {
+public class ConfigClientHighAvailabilityApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ConfigClientAuthJwtApplication.class, args);
+        SpringApplication.run(ConfigClientHighAvailabilityApplication.class, args);
     }
 
 }
