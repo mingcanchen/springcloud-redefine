@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50d87db7-db11-4ec7-b0de-7e795d2ef0ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/consul-config/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-config/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-config/src/main/java/com/ming/consul/ConsulConfigApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-config/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-config/src/test/java/com/ming/consul/ConsulConfigApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-consumer/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-consumer/src/main/java/com/ming/consul/ConsulConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-consumer/src/main/java/com/ming/consul/HelloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-consumer/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-consumer/src/test/java/com/ming/consul/ConsulConsumerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-provider/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-provider/src/main/java/com/ming/consul/ConsulProviderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-provider/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-provider/src/test/java/com/ming/consul/ConsulProviderApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch12-10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch12-10/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch14-1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch14-1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,6 +21,7 @@
     <session id="-1667019970">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -70,11 +56,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+            <state relative-caret-position="304">
+              <caret line="64" column="19" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="64" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -139,11 +125,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/consul-config/src/main/java/com/ming/consul/ConsulConfigApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
-              <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+              <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
               <folding>
                 <element signature="e#253#254#0" expanded="true" />
                 <element signature="e#327#328#0" expanded="true" />
@@ -344,7 +330,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545187526405" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545189623552" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -451,12 +437,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545125652328</updated>
-      <workItem from="1545125656366" duration="6168000" />
+      <workItem from="1545125656366" duration="7314000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6168000" />
+    <option name="totallyTimeSpent" value="7314000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -539,13 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/consul-provider/src/test/java/com/ming/consul/ConsulProviderApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -620,13 +599,20 @@
     <entry file="file://$PROJECT_DIR$/consul-config/src/main/java/com/ming/consul/ConsulConfigApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
           <folding>
             <element signature="e#253#254#0" expanded="true" />
             <element signature="e#327#328#0" expanded="true" />
             <element signature="e#787#788#0" expanded="true" />
             <element signature="e#814#815#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="64" column="19" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="64" selection-end-column="19" />
         </state>
       </provider>
     </entry>
