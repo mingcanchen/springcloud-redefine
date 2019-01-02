@@ -1,14 +1,11 @@
 package com.ming.controller;
 
-import com.ming.coreserver.intercepter.UserContextHolder;
+import com.ming.common.intercepter.UserContextHolder;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
 
-/**
- * @author chenmingcan
- */
 @RestController
 public class ProviderController {
 	

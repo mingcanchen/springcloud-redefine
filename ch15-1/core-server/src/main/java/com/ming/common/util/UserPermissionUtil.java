@@ -1,14 +1,14 @@
-package com.ming.coreserver.util;
-
-import com.ming.coreserver.vo.User;
-import org.springframework.util.StringUtils;
-
-import javax.servlet.http.HttpServletRequest;
+package com.ming.common.util;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.servlet.http.HttpServletRequest;
+
+import com.ming.common.vo.User;
+import org.springframework.util.StringUtils;
+
 /**
- * @author chenmingcan
+ * @author wolter
  */
 public class UserPermissionUtil {
 	
@@ -37,7 +37,7 @@ public class UserPermissionUtil {
 	 */
 	public static void permission(User user){
 		if(user.getUserName().equals("admin")) {
-            List<String> allowPermissionService = new ArrayList<>();
+			List allowPermissionService = new ArrayList();
 			allowPermissionService.add("client-service");
 			allowPermissionService.add("provider-service");
 			user.setAllowPermissionService(allowPermissionService);

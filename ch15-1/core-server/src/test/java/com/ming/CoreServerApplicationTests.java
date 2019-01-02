@@ -1,4 +1,4 @@
-package com.ming.coreserver;
+package com.ming;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

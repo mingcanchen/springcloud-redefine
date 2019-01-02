@@ -1,7 +1,7 @@
-package com.ming.coreserver.config;
+package com.ming.common.config;
 
-import com.ming.coreserver.intercepter.RestTemplateUserContextInterceptor;
-import com.ming.coreserver.intercepter.UserContextInterceptor;
+import com.ming.common.intercepter.RestTemplateUserContextInterceptor;
+import com.ming.common.intercepter.UserContextInterceptor;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -12,7 +12,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 
 
 /**
- * @author chenmingcan
+ * @author wolter
  */
 @Configuration
 @EnableWebMvc

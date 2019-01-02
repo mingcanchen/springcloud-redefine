@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  com.ming.coreserver.config.CommonConfiguration
+  com.ming.common.config.CommonConfiguration

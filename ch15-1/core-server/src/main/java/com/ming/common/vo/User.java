@@ -1,4 +1,4 @@
-package com.ming.coreserver.vo;
+package com.ming.common.vo;
 
 
 import java.io.Serializable;
@@ -6,6 +6,7 @@ import java.util.List;
 
 
 /**
+ * @author wolter
  */
 public class User implements Serializable {
 

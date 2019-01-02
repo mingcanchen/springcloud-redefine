@@ -14,9 +14,6 @@ import org.springframework.web.server.ServerWebExchange;
 
 import reactor.core.publisher.Mono;
 
-/**
- * @author chenmingcan
- */
 @Component
 public class AuthFilter implements GlobalFilter {
 
@@ -36,7 +33,7 @@ public class AuthFilter implements GlobalFilter {
     	}else {
     		throw new PermissionException("user not exist, please check");
     	}
-    	ServerHttpRequest buildRequest =  mutate.build();
-         return chain.filter(exchange.mutate().request(buildRequest).build());
+    	ServerHttpRequest buildReuqest =  mutate.build();
+         return chain.filter(exchange.mutate().request(buildReuqest).build());
     }
 }

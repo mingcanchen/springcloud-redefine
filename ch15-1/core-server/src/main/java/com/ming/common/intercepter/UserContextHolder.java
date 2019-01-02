@@ -1,9 +1,8 @@
-package com.ming.coreserver.intercepter;
-
-import com.ming.coreserver.vo.User;
+package com.ming.common.intercepter;
+import com.ming.common.vo.User;
 
 /**
- * @author chenmingcan
+ * @author wolter
  */
 public class UserContextHolder {
 	public static ThreadLocal<User> context = new ThreadLocal<User>();

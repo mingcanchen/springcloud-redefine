@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.Enumeration;
 
 /**
- * @author chenmingcan
+ * @author wolter
  */
 @RestController
 public class TestController {

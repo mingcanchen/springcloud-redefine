@@ -1,15 +1,16 @@
-package com.ming.coreserver.intercepter;
+package com.ming.common.intercepter;
 
-import com.ming.coreserver.vo.User;
+import java.io.IOException;
+
 import org.springframework.http.HttpRequest;
 import org.springframework.http.client.ClientHttpRequestExecution;
 import org.springframework.http.client.ClientHttpRequestInterceptor;
 import org.springframework.http.client.ClientHttpResponse;
 
-import java.io.IOException;
+import com.ming.common.vo.User;
 
 /**
- * @author chenmingcan
+ * @author wolter
  */
 public class RestTemplateUserContextInterceptor implements ClientHttpRequestInterceptor {
 

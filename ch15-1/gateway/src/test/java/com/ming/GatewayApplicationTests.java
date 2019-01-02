@@ -1,4 +1,4 @@
-package com.ming.gateway;
+package com.ming;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
