@@ -2,90 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b7b799c-f083-4aa1-af8a-9382eb958a02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ch14-1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-1/consul-register/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-1/consul-register/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-1/consul-register/src/main/java/com/ming/consul/ConsulRegisterApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-1/consul-register/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-1/consul-register/src/test/java/com/ming/consul/ConsulRegisterApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-2/consul-consumer-discoveryclient/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-2/consul-consumer-discoveryclient/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-2/consul-consumer-discoveryclient/src/main/java/com/ming/consulconsumerdiscoveryclient/ConsulConsumerDiscoveryclientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-2/consul-consumer-discoveryclient/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-2/consul-consumer-discoveryclient/src/test/java/com/ming/consulconsumerdiscoveryclient/ConsulConsumerDiscoveryclientApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-2/consul-consumer-ribbon/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-2/consul-consumer-ribbon/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-2/consul-consumer-ribbon/src/main/java/com/ming/consulconsumerribbon/ConsulConsumerRibbonApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-2/consul-consumer-ribbon/src/main/java/com/ming/consulconsumerribbon/HelloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-2/consul-consumer-ribbon/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-2/consul-consumer-ribbon/src/test/java/com/ming/consulconsumerribbon/ConsulConsumerRibbonApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-2/consul-provider-tags-1/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-2/consul-provider-tags-1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-2/consul-provider-tags-1/src/main/java/com/ming/consulprovidertags1/ConsulProviderTags1Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-2/consul-provider-tags-1/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-2/consul-provider-tags-1/src/test/java/com/ming/consulprovidertags1/ConsulProviderTags1ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-2/consul-provider-tags-2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-2/consul-provider-tags-2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-2/consul-provider-tags-2/src/main/java/com/ming/consulprovidertags2/ConsulProviderTags2Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-2/consul-provider-tags-2/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-2/consul-provider-tags-2/src/test/java/com/ming/consulprovidertags2/ConsulProviderTags2ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-3/consul-config-customize/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-3/consul-config-customize/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-3/consul-config-customize/src/main/java/com/ming/consulconfigcustomize/ConsulConfigCustomizeApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-3/consul-config-customize/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-3/consul-config-customize/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-3/consul-config-customize/src/test/java/com/ming/consulconfigcustomize/ConsulConfigCustomizeApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-3/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-4/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-4/consul-override-consumer/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-4/consul-override-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-4/consul-override-consumer/src/main/java/com/ming/consuloverrideconsumer/ConsulOverrideConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-4/consul-override-consumer/src/main/java/com/ming/consuloverrideconsumer/MyConsulDiscoveryClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-4/consul-override-consumer/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-4/consul-override-provider-tag1/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-4/consul-override-provider-tag1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-4/consul-override-provider-tag1/src/main/java/com/ming/consuloverrideprovidertag1/ConsulOverrideProviderTag1Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-4/consul-override-provider-tag1/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-4/consul-override-provider-tag1/src/test/java/com/ming/consuloverrideprovidertag1/ConsulOverrideProviderTag1ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-4/consul-override-provider-tag2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-4/consul-override-provider-tag2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-4/consul-override-provider-tag2/src/main/java/com/ming/consuloverrideprovidertag2/ConsulOverrideProviderTag2Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-4/consul-override-provider-tag2/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-4/consul-override-provider-tag2/src/test/java/com/ming/consuloverrideprovidertag2/ConsulOverrideProviderTag2ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch14-4/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-override-consumer/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-override-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-override-consumer/src/main/java/com/ming/consuloverrideconsumer/ConsulOverrideConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-override-consumer/src/main/java/com/ming/consuloverrideconsumer/Hello1Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-override-consumer/src/main/java/com/ming/consuloverrideconsumer/Hello2Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-override-consumer/src/main/java/com/ming/consuloverrideconsumer/MyConsulServerList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-override-consumer/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-override-consumer/src/test/java/com/ming/consuloverrideconsumer/ConsulOverrideConsumerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-override-provider-new/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-override-provider-new/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-override-provider-new/src/main/java/com/ming/consuloverrideprovidernew/myconsultool/MyConsulRibbonClientConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-override-provider-new/src/main/java/com/ming/consuloverrideprovidernew/myconsultool/MyConsulServerList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-override-provider-new/src/main/java/com/ming/consuloverrideprovidernew/myconsultool/MyRibbonConsulAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-override-provider-new/src/main/java/com/ming/consuloverrideprovidernew/newconsulserverlist/Hello1Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-override-provider-new/src/main/java/com/ming/consuloverrideprovidernew/newconsulserverlist/Hello2Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-override-provider-new/src/main/java/com/ming/consuloverrideprovidernew/newconsulserverlist/NewConsulConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-override-provider-new/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-override-provider-new/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-override-provider-new/src/test/java/com/ming/consuloverrideprovidernew/ConsulOverrideProviderNewApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-provider1/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-provider1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-provider1/src/main/java/com/ming/consulprovider1/ConsulProvider1Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-provider1/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-provider1/src/test/java/com/ming/consulprovider1/ConsulProvider1ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-provider2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-provider2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-provider2/src/main/java/com/ming/consulprovider2/ConsulProvider2Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-provider2/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-provider2/src/test/java/com/ming/consulprovider2/ConsulProvider2ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch13-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch13-1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch15-1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -158,8 +76,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/consul-override-provider-new/src/main/java/com/ming/consuloverrideprovidernew/myconsultool/MyConsulServerList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="80" column="42" lean-forward="true" selection-start-line="80" selection-start-column="42" selection-end-line="80" selection-end-column="42" />
+            <state relative-caret-position="323">
+              <caret line="79" column="55" selection-start-line="79" selection-start-column="55" selection-end-line="79" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -383,7 +301,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546050713246" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546054005342" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -490,15 +408,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545978523655</updated>
-      <workItem from="1545978526308" duration="6971000" />
+      <workItem from="1545978526308" duration="7303000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6971000" />
+    <option name="totallyTimeSpent" value="7303000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -705,8 +624,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/consul-override-provider-new/src/main/java/com/ming/consuloverrideprovidernew/myconsultool/MyConsulServerList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="80" column="42" lean-forward="true" selection-start-line="80" selection-start-column="42" selection-end-line="80" selection-end-column="42" />
+        <state relative-caret-position="323">
+          <caret line="79" column="55" selection-start-line="79" selection-start-column="55" selection-end-line="79" selection-end-column="55" />
         </state>
       </provider>
     </entry>
