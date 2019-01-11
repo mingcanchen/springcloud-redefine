@@ -1,0 +1,21 @@
+server:
+  port: 8082
+
+
+logging:
+  level:
+    org.springframework.cloud.gateway: TRACE
+    org.springframework.http.server.reactive: DEBUG
+    org.springframework.web.reactive: DEBUG
+    reactor.ipc.netty: DEBUG
+
+management.endpoints.web.exposure.include: '*'
+
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: before_route
+        uri: http://www.baidu.com
+        predicates:
+          - Before=2019-01-12T16:15:15.587+08:00[Asia/Shanghai]

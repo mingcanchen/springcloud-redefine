@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: spring-cloud-gateway
+
+  cloud:
+    gateway:
+      routes:
+        - id: cookie_route
+          uri: http://localhost:8071/test/cookie
+          predicates:
+            - Cookie=ming, can
