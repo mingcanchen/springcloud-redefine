@@ -2,52 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2be5db18-e9c5-4c15-8229-4b55fb526ee4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gateway-1/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-1/src/main/java/com/ming/gateway/Gateway1Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-1/src/main/java/com/ming/gateway/utils/UtcTimeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-1/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-1/src/test/java/com/ming/gateway/Gateway1ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-2/src/main/java/com/ming/gateway/Gateway2Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-2/src/main/java/com/ming/gateway/utils/UtcTimeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-2/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-2/src/test/java/com/ming/gateway/Gateway2ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-3/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-3/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-3/src/main/java/com/ming/gateway/Gateway3Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-3/src/main/java/com/ming/gateway/utils/UtcTimeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-3/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-3/src/test/java/com/ming/gateway/Gateway3ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-4/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-4/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-4/src/main/java/com/ming/gateway/Gateway4Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-4/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-4/src/test/java/com/ming/gateway/Gateway4ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-5/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-5/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-5/src/main/java/com/ming/gateway/Gateway5Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-5/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-5/src/test/java/com/ming/gateway/Gateway5ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-6/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-6/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-6/src/main/java/com/ming/gateway/Gateway6Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-6/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-6/src/test/java/com/ming/gateway/Gateway6ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-7/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-7/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-7/src/main/java/com/ming/gateway/Gateway7Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-7/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-7/src/test/java/com/ming/gateway/Gateway7ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/ming/service/ServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/ming/service/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/test/java/com/ming/service/ServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch17-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch17-1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch17-3/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -67,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+            <state relative-caret-position="283">
+              <caret line="46" column="12" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="46" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -79,17 +35,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gateway-7/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
+            <state relative-caret-position="2166">
               <caret line="114" column="25" selection-start-line="114" selection-start-column="25" selection-end-line="114" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gateway-7/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            <state relative-caret-position="247">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -97,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gateway-7/src/main/java/com/ming/gateway/Gateway7Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="532">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -106,7 +62,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gateway-6/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
+            <state relative-caret-position="2223">
               <caret line="117" selection-start-line="117" selection-end-line="117" />
             </state>
           </provider>
@@ -133,7 +89,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gateway-6/src/main/java/com/ming/gateway/Gateway6Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
+            <state relative-caret-position="152">
               <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
             </state>
           </provider>
@@ -142,7 +98,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gateway-5/src/main/java/com/ming/gateway/Gateway5Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
+            <state relative-caret-position="247">
               <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
             </state>
           </provider>
@@ -230,7 +186,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,75 +194,11 @@
               <item name="ch17-2" type="b2602c69:ProjectViewProjectNode" />
               <item name="ch17-2" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ch17-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch17-2" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch17-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch17-2" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-7" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch17-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch17-2" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-7" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch17-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch17-2" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-7" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch17-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch17-2" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-7" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch17-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch17-2" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-7" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ming" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch17-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch17-2" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-7" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ming" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch17-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch17-2" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-7" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -316,7 +208,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547202195635" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547202288817" />
     <property name="last_opened_file_path" value="D:/source/spring-cloud-code/ch17-2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -504,27 +396,26 @@
       <option name="presentableId" value="Default" />
       <updated>1547088259438</updated>
       <workItem from="1547088262089" duration="11842000" />
-      <workItem from="1547177228335" duration="10439000" />
+      <workItem from="1547177228335" duration="10534000" />
+      <workItem from="1547431280959" duration="1790000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22281000" />
+    <option name="totallyTimeSpent" value="24166000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20660622" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20984456" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" visible="true" weight="0.31622747" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.31622747" />
@@ -539,6 +430,8 @@
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32871014" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32871014" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.31622747" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -769,20 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gateway-5/src/main/java/com/ming/gateway/Gateway5Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway-6/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="117" selection-start-line="117" selection-end-line="117" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/source/spring-cloud-code/ch17-2/ch17-2-5-gateway/src/main/java/cn/springcloud/book/gateway/SpringCloudGatewayApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -790,45 +669,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gateway-5/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/source/spring-cloud-code/ch17-2/ch17-2-6-gateway/src/main/java/cn/springcloud/book/gateway/ScGatewayApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="17" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway-6/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway-6/src/main/java/com/ming/gateway/Gateway6Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway-7/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="114" column="25" selection-start-line="114" selection-start-column="25" selection-end-line="114" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -846,17 +690,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-7/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2166">
+          <caret line="114" column="25" selection-start-line="114" selection-start-column="25" selection-end-line="114" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gateway-7/src/main/java/com/ming/gateway/Gateway7Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="532">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-6/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2223">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-5/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-6/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-6/src/main/java/com/ming/gateway/Gateway6Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-5/src/main/java/com/ming/gateway/Gateway5Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gateway-7/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="46" column="12" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="46" selection-end-column="12" />
         </state>
       </provider>
     </entry>
