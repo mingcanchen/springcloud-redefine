@@ -2,60 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="573b31e2-55db-47f1-af05-1308c0a9b18e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ch18-2/gateway/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch18-2/gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch18-2/gateway/src/main/java/com/ming/gateway/GatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch18-2/gateway/src/main/java/com/ming/gateway/filter/AuthSignatureFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch18-2/gateway/src/main/java/com/ming/gateway/filter/CustomGatewayFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch18-2/gateway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch18-2/gateway/src/test/java/com/ming/gateway/GatewayApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch18-2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch18-2/provider/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch18-2/provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch18-2/provider/src/main/java/com/ming/provider/ProviderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch18-2/provider/src/main/java/com/ming/provider/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch18-2/provider/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch18-2/provider/src/test/java/com/ming/provider/ProviderApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch18-3/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch18-3/gateway/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch18-3/gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch18-3/gateway/src/main/java/com/ming/gateway/GatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch18-3/gateway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch18-3/gateway/src/test/java/com/ming/gateway/GatewayApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch18-3/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch18-3/provider/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch18-3/provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch18-3/provider/src/main/java/com/ming/provider/ProviderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch18-3/provider/src/main/java/com/ming/provider/ServiceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch18-3/provider/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch18-3/provider/src/test/java/com/ming/provider/ProviderApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka/src/main/java/com/ming/eureka/EurekaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka/src/test/java/com/ming/eureka/EurekaApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-https/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-https/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-https/src/main/java/com/ming/gatewayhttps/GatewayHttpsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-https/src/main/java/com/ming/gatewayhttps/filter/HttpSchemeFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-https/src/main/java/com/ming/gatewayhttps/filter/HttpsToHttpFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-https/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-https/src/main/resources/selfsigned.jks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-https/src/test/java/com/ming/gatewayhttps/GatewayHttpsApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-a/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-a/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-a/src/main/java/com/ming/service/ServiceAApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-a/src/main/java/com/ming/service/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-a/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-a/src/test/java/com/ming/service/ServiceAApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-b/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-b/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-b/src/main/java/com/ming/service/ServiceBApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-b/src/main/java/com/ming/service/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-b/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-b/src/test/java/com/ming/service/ServiceBApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch18-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch18-1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch18-5/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -75,7 +23,7 @@
         <entry file="file://$PROJECT_DIR$/service-b/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
-              <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="26" />
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -84,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/service-a/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -98,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="35" selection-start-line="6" selection-start-column="3" selection-end-line="8" selection-end-column="35" />
+            <state relative-caret-position="511">
+              <caret line="43" column="12" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="43" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -137,17 +85,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gateway-https/src/main/java/com/ming/gatewayhttps/filter/HttpSchemeFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+            <state relative-caret-position="95">
+              <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gateway-https/src/main/java/com/ming/gatewayhttps/filter/HttpsToHttpFilter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -179,8 +127,8 @@
         <option value="$PROJECT_DIR$/gateway-https/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/gateway-https/src/main/java/com/ming/gatewayhttps/GatewayHttpsApplication.java" />
         <option value="$PROJECT_DIR$/gateway-https/pom.xml" />
-        <option value="$PROJECT_DIR$/gateway-https/src/main/java/com/ming/gatewayhttps/filter/HttpSchemeFilter.java" />
         <option value="$PROJECT_DIR$/gateway-https/src/main/java/com/ming/gatewayhttps/filter/HttpsToHttpFilter.java" />
+        <option value="$PROJECT_DIR$/gateway-https/src/main/java/com/ming/gatewayhttps/filter/HttpSchemeFilter.java" />
       </list>
     </option>
   </component>
@@ -222,176 +170,6 @@
               <item name="ch18-4" type="b2602c69:ProjectViewProjectNode" />
               <item name="ch18-4" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ch18-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch18-4" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-https" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch18-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch18-4" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-https" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch18-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch18-4" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-https" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch18-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch18-4" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-https" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch18-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch18-4" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-https" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch18-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch18-4" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-https" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ming" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch18-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch18-4" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-https" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ming" type="462c0819:PsiDirectoryNode" />
-              <item name="gatewayhttps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch18-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch18-4" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-https" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ming" type="462c0819:PsiDirectoryNode" />
-              <item name="gatewayhttps" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch18-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch18-4" type="462c0819:PsiDirectoryNode" />
-              <item name="service-a" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch18-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch18-4" type="462c0819:PsiDirectoryNode" />
-              <item name="service-a" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch18-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch18-4" type="462c0819:PsiDirectoryNode" />
-              <item name="service-a" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch18-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch18-4" type="462c0819:PsiDirectoryNode" />
-              <item name="service-a" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch18-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch18-4" type="462c0819:PsiDirectoryNode" />
-              <item name="service-a" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch18-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch18-4" type="462c0819:PsiDirectoryNode" />
-              <item name="service-a" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ming" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch18-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch18-4" type="462c0819:PsiDirectoryNode" />
-              <item name="service-a" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ming" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch18-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch18-4" type="462c0819:PsiDirectoryNode" />
-              <item name="service-a" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ming" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch18-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch18-4" type="462c0819:PsiDirectoryNode" />
-              <item name="service-a" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch18-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch18-4" type="462c0819:PsiDirectoryNode" />
-              <item name="service-b" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch18-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch18-4" type="462c0819:PsiDirectoryNode" />
-              <item name="service-b" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch18-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch18-4" type="462c0819:PsiDirectoryNode" />
-              <item name="service-b" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch18-4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch18-4" type="462c0819:PsiDirectoryNode" />
-              <item name="service-b" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -407,7 +185,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547625226431" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547630159851" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -516,15 +294,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547607615458</updated>
-      <workItem from="1547607617775" duration="7142000" />
+      <workItem from="1547607617775" duration="8493000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7142000" />
+    <option name="totallyTimeSpent" value="8493000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -534,7 +313,7 @@
       <window_info id="Web" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21826425" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" visible="true" weight="0.4147018" />
+      <window_info anchor="bottom" id="Run Dashboard" weight="0.4147018" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -674,13 +453,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="35" selection-start-line="6" selection-start-column="3" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gateway-https/src/main/resources/selfsigned.jks">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -721,28 +493,35 @@
     <entry file="file://$PROJECT_DIR$/service-b/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="26" />
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service-a/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway-https/src/main/java/com/ming/gatewayhttps/filter/HttpSchemeFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gateway-https/src/main/java/com/ming/gatewayhttps/filter/HttpsToHttpFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-https/src/main/java/com/ming/gatewayhttps/filter/HttpSchemeFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="43" column="12" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="43" selection-end-column="12" />
         </state>
       </provider>
     </entry>
