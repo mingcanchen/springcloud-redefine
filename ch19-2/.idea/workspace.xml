@@ -2,34 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ede0c859-7672-4903-a3b2-bb89420f44c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ch19-1/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch19-1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch19-1/src/main/java/com/ming/Ch191Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch19-1/src/main/java/com/ming/PersonModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch19-1/src/main/java/com/ming/PersonUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch19-1/src/main/proto/person.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch19-1/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch19-1/src/test/java/com/ming/Ch191ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc-client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc-client/src/main/java/com/ming/GrpcClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc-client/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc-lib/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc-lib/src/main/java/com/ming/HelloRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc-lib/src/main/java/com/ming/HelloRequestOrBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc-lib/src/main/java/com/ming/HelloResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc-lib/src/main/java/com/ming/HelloResponseOrBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc-lib/src/main/java/com/ming/HelloServiceGrpc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc-lib/src/main/java/com/ming/HiService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc-lib/src/main/proto/HiService.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc-server/src/main/java/com/ming/GrpcServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc-server/src/main/java/com/ming/servcie/HelloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc-server/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch18-7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch18-7/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch20/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grpc-server/src/main/java/com/ming/servcie/HelloService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="361">
+              <caret line="19" column="101" selection-start-line="19" selection-start-column="101" selection-end-line="19" selection-end-column="101" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -184,66 +158,6 @@
             <path>
               <item name="ch19-2" type="b2602c69:ProjectViewProjectNode" />
               <item name="ch19-2" type="462c0819:PsiDirectoryNode" />
-              <item name="grpc-client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch19-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch19-2" type="462c0819:PsiDirectoryNode" />
-              <item name="grpc-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch19-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch19-2" type="462c0819:PsiDirectoryNode" />
-              <item name="grpc-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch19-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch19-2" type="462c0819:PsiDirectoryNode" />
-              <item name="grpc-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch19-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch19-2" type="462c0819:PsiDirectoryNode" />
-              <item name="grpc-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch19-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch19-2" type="462c0819:PsiDirectoryNode" />
-              <item name="grpc-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ming" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch19-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch19-2" type="462c0819:PsiDirectoryNode" />
-              <item name="grpc-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch19-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch19-2" type="462c0819:PsiDirectoryNode" />
-              <item name="grpc-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch19-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch19-2" type="462c0819:PsiDirectoryNode" />
               <item name="grpc-server" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -257,7 +171,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548149405174" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548210173591" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -385,12 +299,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548143907565</updated>
-      <workItem from="1548143910804" duration="4540000" />
+      <workItem from="1548143910804" duration="6463000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4540000" />
+    <option name="totallyTimeSpent" value="6463000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -400,7 +314,7 @@
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2130829" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2130829" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Run Dashboard" weight="0.32871014" />
       <window_info anchor="bottom" id="Spring" />
@@ -413,7 +327,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32871014" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3994452" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994452" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -571,8 +485,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grpc-server/src/main/java/com/ming/servcie/HelloService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="361">
+          <caret line="19" column="101" selection-start-line="19" selection-start-column="101" selection-end-line="19" selection-end-column="101" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
