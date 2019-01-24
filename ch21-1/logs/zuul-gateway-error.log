@@ -1,0 +1,766 @@
+2019-01-24 15:13:01.053 [main] ERROR o.s.boot.SpringApplication
+				-Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/D:/.m2/repository/io/springfox/springfox-spring-web/2.7.0/springfox-spring-web-2.7.0.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/D:/.m2/repository/io/springfox/springfox-spring-web/2.7.0/springfox-spring-web-2.7.0.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration': Unsatisfied dependency expressed through method 'setConfigurers' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.nepxion.discovery.plugin.admincenter.configuration.SwaggerConfiguration': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.application.name' in value "${spring.application.name}"
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:732)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:197)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1276)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1133)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:503)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at com.ming.zuulservice.ZuulServiceApplication.main(ZuulServiceApplication.java:17)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/D:/.m2/repository/io/springfox/springfox-spring-web/2.7.0/springfox-spring-web-2.7.0.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration': Unsatisfied dependency expressed through method 'setConfigurers' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.nepxion.discovery.plugin.admincenter.configuration.SwaggerConfiguration': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.application.name' in value "${spring.application.name}"
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:732)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:197)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1276)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1133)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:503)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1325)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1291)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:818)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:724)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration': Unsatisfied dependency expressed through method 'setConfigurers' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.nepxion.discovery.plugin.admincenter.configuration.SwaggerConfiguration': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.application.name' in value "${spring.application.name}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:667)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:91)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:373)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1350)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:580)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:503)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1256)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1105)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:503)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1325)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1291)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:818)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:724)
+	... 36 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.nepxion.discovery.plugin.admincenter.configuration.SwaggerConfiguration': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.application.name' in value "${spring.application.name}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:379)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1350)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:580)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:503)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1325)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1291)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:659)
+	... 62 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.application.name' in value "${spring.application.name}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:172)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:237)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:211)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:839)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1086)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:584)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:91)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:373)
+	... 76 common frames omitted
+2019-01-24 15:17:42.587 [redisMessageListenerContainer-1] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:17:48.610 [redisMessageListenerContainer-2] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:17:54.620 [redisMessageListenerContainer-3] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:18:00.624 [redisMessageListenerContainer-4] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:18:06.725 [redisMessageListenerContainer-5] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:18:12.729 [redisMessageListenerContainer-6] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:18:18.744 [redisMessageListenerContainer-7] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:18:24.752 [redisMessageListenerContainer-8] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:18:30.776 [redisMessageListenerContainer-9] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:18:36.784 [redisMessageListenerContainer-10] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:18:42.796 [redisMessageListenerContainer-11] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:18:48.798 [redisMessageListenerContainer-12] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:18:54.871 [redisMessageListenerContainer-13] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:19:00.887 [redisMessageListenerContainer-14] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:19:06.894 [redisMessageListenerContainer-15] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:19:12.903 [redisMessageListenerContainer-16] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:19:18.907 [redisMessageListenerContainer-17] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:19:24.923 [redisMessageListenerContainer-18] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:19:30.931 [redisMessageListenerContainer-19] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:19:36.938 [redisMessageListenerContainer-20] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:19:43.027 [redisMessageListenerContainer-21] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:19:49.030 [redisMessageListenerContainer-22] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:19:55.039 [redisMessageListenerContainer-23] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:20:01.055 [redisMessageListenerContainer-24] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:20:07.061 [redisMessageListenerContainer-25] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:20:13.071 [redisMessageListenerContainer-26] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:20:19.083 [redisMessageListenerContainer-27] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:20:25.088 [redisMessageListenerContainer-28] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:20:31.096 [redisMessageListenerContainer-29] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:20:37.103 [redisMessageListenerContainer-30] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:20:43.111 [redisMessageListenerContainer-31] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:20:49.111 [redisMessageListenerContainer-32] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:20:55.116 [redisMessageListenerContainer-33] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:21:01.129 [redisMessageListenerContainer-34] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:21:07.135 [redisMessageListenerContainer-35] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:21:13.136 [redisMessageListenerContainer-36] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:21:19.143 [redisMessageListenerContainer-37] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:21:25.146 [redisMessageListenerContainer-38] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:21:31.163 [redisMessageListenerContainer-39] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:21:37.171 [redisMessageListenerContainer-40] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:21:43.180 [redisMessageListenerContainer-41] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:21:49.183 [redisMessageListenerContainer-42] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:21:55.187 [redisMessageListenerContainer-43] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:22:01.197 [redisMessageListenerContainer-44] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:22:07.203 [redisMessageListenerContainer-45] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:22:13.218 [redisMessageListenerContainer-46] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:22:19.227 [redisMessageListenerContainer-47] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:22:25.238 [redisMessageListenerContainer-48] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:22:31.249 [redisMessageListenerContainer-49] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:22:37.254 [redisMessageListenerContainer-50] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:22:43.270 [redisMessageListenerContainer-51] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:22:49.278 [redisMessageListenerContainer-52] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:22:55.293 [redisMessageListenerContainer-53] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:23:01.303 [redisMessageListenerContainer-54] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:23:07.310 [redisMessageListenerContainer-55] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:23:13.323 [redisMessageListenerContainer-56] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:23:19.346 [redisMessageListenerContainer-57] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:23:25.352 [redisMessageListenerContainer-58] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:23:31.362 [redisMessageListenerContainer-59] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:23:37.370 [redisMessageListenerContainer-60] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:23:43.384 [redisMessageListenerContainer-61] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:23:49.403 [redisMessageListenerContainer-62] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:23:55.416 [redisMessageListenerContainer-63] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:24:01.424 [redisMessageListenerContainer-64] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:24:07.428 [redisMessageListenerContainer-65] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:24:13.435 [redisMessageListenerContainer-66] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:24:19.442 [redisMessageListenerContainer-67] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:24:25.455 [redisMessageListenerContainer-68] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:24:31.491 [redisMessageListenerContainer-69] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:24:37.498 [redisMessageListenerContainer-70] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:24:43.508 [redisMessageListenerContainer-71] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:24:49.513 [redisMessageListenerContainer-72] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:24:55.527 [redisMessageListenerContainer-73] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:25:01.548 [redisMessageListenerContainer-74] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:25:07.844 [redisMessageListenerContainer-75] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:25:13.850 [redisMessageListenerContainer-76] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:25:19.858 [redisMessageListenerContainer-77] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:25:25.863 [redisMessageListenerContainer-78] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:25:31.869 [redisMessageListenerContainer-79] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:25:37.880 [redisMessageListenerContainer-80] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:25:43.885 [redisMessageListenerContainer-81] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:25:49.891 [redisMessageListenerContainer-82] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:25:55.898 [redisMessageListenerContainer-83] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:26:01.913 [redisMessageListenerContainer-84] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:26:07.915 [redisMessageListenerContainer-85] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:26:13.921 [redisMessageListenerContainer-86] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:26:19.931 [redisMessageListenerContainer-87] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:26:25.939 [redisMessageListenerContainer-88] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:26:32.000 [redisMessageListenerContainer-89] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:26:38.006 [redisMessageListenerContainer-90] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:26:44.014 [redisMessageListenerContainer-91] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:26:50.016 [redisMessageListenerContainer-92] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:26:56.016 [redisMessageListenerContainer-93] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:27:02.024 [redisMessageListenerContainer-94] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:27:08.029 [redisMessageListenerContainer-95] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:27:14.040 [redisMessageListenerContainer-96] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:27:20.043 [redisMessageListenerContainer-97] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:27:26.045 [redisMessageListenerContainer-98] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:27:32.054 [redisMessageListenerContainer-99] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:27:38.060 [redisMessageListenerContainer-100] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:27:44.064 [redisMessageListenerContainer-101] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:27:50.067 [redisMessageListenerContainer-102] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:27:56.078 [redisMessageListenerContainer-103] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:28:02.083 [redisMessageListenerContainer-104] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:28:08.098 [redisMessageListenerContainer-105] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:28:14.108 [redisMessageListenerContainer-106] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:28:20.112 [redisMessageListenerContainer-107] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:28:26.123 [redisMessageListenerContainer-108] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:28:32.141 [redisMessageListenerContainer-109] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:28:38.160 [redisMessageListenerContainer-110] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:28:44.163 [redisMessageListenerContainer-111] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:28:50.171 [redisMessageListenerContainer-112] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:28:56.192 [redisMessageListenerContainer-113] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:29:02.203 [redisMessageListenerContainer-114] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:29:08.209 [redisMessageListenerContainer-115] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:29:14.235 [redisMessageListenerContainer-116] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:29:20.240 [redisMessageListenerContainer-117] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:29:26.237 [redisMessageListenerContainer-118] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:29:32.252 [redisMessageListenerContainer-119] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:29:38.246 [redisMessageListenerContainer-120] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:29:44.251 [redisMessageListenerContainer-121] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:29:50.269 [redisMessageListenerContainer-122] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:29:56.275 [redisMessageListenerContainer-123] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:30:02.298 [redisMessageListenerContainer-124] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:30:08.306 [redisMessageListenerContainer-125] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:30:14.310 [redisMessageListenerContainer-126] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:30:20.328 [redisMessageListenerContainer-127] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:30:26.329 [redisMessageListenerContainer-128] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:30:32.347 [redisMessageListenerContainer-129] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:30:38.356 [redisMessageListenerContainer-130] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:30:44.364 [redisMessageListenerContainer-131] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:30:50.379 [redisMessageListenerContainer-132] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:30:56.383 [redisMessageListenerContainer-133] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:31:02.391 [redisMessageListenerContainer-134] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:31:08.397 [redisMessageListenerContainer-135] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:31:14.410 [redisMessageListenerContainer-136] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:31:20.417 [redisMessageListenerContainer-137] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:31:26.430 [redisMessageListenerContainer-138] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:31:32.438 [redisMessageListenerContainer-139] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:31:38.441 [redisMessageListenerContainer-140] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:31:44.448 [redisMessageListenerContainer-141] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:31:50.458 [redisMessageListenerContainer-142] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:31:56.470 [redisMessageListenerContainer-143] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:32:02.475 [redisMessageListenerContainer-144] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:32:08.477 [redisMessageListenerContainer-145] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:32:14.480 [redisMessageListenerContainer-146] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:32:20.496 [redisMessageListenerContainer-147] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:32:26.502 [redisMessageListenerContainer-148] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:32:32.512 [redisMessageListenerContainer-149] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:32:38.517 [redisMessageListenerContainer-150] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:32:44.522 [redisMessageListenerContainer-151] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:32:50.535 [redisMessageListenerContainer-152] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:32:56.537 [redisMessageListenerContainer-153] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:33:02.543 [redisMessageListenerContainer-154] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:33:08.549 [redisMessageListenerContainer-155] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:33:14.551 [redisMessageListenerContainer-156] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:33:20.558 [redisMessageListenerContainer-157] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:33:26.568 [redisMessageListenerContainer-158] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:33:32.574 [redisMessageListenerContainer-159] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:33:38.580 [redisMessageListenerContainer-160] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:33:44.584 [redisMessageListenerContainer-161] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:33:50.601 [redisMessageListenerContainer-162] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:33:56.606 [redisMessageListenerContainer-163] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:34:02.618 [redisMessageListenerContainer-164] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:34:08.623 [redisMessageListenerContainer-165] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:34:14.627 [redisMessageListenerContainer-166] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:34:20.632 [redisMessageListenerContainer-167] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:34:26.634 [redisMessageListenerContainer-168] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:34:32.653 [redisMessageListenerContainer-169] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:34:38.655 [redisMessageListenerContainer-170] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:34:44.672 [redisMessageListenerContainer-171] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:34:50.689 [redisMessageListenerContainer-172] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:34:56.701 [redisMessageListenerContainer-173] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:35:02.706 [redisMessageListenerContainer-174] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:35:08.711 [redisMessageListenerContainer-175] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:35:14.717 [redisMessageListenerContainer-176] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:35:20.723 [redisMessageListenerContainer-177] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:35:26.730 [redisMessageListenerContainer-178] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:35:32.733 [redisMessageListenerContainer-179] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:35:38.743 [redisMessageListenerContainer-180] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:35:44.747 [redisMessageListenerContainer-181] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:35:50.748 [redisMessageListenerContainer-182] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:35:56.758 [redisMessageListenerContainer-183] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:36:02.774 [redisMessageListenerContainer-184] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:36:08.787 [redisMessageListenerContainer-185] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:36:14.813 [redisMessageListenerContainer-186] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:36:20.811 [redisMessageListenerContainer-187] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:36:26.829 [redisMessageListenerContainer-188] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:36:32.900 [redisMessageListenerContainer-189] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:36:38.928 [redisMessageListenerContainer-190] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:36:44.947 [redisMessageListenerContainer-191] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:36:50.953 [redisMessageListenerContainer-192] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:36:56.957 [redisMessageListenerContainer-193] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:37:02.964 [redisMessageListenerContainer-194] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:37:08.974 [redisMessageListenerContainer-195] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:37:14.989 [redisMessageListenerContainer-196] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:37:20.994 [redisMessageListenerContainer-197] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:37:26.996 [redisMessageListenerContainer-198] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:37:33.003 [redisMessageListenerContainer-199] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:37:39.006 [redisMessageListenerContainer-200] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:37:45.012 [redisMessageListenerContainer-201] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:37:51.023 [redisMessageListenerContainer-202] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:37:57.026 [redisMessageListenerContainer-203] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:38:03.037 [redisMessageListenerContainer-204] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:38:09.038 [redisMessageListenerContainer-205] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:38:15.043 [redisMessageListenerContainer-206] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:38:21.051 [redisMessageListenerContainer-207] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:38:27.052 [redisMessageListenerContainer-208] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:38:33.059 [redisMessageListenerContainer-209] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:38:39.130 [redisMessageListenerContainer-210] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:38:45.129 [redisMessageListenerContainer-211] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:38:51.130 [redisMessageListenerContainer-212] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:38:57.132 [redisMessageListenerContainer-213] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:39:03.142 [redisMessageListenerContainer-214] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:39:09.154 [redisMessageListenerContainer-215] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:39:15.156 [redisMessageListenerContainer-216] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:39:21.488 [redisMessageListenerContainer-217] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:39:27.529 [redisMessageListenerContainer-218] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:39:33.538 [redisMessageListenerContainer-219] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:39:39.543 [redisMessageListenerContainer-220] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:39:45.544 [redisMessageListenerContainer-221] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:39:51.546 [redisMessageListenerContainer-222] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:39:57.559 [redisMessageListenerContainer-223] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:40:03.571 [redisMessageListenerContainer-224] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:40:09.572 [redisMessageListenerContainer-225] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:40:15.677 [redisMessageListenerContainer-226] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:40:21.693 [redisMessageListenerContainer-227] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:40:27.696 [redisMessageListenerContainer-228] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:40:33.707 [redisMessageListenerContainer-229] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:40:39.719 [redisMessageListenerContainer-230] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:40:45.735 [redisMessageListenerContainer-231] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:40:51.747 [redisMessageListenerContainer-232] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:40:57.770 [redisMessageListenerContainer-233] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:41:03.783 [redisMessageListenerContainer-234] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:41:09.784 [redisMessageListenerContainer-235] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:41:15.790 [redisMessageListenerContainer-236] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:41:21.802 [redisMessageListenerContainer-237] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:41:27.803 [redisMessageListenerContainer-238] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:41:33.823 [redisMessageListenerContainer-239] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:41:39.824 [redisMessageListenerContainer-240] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:41:45.835 [redisMessageListenerContainer-241] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:41:51.844 [redisMessageListenerContainer-242] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:41:57.853 [redisMessageListenerContainer-243] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:42:03.865 [redisMessageListenerContainer-244] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:42:09.866 [redisMessageListenerContainer-245] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:42:15.869 [redisMessageListenerContainer-246] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:42:21.946 [redisMessageListenerContainer-247] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:42:27.955 [redisMessageListenerContainer-248] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:42:34.071 [redisMessageListenerContainer-249] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:42:40.072 [redisMessageListenerContainer-250] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:42:46.085 [redisMessageListenerContainer-251] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:42:52.086 [redisMessageListenerContainer-252] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:42:58.093 [redisMessageListenerContainer-253] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:43:04.096 [redisMessageListenerContainer-254] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:43:10.102 [redisMessageListenerContainer-255] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:43:16.106 [redisMessageListenerContainer-256] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:43:22.107 [redisMessageListenerContainer-257] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:43:28.110 [redisMessageListenerContainer-258] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:43:34.219 [redisMessageListenerContainer-259] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:43:40.266 [redisMessageListenerContainer-260] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:43:46.413 [redisMessageListenerContainer-261] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:43:52.414 [redisMessageListenerContainer-262] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:43:58.416 [redisMessageListenerContainer-263] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:44:04.411 [redisMessageListenerContainer-264] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:44:10.424 [redisMessageListenerContainer-265] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:44:16.425 [redisMessageListenerContainer-266] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:44:22.426 [redisMessageListenerContainer-267] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:44:28.431 [redisMessageListenerContainer-268] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:44:34.437 [redisMessageListenerContainer-269] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:44:40.448 [redisMessageListenerContainer-270] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:44:46.466 [redisMessageListenerContainer-271] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:44:52.476 [redisMessageListenerContainer-272] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:44:58.493 [redisMessageListenerContainer-273] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:45:04.516 [redisMessageListenerContainer-274] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:45:10.538 [redisMessageListenerContainer-275] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:45:16.540 [redisMessageListenerContainer-276] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:45:22.546 [redisMessageListenerContainer-277] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:45:28.569 [redisMessageListenerContainer-278] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:45:34.585 [redisMessageListenerContainer-279] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:45:40.594 [redisMessageListenerContainer-280] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:45:46.596 [redisMessageListenerContainer-281] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:45:52.601 [redisMessageListenerContainer-282] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:45:58.605 [redisMessageListenerContainer-283] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:46:04.616 [redisMessageListenerContainer-284] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:46:10.618 [redisMessageListenerContainer-285] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:46:16.624 [redisMessageListenerContainer-286] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:46:22.626 [redisMessageListenerContainer-287] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:46:28.630 [redisMessageListenerContainer-288] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:46:34.643 [redisMessageListenerContainer-289] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:46:40.645 [redisMessageListenerContainer-290] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:46:46.659 [redisMessageListenerContainer-291] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:46:52.674 [redisMessageListenerContainer-292] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:46:58.681 [redisMessageListenerContainer-293] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:47:04.684 [redisMessageListenerContainer-294] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:47:10.687 [redisMessageListenerContainer-295] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:47:16.692 [redisMessageListenerContainer-296] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:47:22.693 [redisMessageListenerContainer-297] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:47:28.700 [redisMessageListenerContainer-298] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:47:34.707 [redisMessageListenerContainer-299] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:47:40.710 [redisMessageListenerContainer-300] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:47:46.731 [redisMessageListenerContainer-301] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:47:52.733 [redisMessageListenerContainer-302] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:47:58.735 [redisMessageListenerContainer-303] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:48:04.739 [redisMessageListenerContainer-304] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:48:10.746 [redisMessageListenerContainer-305] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:48:16.746 [redisMessageListenerContainer-306] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:48:22.767 [redisMessageListenerContainer-307] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:48:28.780 [redisMessageListenerContainer-308] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:48:34.798 [redisMessageListenerContainer-309] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:48:40.799 [redisMessageListenerContainer-310] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:48:46.804 [redisMessageListenerContainer-311] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:48:52.806 [redisMessageListenerContainer-312] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:48:58.809 [redisMessageListenerContainer-313] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:49:04.809 [redisMessageListenerContainer-314] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:49:10.818 [redisMessageListenerContainer-315] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:49:16.822 [redisMessageListenerContainer-316] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:49:22.823 [redisMessageListenerContainer-317] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:49:28.819 [redisMessageListenerContainer-318] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:49:34.830 [redisMessageListenerContainer-319] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:49:40.834 [redisMessageListenerContainer-320] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:49:46.839 [redisMessageListenerContainer-321] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:49:52.841 [redisMessageListenerContainer-322] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:49:58.845 [redisMessageListenerContainer-323] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:50:04.847 [redisMessageListenerContainer-324] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:50:10.850 [redisMessageListenerContainer-325] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:50:16.865 [redisMessageListenerContainer-326] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:50:22.870 [redisMessageListenerContainer-327] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:50:28.875 [redisMessageListenerContainer-328] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:50:34.877 [redisMessageListenerContainer-329] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:50:40.878 [redisMessageListenerContainer-330] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:50:46.886 [redisMessageListenerContainer-331] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:50:52.888 [redisMessageListenerContainer-332] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms

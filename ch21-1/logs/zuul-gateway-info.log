@@ -1,0 +1,1671 @@
+2019-01-24 15:12:53.252 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext
+				-Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6c6c5427: startup date [Thu Jan 24 15:12:53 CST 2019]; root of context hierarchy
+2019-01-24 15:12:53.501 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor
+				-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-01-24 15:12:53.543 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				-Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$11422bf2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-24 15:12:53.906 [main] INFO  c.m.z.ZuulServiceApplication
+				-No active profile set, falling back to default profiles: default
+2019-01-24 15:12:53.925 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext
+				-Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2fb5fe30: startup date [Thu Jan 24 15:12:53 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6c6c5427
+2019-01-24 15:12:55.797 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				-Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-24 15:12:56.184 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory
+				-Overriding bean definition for bean 'proxyRequestHelper' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.zuul.ZuulProxyAutoConfiguration$EndpointConfiguration; factoryMethodName=proxyRequestHelper; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/zuul/ZuulProxyAutoConfiguration$EndpointConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.zuul.ZuulProxyAutoConfiguration$NoActuatorConfiguration; factoryMethodName=proxyRequestHelper; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/zuul/ZuulProxyAutoConfiguration$NoActuatorConfiguration.class]]
+2019-01-24 15:12:56.192 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory
+				-Overriding bean definition for bean 'counterFactory' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.zuul.ZuulServerAutoConfiguration$ZuulMetricsConfiguration; factoryMethodName=counterFactory; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/zuul/ZuulServerAutoConfiguration$ZuulMetricsConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.zuul.ZuulServerAutoConfiguration$ZuulCounterFactoryConfiguration; factoryMethodName=counterFactory; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/zuul/ZuulServerAutoConfiguration$ZuulCounterFactoryConfiguration.class]]
+2019-01-24 15:12:56.532 [main] INFO  o.s.cloud.context.scope.GenericScope
+				-BeanFactory id=b6f0acc3-b687-3a19-9f1e-1f77f4280863
+2019-01-24 15:12:56.553 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor
+				-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-01-24 15:12:56.981 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				-Bean 'com.nepxion.eventbus.configuration.EventAutoConfiguration' of type [com.nepxion.eventbus.configuration.EventAutoConfiguration$$EnhancerBySpringCGLIB$$2b9e33f5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-24 15:12:57.028 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				-Bean 'threadPoolFactory' of type [com.nepxion.eventbus.thread.ThreadPoolFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-24 15:12:57.029 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				-Bean 'eventControllerFactory' of type [com.nepxion.eventbus.core.EventControllerFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-24 15:12:57.070 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				-Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$11422bf2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-24 15:12:57.554 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				-Tomcat initialized with port(s): 8080 (http)
+2019-01-24 15:12:57.570 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				-Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-24 15:12:57.581 [main] INFO  o.a.catalina.core.StandardService
+				-Starting service [Tomcat]
+2019-01-24 15:12:57.581 [main] INFO  o.a.catalina.core.StandardEngine
+				-Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-01-24 15:12:57.587 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener
+				-The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\VanDyke Software\Clients\;D:\Program Files\Redis\;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\PostgreSQL\pg10\bin;C:\Program Files\TortoiseSVN\bin;D:\Program Files\nodejs\;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\Program Files\apache-maven-3.3.9\bin;C:\Users\chenmingcan\AppData\Roaming\npm;D:\Program Files\erl10.1\bin;D:\Program Files\RabbitMQ Server\rabbitmq_server-3.7.9\sbin;E:\consul;.]
+2019-01-24 15:12:57.792 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+				-Initializing Spring embedded WebApplicationContext
+2019-01-24 15:12:57.792 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader
+				-Root WebApplicationContext: initialization completed in 3867 ms
+2019-01-24 15:12:58.172 [localhost-startStop-1] WARN  c.n.c.sources.URLConfigurationSource
+				-No URLs will be polled as dynamic configuration sources.
+2019-01-24 15:12:58.172 [localhost-startStop-1] INFO  c.n.c.sources.URLConfigurationSource
+				-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-01-24 15:12:58.198 [localhost-startStop-1] INFO  c.n.config.DynamicPropertyFactory
+				-DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@723f9cb2
+2019-01-24 15:13:00.413 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean
+				-Servlet dispatcherServlet mapped to [/]
+2019-01-24 15:13:00.415 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean
+				-Servlet zuulServlet mapped to [/zuul/*]
+2019-01-24 15:13:00.423 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+				-Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-24 15:13:00.424 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+				-Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-24 15:13:00.424 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+				-Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-24 15:13:00.424 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+				-Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-24 15:13:00.424 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+				-Mapping filter: 'httpTraceFilter' to: [/*]
+2019-01-24 15:13:00.424 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+				-Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2019-01-24 15:13:00.928 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext
+				-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/D:/.m2/repository/io/springfox/springfox-spring-web/2.7.0/springfox-spring-web-2.7.0.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/D:/.m2/repository/io/springfox/springfox-spring-web/2.7.0/springfox-spring-web-2.7.0.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration': Unsatisfied dependency expressed through method 'setConfigurers' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.nepxion.discovery.plugin.admincenter.configuration.SwaggerConfiguration': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.application.name' in value "${spring.application.name}"
+2019-01-24 15:13:00.986 [main] WARN  o.s.b.f.s.DisposableBeanAdapter
+				-Invocation of destroy method 'close' failed on bean with name 'eurekaRegistration': org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+2019-01-24 15:13:00.987 [main] INFO  o.a.catalina.core.StandardService
+				-Stopping service [Tomcat]
+2019-01-24 15:13:01.001 [localhost-startStop-1] WARN  o.a.c.loader.WebappClassLoaderBase
+				-The web application [ROOT] appears to have started a thread named [RxIoScheduler-1 (Evictor)] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2019-01-24 15:13:01.029 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener
+				-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-01-24 15:13:01.053 [main] ERROR o.s.boot.SpringApplication
+				-Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/D:/.m2/repository/io/springfox/springfox-spring-web/2.7.0/springfox-spring-web-2.7.0.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/D:/.m2/repository/io/springfox/springfox-spring-web/2.7.0/springfox-spring-web-2.7.0.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration': Unsatisfied dependency expressed through method 'setConfigurers' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.nepxion.discovery.plugin.admincenter.configuration.SwaggerConfiguration': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.application.name' in value "${spring.application.name}"
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:732)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:197)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1276)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1133)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:503)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at com.ming.zuulservice.ZuulServiceApplication.main(ZuulServiceApplication.java:17)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/D:/.m2/repository/io/springfox/springfox-spring-web/2.7.0/springfox-spring-web-2.7.0.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration': Unsatisfied dependency expressed through method 'setConfigurers' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.nepxion.discovery.plugin.admincenter.configuration.SwaggerConfiguration': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.application.name' in value "${spring.application.name}"
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:732)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:197)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1276)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1133)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:503)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1325)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1291)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:818)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:724)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration': Unsatisfied dependency expressed through method 'setConfigurers' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.nepxion.discovery.plugin.admincenter.configuration.SwaggerConfiguration': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.application.name' in value "${spring.application.name}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:667)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:91)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:373)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1350)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:580)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:503)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1256)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1105)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:503)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1325)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1291)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:818)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:724)
+	... 36 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.nepxion.discovery.plugin.admincenter.configuration.SwaggerConfiguration': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.application.name' in value "${spring.application.name}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:379)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1350)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:580)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:503)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1325)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1291)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:659)
+	... 62 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.application.name' in value "${spring.application.name}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:172)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:237)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:211)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:839)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1086)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:584)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:91)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:373)
+	... 76 common frames omitted
+2019-01-24 15:17:26.759 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext
+				-Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@57eda880: startup date [Thu Jan 24 15:17:26 CST 2019]; root of context hierarchy
+2019-01-24 15:17:27.016 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor
+				-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-01-24 15:17:27.063 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				-Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$15201e5a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-24 15:17:27.426 [main] INFO  c.m.z.ZuulServiceApplication
+				-The following profiles are active: zuul
+2019-01-24 15:17:27.444 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext
+				-Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@794b435f: startup date [Thu Jan 24 15:17:27 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@57eda880
+2019-01-24 15:17:28.618 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				-Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-24 15:17:28.764 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory
+				-Overriding bean definition for bean 'proxyRequestHelper' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.zuul.ZuulProxyAutoConfiguration$EndpointConfiguration; factoryMethodName=proxyRequestHelper; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/zuul/ZuulProxyAutoConfiguration$EndpointConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.zuul.ZuulProxyAutoConfiguration$NoActuatorConfiguration; factoryMethodName=proxyRequestHelper; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/zuul/ZuulProxyAutoConfiguration$NoActuatorConfiguration.class]]
+2019-01-24 15:17:28.773 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory
+				-Overriding bean definition for bean 'counterFactory' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.zuul.ZuulServerAutoConfiguration$ZuulMetricsConfiguration; factoryMethodName=counterFactory; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/zuul/ZuulServerAutoConfiguration$ZuulMetricsConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.zuul.ZuulServerAutoConfiguration$ZuulCounterFactoryConfiguration; factoryMethodName=counterFactory; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/zuul/ZuulServerAutoConfiguration$ZuulCounterFactoryConfiguration.class]]
+2019-01-24 15:17:29.157 [main] INFO  o.s.cloud.context.scope.GenericScope
+				-BeanFactory id=c17f11a3-a074-3629-8b71-2218fea7ae80
+2019-01-24 15:17:29.184 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor
+				-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-01-24 15:17:29.509 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				-Bean 'com.nepxion.eventbus.configuration.EventAutoConfiguration' of type [com.nepxion.eventbus.configuration.EventAutoConfiguration$$EnhancerBySpringCGLIB$$2f7c265d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-24 15:17:29.524 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				-Bean 'threadPoolFactory' of type [com.nepxion.eventbus.thread.ThreadPoolFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-24 15:17:29.525 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				-Bean 'eventControllerFactory' of type [com.nepxion.eventbus.core.EventControllerFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-24 15:17:29.546 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				-Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$15201e5a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-24 15:17:29.979 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				-Tomcat initialized with port(s): 1400 (http)
+2019-01-24 15:17:29.999 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				-Initializing ProtocolHandler ["http-nio-1400"]
+2019-01-24 15:17:30.017 [main] INFO  o.a.catalina.core.StandardService
+				-Starting service [Tomcat]
+2019-01-24 15:17:30.017 [main] INFO  o.a.catalina.core.StandardEngine
+				-Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-01-24 15:17:30.023 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener
+				-The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\VanDyke Software\Clients\;D:\Program Files\Redis\;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\PostgreSQL\pg10\bin;C:\Program Files\TortoiseSVN\bin;D:\Program Files\nodejs\;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\Program Files\apache-maven-3.3.9\bin;C:\Users\chenmingcan\AppData\Roaming\npm;D:\Program Files\erl10.1\bin;D:\Program Files\RabbitMQ Server\rabbitmq_server-3.7.9\sbin;E:\consul;.]
+2019-01-24 15:17:30.205 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+				-Initializing Spring embedded WebApplicationContext
+2019-01-24 15:17:30.206 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader
+				-Root WebApplicationContext: initialization completed in 2761 ms
+2019-01-24 15:17:30.606 [localhost-startStop-1] WARN  c.n.c.sources.URLConfigurationSource
+				-No URLs will be polled as dynamic configuration sources.
+2019-01-24 15:17:30.607 [localhost-startStop-1] INFO  c.n.c.sources.URLConfigurationSource
+				-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-01-24 15:17:30.630 [localhost-startStop-1] INFO  c.n.config.DynamicPropertyFactory
+				-DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@54578615
+2019-01-24 15:17:32.766 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean
+				-Servlet dispatcherServlet mapped to [/]
+2019-01-24 15:17:32.768 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean
+				-Servlet zuulServlet mapped to [/zuul/*]
+2019-01-24 15:17:32.773 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+				-Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-24 15:17:32.774 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+				-Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-24 15:17:32.774 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+				-Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-24 15:17:32.774 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+				-Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-24 15:17:32.774 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+				-Mapping filter: 'httpTraceFilter' to: [/*]
+2019-01-24 15:17:32.774 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+				-Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2019-01-24 15:17:34.748 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				-Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-01-24 15:17:34.750 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				-Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-01-24 15:17:34.751 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				-Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-01-24 15:17:34.756 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-24 15:17:34.757 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-24 15:17:34.923 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				-Mapped "{[/config/clear],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.nepxion.discovery.plugin.admincenter.endpoint.ConfigEndpoint.clear()
+2019-01-24 15:17:34.925 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				-Mapped "{[/config/view],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<java.lang.String>> com.nepxion.discovery.plugin.admincenter.endpoint.ConfigEndpoint.view()
+2019-01-24 15:17:34.927 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				-Mapped "{[/config/update-async],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.nepxion.discovery.plugin.admincenter.endpoint.ConfigEndpoint.updateAsync(java.lang.String)
+2019-01-24 15:17:34.929 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				-Mapped "{[/config/update-sync],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.nepxion.discovery.plugin.admincenter.endpoint.ConfigEndpoint.updateSync(java.lang.String)
+2019-01-24 15:17:34.933 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				-Mapped "{[/version/update],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.nepxion.discovery.plugin.admincenter.endpoint.VersionEndpoint.update(java.lang.String)
+2019-01-24 15:17:34.936 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				-Mapped "{[/version/clear],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.nepxion.discovery.plugin.admincenter.endpoint.VersionEndpoint.clear(java.lang.String)
+2019-01-24 15:17:34.939 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				-Mapped "{[/version/view],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<java.lang.String>> com.nepxion.discovery.plugin.admincenter.endpoint.VersionEndpoint.view()
+2019-01-24 15:17:35.045 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				-Mapped "{[/router/info],methods=[GET]}" onto public com.nepxion.discovery.plugin.framework.entity.RouterEntity com.nepxion.discovery.plugin.admincenter.endpoint.RouterEndpoint.info()
+2019-01-24 15:17:35.046 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				-Mapped "{[/router/instances/{serviceId}],methods=[GET]}" onto public java.util.List<org.springframework.cloud.client.ServiceInstance> com.nepxion.discovery.plugin.admincenter.endpoint.RouterEndpoint.instances(java.lang.String)
+2019-01-24 15:17:35.046 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				-Mapped "{[/router/services],methods=[GET]}" onto public java.util.List<java.lang.String> com.nepxion.discovery.plugin.admincenter.endpoint.RouterEndpoint.services()
+2019-01-24 15:17:35.047 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				-Mapped "{[/router/route/{routeServiceId}/{routeHost}/{routePort}],methods=[GET]}" onto public java.util.List<com.nepxion.discovery.plugin.framework.entity.RouterEntity> com.nepxion.discovery.plugin.admincenter.endpoint.RouterEndpoint.route(java.lang.String,java.lang.String,int)
+2019-01-24 15:17:35.047 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				-Mapped "{[/router/route/{routeServiceId}],methods=[GET]}" onto public java.util.List<com.nepxion.discovery.plugin.framework.entity.RouterEntity> com.nepxion.discovery.plugin.admincenter.endpoint.RouterEndpoint.route(java.lang.String)
+2019-01-24 15:17:35.048 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				-Mapped "{[/router/routes],methods=[POST]}" onto public com.nepxion.discovery.plugin.framework.entity.RouterEntity com.nepxion.discovery.plugin.admincenter.endpoint.RouterEndpoint.routes(java.lang.String)
+2019-01-24 15:17:35.185 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver
+				-Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-01-24 15:17:35.203 [main] INFO  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping
+				-Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-01-24 15:17:35.205 [main] INFO  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping
+				-Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-01-24 15:17:35.205 [main] INFO  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping
+				-Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-24 15:17:35.494 [main] WARN  c.n.c.sources.URLConfigurationSource
+				-No URLs will be polled as dynamic configuration sources.
+2019-01-24 15:17:35.494 [main] INFO  c.n.c.sources.URLConfigurationSource
+				-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-01-24 15:17:35.581 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+				-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-24 15:17:35.928 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter
+				-Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@794b435f: startup date [Thu Jan 24 15:17:27 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@57eda880
+2019-01-24 15:17:36.008 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+				-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-24 15:17:36.008 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+				-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-24 15:17:36.419 [main] INFO  c.n.e.thread.ThreadPoolFactory
+				-Thread pool executor is created, threadPoolName=EventBus-192.168.62.181-thread, threadParameter=com.nepxion.eventbus.thread.entity.ThreadParameter@69a90b81[
+  threadPoolCorePoolSize=16
+  threadPoolMaximumPoolSize=32
+  threadPoolKeepAliveTime=900000
+  threadPoolAllowCoreThreadTimeout=false
+  threadPoolQueue=LinkedBlockingQueue
+  threadPoolQueueCapacity=4096
+  threadPoolRejectedPolicy=BlockingPolicyWithReport
+]
+2019-01-24 15:17:36.614 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping
+				-Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-01-24 15:17:36.660 [main] INFO  c.n.d.p.c.ConfigInitializer
+				-Rule starts to initialize...
+2019-01-24 15:17:36.661 [main] INFO  c.n.d.p.c.e.r.a.RedisConfigAdapter
+				-Get config from Redis server, group=example-service-group, serviceId=discovery-springcloud-example-zuul
+2019-01-24 15:17:36.823 [main] INFO  io.lettuce.core.EpollProvider
+				-Starting without optional epoll library
+2019-01-24 15:17:36.825 [main] INFO  io.lettuce.core.KqueueProvider
+				-Starting without optional kqueue library
+2019-01-24 15:17:38.233 [main] WARN  c.n.d.p.c.ConfigInitializer
+				-Get remote config failed
+org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:966)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getConnection(LettuceConnectionFactory.java:934)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedConnection(LettuceConnectionFactory.java:786)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getConnection(LettuceConnectionFactory.java:300)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:132)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:95)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:82)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:211)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:184)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:95)
+	at org.springframework.data.redis.core.DefaultHashOperations.get(DefaultHashOperations.java:52)
+	at com.nepxion.discovery.common.redis.operation.RedisOperation.getConfig(RedisOperation.java:24)
+	at com.nepxion.discovery.plugin.configcenter.extension.redis.adapter.RedisConfigAdapter.getConfig(RedisConfigAdapter.java:46)
+	at com.nepxion.discovery.plugin.configcenter.ConfigInitializer.getRemoteConfig(ConfigInitializer.java:87)
+	at com.nepxion.discovery.plugin.configcenter.ConfigInitializer.initialize(ConfigInitializer.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:365)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:308)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:135)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:424)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1700)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:581)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:503)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:137)
+	at com.ming.zuulservice.ZuulServiceApplication.main(ZuulServiceApplication.java:22)
+Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:56)
+	at io.lettuce.core.AbstractRedisClient.getConnection(AbstractRedisClient.java:233)
+	at io.lettuce.core.RedisClient.connectStandalone(RedisClient.java:253)
+	at io.lettuce.core.RedisClient.connect(RedisClient.java:202)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.getConnection(StandaloneConnectionProvider.java:56)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:959)
+	... 38 common frames omitted
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:325)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:582)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:461)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 common frames omitted
+2019-01-24 15:17:38.250 [main] INFO  c.n.d.p.c.ConfigInitializer
+				-Remote config isn't retrieved
+2019-01-24 15:17:38.286 [main] INFO  c.n.d.p.c.ConfigInitializer
+				-Local config is retrieved
+2019-01-24 15:17:38.402 [main] INFO  c.n.d.p.c.parser.xml.XmlConfigParser
+				-Start to parse rule xml...
+2019-01-24 15:17:38.406 [main] INFO  c.n.d.p.c.parser.xml.XmlConfigParser
+				-Rule entity=
+com.nepxion.discovery.plugin.framework.entity.RuleEntity@7eefaca0[
+  registerEntity=com.nepxion.discovery.plugin.framework.entity.RegisterEntity@7d5ef1c3[
+  countFilterEntity=com.nepxion.discovery.plugin.framework.entity.CountFilterEntity@33eab2e8[
+  filterValue=10000
+  filterMap={discovery-springcloud-example-a=5000}
+]
+  hostFilterEntity=<null>
+]
+  discoveryEntity=com.nepxion.discovery.plugin.framework.entity.DiscoveryEntity@3dec79f8[
+  versionFilterEntity=com.nepxion.discovery.plugin.framework.entity.VersionFilterEntity@5bf7f15f[
+  serviceEntityMap={discovery-springcloud-example-zuul=[com.nepxion.discovery.plugin.framework.entity.DiscoveryServiceEntity@14b26e90[
+  consumerServiceName=discovery-springcloud-example-zuul
+  providerServiceName=discovery-springcloud-example-a
+  consumerVersionValueList=[1.0]
+  providerVersionValueList=[1.0]
+], com.nepxion.discovery.plugin.framework.entity.DiscoveryServiceEntity@11309dd4[
+  consumerServiceName=discovery-springcloud-example-zuul
+  providerServiceName=discovery-springcloud-example-a
+  consumerVersionValueList=[1.1]
+  providerVersionValueList=[1.1]
+]], discovery-springcloud-example-a=[com.nepxion.discovery.plugin.framework.entity.DiscoveryServiceEntity@4f4d05b3[
+  consumerServiceName=discovery-springcloud-example-a
+  providerServiceName=discovery-springcloud-example-b
+  consumerVersionValueList=[1.0]
+  providerVersionValueList=[1.0]
+], com.nepxion.discovery.plugin.framework.entity.DiscoveryServiceEntity@2bd4780c[
+  consumerServiceName=discovery-springcloud-example-a
+  providerServiceName=discovery-springcloud-example-b
+  consumerVersionValueList=[1.1]
+  providerVersionValueList=[1.1]
+]], discovery-springcloud-example-b=[com.nepxion.discovery.plugin.framework.entity.DiscoveryServiceEntity@2c154508[
+  consumerServiceName=discovery-springcloud-example-b
+  providerServiceName=discovery-springcloud-example-c
+  consumerVersionValueList=[1.0]
+  providerVersionValueList=[1.0, 1.1]
+], com.nepxion.discovery.plugin.framework.entity.DiscoveryServiceEntity@395eb363[
+  consumerServiceName=discovery-springcloud-example-b
+  providerServiceName=discovery-springcloud-example-c
+  consumerVersionValueList=[1.1]
+  providerVersionValueList=[1.2]
+]]}
+]
+  hostFilterEntity=<null>
+]
+  content=<?xml version="1.0" encoding="UTF-8"?>
+<rule>
+    <!-- 如果不想开启相关功能，只需要把相关节点删除即可，例如不想要黑名单功能，把blacklist节点删除 -->
+    <register>
+        <!-- 服务注册的黑/白名单注册过滤，只在服务启动的时候生效。白名单表示只允许指定IP地址前缀注册，黑名单表示不允许指定IP地址前缀注册。每个服务只能同时开启要么白名单，要么黑名单 -->
+        <!-- filter-type，可选值blacklist/whitelist，表示白名单或者黑名单 -->
+        <!-- service-name，表示服务名 -->
+        <!-- filter-value，表示黑/白名单的IP地址列表。IP地址一般用前缀来表示，如果多个用“;”分隔，不允许出现空格 -->
+        <!-- 表示下面所有服务，不允许10.10和11.11为前缀的IP地址注册（全局过滤） -->
+<!--         <blacklist filter-value="10.10;11.11">
+            表示下面服务，不允许172.16和10.10和11.11为前缀的IP地址注册
+            <service service-name="discovery-springcloud-example-a" filter-value="172.16"/>
+        </blacklist> -->
+
+        <!-- <whitelist filter-value="">
+            <service service-name="" filter-value=""/>
+        </whitelist>  -->
+
+        <!-- 服务注册的数目限制注册过滤，只在服务启动的时候生效。当某个服务的实例注册达到指定数目时候，更多的实例将无法注册 -->
+        <!-- service-name，表示服务名 -->
+        <!-- filter-value，表示最大实例注册数 -->
+        <!-- 表示下面所有服务，最大实例注册数为10000（全局配置） -->
+        <count filter-value="10000">
+            <!-- 表示下面服务，最大实例注册数为5000，全局配置值10000将不起作用，以局部配置值为准 -->
+            <service service-name="discovery-springcloud-example-a" filter-value="5000"/>
+        </count>
+    </register>
+
+    <discovery>
+        <!-- 服务发现的黑/白名单发现过滤，使用方式跟“服务注册的黑/白名单过滤”一致 -->
+        <!-- 表示下面所有服务，不允许10.10和11.11为前缀的IP地址被发现（全局过滤） -->
+<!--         <blacklist filter-value="10.10;11.11">
+            表示下面服务，不允许172.16和10.10和11.11为前缀的IP地址被发现
+            <service service-name="discovery-springcloud-example-b" filter-value="172.16"/>
+        </blacklist> -->
+
+        <!-- 服务发现的多版本灰度访问控制 -->
+        <!-- service-name，表示服务名 -->
+        <!-- version-value，表示可供访问的版本，如果多个用“;”分隔，不允许出现空格 -->
+        <!-- 版本策略介绍 -->
+        <!-- 1. 标准配置，举例如下 -->
+        <!--    <service consumer-service-name="a" provider-service-name="b" consumer-version-value="1.0" provider-version-value="1.0;1.1"/> 表示消费端1.0版本，允许访问提供端1.0和1.1版本 -->
+        <!-- 2. 版本值不配置，举例如下 -->
+        <!--    <service consumer-service-name="a" provider-service-name="b" provider-version-value="1.0;1.1"/> 表示消费端任何版本，允许访问提供端1.0和1.1版本 -->
+        <!--    <service consumer-service-name="a" provider-service-name="b" consumer-version-value="1.0"/> 表示消费端1.0版本，允许访问提供端任何版本 -->
+        <!--    <service consumer-service-name="a" provider-service-name="b"/> 表示消费端任何版本，允许访问提供端任何版本 -->
+        <!-- 3. 版本值空字符串，举例如下 -->
+        <!--    <service consumer-service-name="a" provider-service-name="b" consumer-version-value="" provider-version-value="1.0;1.1"/> 表示消费端任何版本，允许访问提供端1.0和1.1版本 -->
+        <!--    <service consumer-service-name="a" provider-service-name="b" consumer-version-value="1.0" provider-version-value=""/> 表示消费端1.0版本，允许访问提供端任何版本 -->
+        <!--    <service consumer-service-name="a" provider-service-name="b" consumer-version-value="" provider-version-value=""/> 表示消费端任何版本，允许访问提供端任何版本 -->
+        <!-- 4. 版本对应关系未定义，默认消费端任何版本，允许访问提供端任何版本 -->
+        <!-- 特殊情况处理，在使用上需要极力避免该情况发生 -->
+        <!-- 1. 消费端的application.properties未定义版本号，则该消费端可以访问提供端任何版本 -->
+        <!-- 2. 提供端的application.properties未定义版本号，当消费端在xml里不做任何版本配置，才可以访问该提供端 -->
+        <version>
+            <!-- 表示网关z的1.0，允许访问提供端服务a的1.0版本 -->
+            <service consumer-service-name="discovery-springcloud-example-zuul" provider-service-name="discovery-springcloud-example-a" consumer-version-value="1.0" provider-version-value="1.0"/>
+            <!-- 表示网关z的1.1，允许访问提供端服务a的1.1版本 -->
+            <service consumer-service-name="discovery-springcloud-example-zuul" provider-service-name="discovery-springcloud-example-a" consumer-version-value="1.1" provider-version-value="1.1"/>
+            <!-- 表示消费端服务a的1.0，允许访问提供端服务b的1.0版本 -->
+            <service consumer-service-name="discovery-springcloud-example-a" provider-service-name="discovery-springcloud-example-b" consumer-version-value="1.0" provider-version-value="1.0"/>
+            <!-- 表示消费端服务a的1.1，允许访问提供端服务b的1.1版本 -->
+            <service consumer-service-name="discovery-springcloud-example-a" provider-service-name="discovery-springcloud-example-b" consumer-version-value="1.1" provider-version-value="1.1"/>
+            <!-- 表示消费端服务b的1.0，允许访问提供端服务c的1.0和1.1版本 -->
+            <service consumer-service-name="discovery-springcloud-example-b" provider-service-name="discovery-springcloud-example-c" consumer-version-value="1.0" provider-version-value="1.0;1.1"/>
+            <!-- 表示消费端服务b的1.1，允许访问提供端服务c的1.2版本 -->
+            <service consumer-service-name="discovery-springcloud-example-b" provider-service-name="discovery-springcloud-example-c" consumer-version-value="1.1" provider-version-value="1.2"/>
+        </version>
+    </discovery>
+</rule>
+]
+2019-01-24 15:17:39.919 [main] INFO  o.s.c.n.zuul.ZuulFilterInitializer
+				-Starting filter initializer
+2019-01-24 15:17:39.982 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter
+				-Registering beans for JMX exposure on startup
+2019-01-24 15:17:40.001 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter
+				-Bean with name 'environmentManager' has been autodetected for JMX exposure
+2019-01-24 15:17:40.005 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter
+				-Bean with name 'refreshScope' has been autodetected for JMX exposure
+2019-01-24 15:17:40.005 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter
+				-Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2019-01-24 15:17:40.010 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter
+				-Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2019-01-24 15:17:40.021 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter
+				-Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2019-01-24 15:17:40.034 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter
+				-Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=794b435f,type=ConfigurationPropertiesRebinder]
+2019-01-24 15:17:40.047 [main] INFO  o.s.c.s.DefaultLifecycleProcessor
+				-Starting beans in phase 0
+2019-01-24 15:17:40.080 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory
+				-Setting initial instance status as: STARTING
+2019-01-24 15:17:40.154 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Initializing Eureka in region us-east-1
+2019-01-24 15:17:40.250 [main] INFO  c.n.d.p.DiscoveryJerseyProvider
+				-Using JSON encoding codec LegacyJacksonJson
+2019-01-24 15:17:40.250 [main] INFO  c.n.d.p.DiscoveryJerseyProvider
+				-Using JSON decoding codec LegacyJacksonJson
+2019-01-24 15:17:40.379 [main] INFO  c.n.d.p.DiscoveryJerseyProvider
+				-Using XML encoding codec XStreamXml
+2019-01-24 15:17:40.380 [main] INFO  c.n.d.p.DiscoveryJerseyProvider
+				-Using XML decoding codec XStreamXml
+2019-01-24 15:17:40.865 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-01-24 15:17:40.963 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Disable delta property : false
+2019-01-24 15:17:40.963 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Single vip registry refresh property : null
+2019-01-24 15:17:40.963 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Force full registry fetch : false
+2019-01-24 15:17:40.963 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Application is null : false
+2019-01-24 15:17:40.964 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Registered Applications size is zero : true
+2019-01-24 15:17:40.964 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Application version is -1: true
+2019-01-24 15:17:40.964 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Getting all instance registry info from the eureka server
+2019-01-24 15:17:41.137 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-The response status is 200
+2019-01-24 15:17:41.140 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Starting heartbeat executor: renew interval is: 30
+2019-01-24 15:17:41.142 [main] INFO  c.n.discovery.InstanceInfoReplicator
+				-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-01-24 15:17:41.147 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Discovery Client initialized at timestamp 1548314261146 with initial instances count: 1
+2019-01-24 15:17:41.174 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry
+				-Registering application discovery-springcloud-example-zuul with eureka with status UP
+2019-01-24 15:17:41.174 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Saw local status change event StatusChangeEvent [timestamp=1548314261174, current=UP, previous=STARTING]
+2019-01-24 15:17:41.178 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient
+				-DiscoveryClient_DISCOVERY-SPRINGCLOUD-EXAMPLE-ZUUL/CHENMINGCAN.jw.hongshu.com:discovery-springcloud-example-zuul:1400: registering service...
+2019-01-24 15:17:41.183 [main] INFO  o.s.c.s.DefaultLifecycleProcessor
+				-Starting beans in phase 2147483647
+2019-01-24 15:17:41.183 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper
+				-Context refreshed
+2019-01-24 15:17:41.224 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient
+				-DiscoveryClient_DISCOVERY-SPRINGCLOUD-EXAMPLE-ZUUL/CHENMINGCAN.jw.hongshu.com:discovery-springcloud-example-zuul:1400 - registration status: 204
+2019-01-24 15:17:41.230 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper
+				-Found 1 custom documentation plugin(s)
+2019-01-24 15:17:41.299 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner
+				-Scanning for api listing references
+2019-01-24 15:17:41.543 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator
+				-Generating unique operation named: routeUsingGET_1
+2019-01-24 15:17:41.564 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator
+				-Generating unique operation named: clearUsingPOST_1
+2019-01-24 15:17:41.573 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator
+				-Generating unique operation named: viewUsingGET_1
+2019-01-24 15:17:42.587 [redisMessageListenerContainer-1] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:17:46.623 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				-Starting ProtocolHandler ["http-nio-1400"]
+2019-01-24 15:17:46.625 [main] INFO  o.a.tomcat.util.net.NioSelectorPool
+				-Using a shared selector for servlet write/read
+2019-01-24 15:17:46.653 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				-Tomcat started on port(s): 1400 (http) with context path ''
+2019-01-24 15:17:46.654 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration
+				-Updating port to 1400
+2019-01-24 15:17:46.658 [main] INFO  c.m.z.ZuulServiceApplication
+				-Started ZuulServiceApplication in 21.28 seconds (JVM running for 23.477)
+2019-01-24 15:17:46.847 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+				-Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-01-24 15:17:46.848 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet
+				-FrameworkServlet 'dispatcherServlet': initialization started
+2019-01-24 15:17:46.870 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet
+				-FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+2019-01-24 15:17:48.610 [redisMessageListenerContainer-2] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:17:54.620 [redisMessageListenerContainer-3] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:18:00.624 [redisMessageListenerContainer-4] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:18:06.725 [redisMessageListenerContainer-5] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:18:12.729 [redisMessageListenerContainer-6] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:18:18.744 [redisMessageListenerContainer-7] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:18:24.752 [redisMessageListenerContainer-8] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:18:30.776 [redisMessageListenerContainer-9] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:18:36.784 [redisMessageListenerContainer-10] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:18:42.796 [redisMessageListenerContainer-11] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:18:48.798 [redisMessageListenerContainer-12] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:18:54.871 [redisMessageListenerContainer-13] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:19:00.887 [redisMessageListenerContainer-14] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:19:06.894 [redisMessageListenerContainer-15] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:19:12.903 [redisMessageListenerContainer-16] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:19:18.907 [redisMessageListenerContainer-17] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:19:24.923 [redisMessageListenerContainer-18] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:19:30.931 [redisMessageListenerContainer-19] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:19:36.938 [redisMessageListenerContainer-20] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:19:43.027 [redisMessageListenerContainer-21] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:19:49.030 [redisMessageListenerContainer-22] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:19:55.039 [redisMessageListenerContainer-23] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:20:01.055 [redisMessageListenerContainer-24] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:20:07.061 [redisMessageListenerContainer-25] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:20:13.071 [redisMessageListenerContainer-26] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:20:19.083 [redisMessageListenerContainer-27] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:20:25.088 [redisMessageListenerContainer-28] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:20:31.096 [redisMessageListenerContainer-29] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:20:37.103 [redisMessageListenerContainer-30] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:20:43.111 [redisMessageListenerContainer-31] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:20:49.111 [redisMessageListenerContainer-32] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:20:55.116 [redisMessageListenerContainer-33] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:21:01.129 [redisMessageListenerContainer-34] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:21:07.135 [redisMessageListenerContainer-35] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:21:13.136 [redisMessageListenerContainer-36] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:21:19.143 [redisMessageListenerContainer-37] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:21:25.146 [redisMessageListenerContainer-38] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:21:31.163 [redisMessageListenerContainer-39] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:21:37.171 [redisMessageListenerContainer-40] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:21:43.180 [redisMessageListenerContainer-41] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:21:49.183 [redisMessageListenerContainer-42] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:21:55.187 [redisMessageListenerContainer-43] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:22:01.197 [redisMessageListenerContainer-44] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:22:07.203 [redisMessageListenerContainer-45] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:22:13.218 [redisMessageListenerContainer-46] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:22:19.227 [redisMessageListenerContainer-47] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:22:25.238 [redisMessageListenerContainer-48] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:22:31.249 [redisMessageListenerContainer-49] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:22:37.254 [redisMessageListenerContainer-50] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:22:41.010 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-01-24 15:22:43.270 [redisMessageListenerContainer-51] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:22:49.278 [redisMessageListenerContainer-52] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:22:55.293 [redisMessageListenerContainer-53] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:23:01.303 [redisMessageListenerContainer-54] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:23:07.310 [redisMessageListenerContainer-55] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:23:13.323 [redisMessageListenerContainer-56] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:23:19.346 [redisMessageListenerContainer-57] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:23:25.352 [redisMessageListenerContainer-58] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:23:31.362 [redisMessageListenerContainer-59] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:23:37.370 [redisMessageListenerContainer-60] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:23:43.384 [redisMessageListenerContainer-61] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:23:49.403 [redisMessageListenerContainer-62] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:23:55.416 [redisMessageListenerContainer-63] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:24:01.424 [redisMessageListenerContainer-64] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:24:07.428 [redisMessageListenerContainer-65] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:24:13.435 [redisMessageListenerContainer-66] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:24:19.442 [redisMessageListenerContainer-67] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:24:25.455 [redisMessageListenerContainer-68] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:24:31.491 [redisMessageListenerContainer-69] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:24:37.498 [redisMessageListenerContainer-70] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:24:43.508 [redisMessageListenerContainer-71] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:24:49.513 [redisMessageListenerContainer-72] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:24:55.527 [redisMessageListenerContainer-73] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:25:01.548 [redisMessageListenerContainer-74] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:25:07.844 [redisMessageListenerContainer-75] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:25:13.850 [redisMessageListenerContainer-76] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:25:19.858 [redisMessageListenerContainer-77] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:25:25.863 [redisMessageListenerContainer-78] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:25:31.869 [redisMessageListenerContainer-79] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:25:37.880 [redisMessageListenerContainer-80] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:25:43.885 [redisMessageListenerContainer-81] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:25:49.891 [redisMessageListenerContainer-82] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:25:55.898 [redisMessageListenerContainer-83] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:26:01.913 [redisMessageListenerContainer-84] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:26:07.915 [redisMessageListenerContainer-85] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:26:13.921 [redisMessageListenerContainer-86] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:26:19.931 [redisMessageListenerContainer-87] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:26:25.939 [redisMessageListenerContainer-88] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:26:32.000 [redisMessageListenerContainer-89] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:26:38.006 [redisMessageListenerContainer-90] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:26:44.014 [redisMessageListenerContainer-91] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:26:50.016 [redisMessageListenerContainer-92] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:26:56.016 [redisMessageListenerContainer-93] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:27:02.024 [redisMessageListenerContainer-94] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:27:08.029 [redisMessageListenerContainer-95] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:27:14.040 [redisMessageListenerContainer-96] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:27:20.043 [redisMessageListenerContainer-97] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:27:26.045 [redisMessageListenerContainer-98] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:27:32.054 [redisMessageListenerContainer-99] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:27:38.060 [redisMessageListenerContainer-100] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:27:41.029 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-01-24 15:27:44.064 [redisMessageListenerContainer-101] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:27:50.067 [redisMessageListenerContainer-102] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:27:56.078 [redisMessageListenerContainer-103] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:28:02.083 [redisMessageListenerContainer-104] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:28:08.098 [redisMessageListenerContainer-105] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:28:14.108 [redisMessageListenerContainer-106] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:28:20.112 [redisMessageListenerContainer-107] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:28:26.123 [redisMessageListenerContainer-108] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:28:32.141 [redisMessageListenerContainer-109] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:28:38.160 [redisMessageListenerContainer-110] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:28:44.163 [redisMessageListenerContainer-111] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:28:50.171 [redisMessageListenerContainer-112] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:28:56.192 [redisMessageListenerContainer-113] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:29:02.203 [redisMessageListenerContainer-114] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:29:08.209 [redisMessageListenerContainer-115] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:29:14.235 [redisMessageListenerContainer-116] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:29:20.240 [redisMessageListenerContainer-117] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:29:26.237 [redisMessageListenerContainer-118] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:29:32.252 [redisMessageListenerContainer-119] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:29:38.246 [redisMessageListenerContainer-120] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:29:44.251 [redisMessageListenerContainer-121] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:29:50.269 [redisMessageListenerContainer-122] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:29:56.275 [redisMessageListenerContainer-123] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:30:02.298 [redisMessageListenerContainer-124] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:30:08.306 [redisMessageListenerContainer-125] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:30:14.310 [redisMessageListenerContainer-126] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:30:20.328 [redisMessageListenerContainer-127] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:30:26.329 [redisMessageListenerContainer-128] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:30:32.347 [redisMessageListenerContainer-129] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:30:38.356 [redisMessageListenerContainer-130] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:30:44.364 [redisMessageListenerContainer-131] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:30:50.379 [redisMessageListenerContainer-132] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:30:56.383 [redisMessageListenerContainer-133] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:31:02.391 [redisMessageListenerContainer-134] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:31:08.397 [redisMessageListenerContainer-135] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:31:14.410 [redisMessageListenerContainer-136] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:31:20.417 [redisMessageListenerContainer-137] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:31:26.430 [redisMessageListenerContainer-138] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:31:32.438 [redisMessageListenerContainer-139] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:31:38.441 [redisMessageListenerContainer-140] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:31:44.448 [redisMessageListenerContainer-141] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:31:50.458 [redisMessageListenerContainer-142] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:31:56.470 [redisMessageListenerContainer-143] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:32:02.475 [redisMessageListenerContainer-144] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:32:08.477 [redisMessageListenerContainer-145] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:32:14.480 [redisMessageListenerContainer-146] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:32:20.496 [redisMessageListenerContainer-147] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:32:26.502 [redisMessageListenerContainer-148] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:32:32.512 [redisMessageListenerContainer-149] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:32:38.517 [redisMessageListenerContainer-150] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:32:41.048 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-01-24 15:32:44.522 [redisMessageListenerContainer-151] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:32:50.535 [redisMessageListenerContainer-152] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:32:56.537 [redisMessageListenerContainer-153] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:33:02.543 [redisMessageListenerContainer-154] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:33:08.549 [redisMessageListenerContainer-155] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:33:14.551 [redisMessageListenerContainer-156] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:33:20.558 [redisMessageListenerContainer-157] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:33:26.568 [redisMessageListenerContainer-158] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:33:32.574 [redisMessageListenerContainer-159] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:33:38.580 [redisMessageListenerContainer-160] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:33:44.584 [redisMessageListenerContainer-161] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:33:50.601 [redisMessageListenerContainer-162] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:33:56.606 [redisMessageListenerContainer-163] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:34:02.618 [redisMessageListenerContainer-164] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:34:08.623 [redisMessageListenerContainer-165] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:34:14.627 [redisMessageListenerContainer-166] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:34:20.632 [redisMessageListenerContainer-167] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:34:26.634 [redisMessageListenerContainer-168] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:34:32.653 [redisMessageListenerContainer-169] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:34:38.655 [redisMessageListenerContainer-170] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:34:44.672 [redisMessageListenerContainer-171] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:34:50.689 [redisMessageListenerContainer-172] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:34:56.701 [redisMessageListenerContainer-173] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:35:02.706 [redisMessageListenerContainer-174] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:35:08.711 [redisMessageListenerContainer-175] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:35:14.717 [redisMessageListenerContainer-176] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:35:20.723 [redisMessageListenerContainer-177] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:35:26.730 [redisMessageListenerContainer-178] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:35:32.733 [redisMessageListenerContainer-179] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:35:38.743 [redisMessageListenerContainer-180] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:35:44.747 [redisMessageListenerContainer-181] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:35:50.748 [redisMessageListenerContainer-182] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:35:56.758 [redisMessageListenerContainer-183] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:36:02.774 [redisMessageListenerContainer-184] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:36:08.787 [redisMessageListenerContainer-185] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:36:14.813 [redisMessageListenerContainer-186] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:36:20.811 [redisMessageListenerContainer-187] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:36:26.829 [redisMessageListenerContainer-188] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:36:32.900 [redisMessageListenerContainer-189] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:36:38.928 [redisMessageListenerContainer-190] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:36:44.947 [redisMessageListenerContainer-191] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:36:50.953 [redisMessageListenerContainer-192] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:36:56.957 [redisMessageListenerContainer-193] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:37:02.964 [redisMessageListenerContainer-194] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:37:08.974 [redisMessageListenerContainer-195] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:37:14.989 [redisMessageListenerContainer-196] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:37:20.994 [redisMessageListenerContainer-197] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:37:26.996 [redisMessageListenerContainer-198] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:37:33.003 [redisMessageListenerContainer-199] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:37:39.006 [redisMessageListenerContainer-200] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:37:41.061 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-01-24 15:37:45.012 [redisMessageListenerContainer-201] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:37:51.023 [redisMessageListenerContainer-202] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:37:57.026 [redisMessageListenerContainer-203] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:38:03.037 [redisMessageListenerContainer-204] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:38:09.038 [redisMessageListenerContainer-205] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:38:15.043 [redisMessageListenerContainer-206] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:38:21.051 [redisMessageListenerContainer-207] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:38:27.052 [redisMessageListenerContainer-208] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:38:33.059 [redisMessageListenerContainer-209] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:38:39.130 [redisMessageListenerContainer-210] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:38:45.129 [redisMessageListenerContainer-211] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:38:51.130 [redisMessageListenerContainer-212] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:38:57.132 [redisMessageListenerContainer-213] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:39:03.142 [redisMessageListenerContainer-214] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:39:09.154 [redisMessageListenerContainer-215] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:39:15.156 [redisMessageListenerContainer-216] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:39:21.488 [redisMessageListenerContainer-217] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:39:27.529 [redisMessageListenerContainer-218] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:39:33.538 [redisMessageListenerContainer-219] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:39:39.543 [redisMessageListenerContainer-220] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:39:45.544 [redisMessageListenerContainer-221] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:39:51.546 [redisMessageListenerContainer-222] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:39:57.559 [redisMessageListenerContainer-223] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:40:03.571 [redisMessageListenerContainer-224] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:40:09.572 [redisMessageListenerContainer-225] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:40:15.677 [redisMessageListenerContainer-226] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:40:21.693 [redisMessageListenerContainer-227] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:40:27.696 [redisMessageListenerContainer-228] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:40:33.707 [redisMessageListenerContainer-229] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:40:39.719 [redisMessageListenerContainer-230] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:40:45.735 [redisMessageListenerContainer-231] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:40:51.747 [redisMessageListenerContainer-232] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:40:57.770 [redisMessageListenerContainer-233] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:41:03.783 [redisMessageListenerContainer-234] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:41:09.784 [redisMessageListenerContainer-235] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:41:15.790 [redisMessageListenerContainer-236] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:41:21.802 [redisMessageListenerContainer-237] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:41:27.803 [redisMessageListenerContainer-238] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:41:33.823 [redisMessageListenerContainer-239] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:41:39.824 [redisMessageListenerContainer-240] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:41:45.835 [redisMessageListenerContainer-241] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:41:51.844 [redisMessageListenerContainer-242] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:41:57.853 [redisMessageListenerContainer-243] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:42:03.865 [redisMessageListenerContainer-244] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:42:09.866 [redisMessageListenerContainer-245] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:42:15.869 [redisMessageListenerContainer-246] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:42:21.946 [redisMessageListenerContainer-247] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:42:27.955 [redisMessageListenerContainer-248] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:42:34.071 [redisMessageListenerContainer-249] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:42:40.072 [redisMessageListenerContainer-250] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:42:41.049 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-01-24 15:42:46.085 [redisMessageListenerContainer-251] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:42:52.086 [redisMessageListenerContainer-252] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:42:58.093 [redisMessageListenerContainer-253] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:43:04.096 [redisMessageListenerContainer-254] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:43:10.102 [redisMessageListenerContainer-255] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:43:16.106 [redisMessageListenerContainer-256] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:43:22.107 [redisMessageListenerContainer-257] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:43:28.110 [redisMessageListenerContainer-258] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:43:34.219 [redisMessageListenerContainer-259] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:43:40.266 [redisMessageListenerContainer-260] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:43:46.413 [redisMessageListenerContainer-261] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:43:52.414 [redisMessageListenerContainer-262] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:43:58.416 [redisMessageListenerContainer-263] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:44:04.411 [redisMessageListenerContainer-264] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:44:10.424 [redisMessageListenerContainer-265] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:44:16.425 [redisMessageListenerContainer-266] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:44:22.426 [redisMessageListenerContainer-267] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:44:28.431 [redisMessageListenerContainer-268] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:44:34.437 [redisMessageListenerContainer-269] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:44:40.448 [redisMessageListenerContainer-270] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:44:46.466 [redisMessageListenerContainer-271] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:44:52.476 [redisMessageListenerContainer-272] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:44:58.493 [redisMessageListenerContainer-273] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:45:04.516 [redisMessageListenerContainer-274] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:45:10.538 [redisMessageListenerContainer-275] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:45:16.540 [redisMessageListenerContainer-276] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:45:22.546 [redisMessageListenerContainer-277] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:45:28.569 [redisMessageListenerContainer-278] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:45:34.585 [redisMessageListenerContainer-279] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:45:40.594 [redisMessageListenerContainer-280] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:45:46.596 [redisMessageListenerContainer-281] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:45:52.601 [redisMessageListenerContainer-282] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:45:58.605 [redisMessageListenerContainer-283] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:46:04.616 [redisMessageListenerContainer-284] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:46:10.618 [redisMessageListenerContainer-285] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:46:16.624 [redisMessageListenerContainer-286] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:46:22.626 [redisMessageListenerContainer-287] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:46:28.630 [redisMessageListenerContainer-288] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:46:34.643 [redisMessageListenerContainer-289] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:46:40.645 [redisMessageListenerContainer-290] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:46:46.659 [redisMessageListenerContainer-291] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:46:52.674 [redisMessageListenerContainer-292] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:46:58.681 [redisMessageListenerContainer-293] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:47:04.684 [redisMessageListenerContainer-294] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:47:10.687 [redisMessageListenerContainer-295] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:47:16.692 [redisMessageListenerContainer-296] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:47:22.693 [redisMessageListenerContainer-297] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:47:28.700 [redisMessageListenerContainer-298] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:47:34.707 [redisMessageListenerContainer-299] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:47:40.710 [redisMessageListenerContainer-300] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:47:41.036 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-01-24 15:47:46.731 [redisMessageListenerContainer-301] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:47:52.733 [redisMessageListenerContainer-302] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:47:58.735 [redisMessageListenerContainer-303] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:48:04.739 [redisMessageListenerContainer-304] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:48:10.746 [redisMessageListenerContainer-305] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:48:16.746 [redisMessageListenerContainer-306] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:48:22.767 [redisMessageListenerContainer-307] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:48:28.780 [redisMessageListenerContainer-308] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:48:34.798 [redisMessageListenerContainer-309] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:48:40.799 [redisMessageListenerContainer-310] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:48:46.804 [redisMessageListenerContainer-311] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:48:52.806 [redisMessageListenerContainer-312] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:48:58.809 [redisMessageListenerContainer-313] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:49:04.809 [redisMessageListenerContainer-314] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:49:10.818 [redisMessageListenerContainer-315] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:49:16.822 [redisMessageListenerContainer-316] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:49:22.823 [redisMessageListenerContainer-317] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:49:28.819 [redisMessageListenerContainer-318] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:49:34.830 [redisMessageListenerContainer-319] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:49:40.834 [redisMessageListenerContainer-320] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:49:46.839 [redisMessageListenerContainer-321] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:49:52.841 [redisMessageListenerContainer-322] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:49:58.845 [redisMessageListenerContainer-323] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:50:04.847 [redisMessageListenerContainer-324] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:50:10.850 [redisMessageListenerContainer-325] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:50:16.865 [redisMessageListenerContainer-326] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:50:22.870 [redisMessageListenerContainer-327] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:50:28.875 [redisMessageListenerContainer-328] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:50:34.877 [redisMessageListenerContainer-329] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:50:40.878 [redisMessageListenerContainer-330] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:50:46.886 [redisMessageListenerContainer-331] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:50:52.888 [redisMessageListenerContainer-332] ERROR o.s.d.r.l.RedisMessageListenerContainer
+				-Connection failure occurred. Restarting subscription task after 5000 ms
+2019-01-24 15:51:24.582 [Thread-53] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext
+				-Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@794b435f: startup date [Thu Jan 24 15:17:27 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@57eda880
+2019-01-24 15:51:24.584 [Thread-53] INFO  o.s.c.n.e.s.EurekaServiceRegistry
+				-Unregistering application discovery-springcloud-example-zuul with eureka with status DOWN
+2019-01-24 15:51:24.584 [Thread-53] WARN  c.netflix.discovery.DiscoveryClient
+				-Saw local status change event StatusChangeEvent [timestamp=1548316284584, current=DOWN, previous=UP]
+2019-01-24 15:51:24.584 [Thread-53] INFO  c.n.e.thread.ThreadPoolFactory
+				-Shutting down thread pool executor [java.util.concurrent.ThreadPoolExecutor@c68e286[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]]...
+2019-01-24 15:51:24.585 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient
+				-DiscoveryClient_DISCOVERY-SPRINGCLOUD-EXAMPLE-ZUUL/CHENMINGCAN.jw.hongshu.com:discovery-springcloud-example-zuul:1400: registering service...
+2019-01-24 15:51:24.589 [Thread-53] INFO  o.s.c.s.DefaultLifecycleProcessor
+				-Stopping beans in phase 2147483647
+2019-01-24 15:51:24.592 [Thread-53] INFO  o.s.c.s.DefaultLifecycleProcessor
+				-Stopping beans in phase 0
+2019-01-24 15:51:24.593 [Thread-53] INFO  o.s.c.n.zuul.ZuulFilterInitializer
+				-Stopping filter initializer
+2019-01-24 15:51:24.602 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient
+				-DiscoveryClient_DISCOVERY-SPRINGCLOUD-EXAMPLE-ZUUL/CHENMINGCAN.jw.hongshu.com:discovery-springcloud-example-zuul:1400 - registration status: 204
+2019-01-24 15:51:24.621 [Thread-53] INFO  o.s.j.e.a.AnnotationMBeanExporter
+				-Unregistering JMX-exposed beans on shutdown
+2019-01-24 15:51:24.622 [Thread-53] INFO  o.s.j.e.a.AnnotationMBeanExporter
+				-Unregistering JMX-exposed beans
+2019-01-24 15:51:25.929 [Thread-53] INFO  c.netflix.discovery.DiscoveryClient
+				-Shutting down DiscoveryClient ...
+2019-01-24 15:51:28.931 [Thread-53] INFO  c.netflix.discovery.DiscoveryClient
+				-Unregistering ...
+2019-01-24 15:51:28.957 [Thread-53] INFO  o.a.h.impl.client.DefaultHttpClient
+				-I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:8888: The target server failed to respond
+2019-01-24 15:51:28.958 [Thread-53] INFO  o.a.h.impl.client.DefaultHttpClient
+				-Retrying request to {}->http://localhost:8888
+2019-01-24 15:51:29.092 [Thread-53] INFO  o.a.h.impl.client.DefaultHttpClient
+				-I/O exception (java.net.SocketException) caught when processing request to {}->http://localhost:8888: Connection reset
+2019-01-24 15:51:29.093 [Thread-53] INFO  o.a.h.impl.client.DefaultHttpClient
+				-Retrying request to {}->http://localhost:8888
+2019-01-24 16:04:26.755 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext
+				-Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2ccca26f: startup date [Thu Jan 24 16:04:26 CST 2019]; root of context hierarchy
+2019-01-24 16:04:27.002 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor
+				-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-01-24 16:04:27.047 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				-Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c0f9cb2e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-24 16:04:27.460 [main] INFO  c.m.z.ZuulServiceApplication
+				-The following profiles are active: zuul
+2019-01-24 16:04:27.481 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext
+				-Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@c827db: startup date [Thu Jan 24 16:04:27 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2ccca26f
+2019-01-24 16:04:28.459 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				-Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-24 16:04:28.609 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory
+				-Overriding bean definition for bean 'proxyRequestHelper' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.zuul.ZuulProxyAutoConfiguration$EndpointConfiguration; factoryMethodName=proxyRequestHelper; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/zuul/ZuulProxyAutoConfiguration$EndpointConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.zuul.ZuulProxyAutoConfiguration$NoActuatorConfiguration; factoryMethodName=proxyRequestHelper; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/zuul/ZuulProxyAutoConfiguration$NoActuatorConfiguration.class]]
+2019-01-24 16:04:28.617 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory
+				-Overriding bean definition for bean 'counterFactory' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.zuul.ZuulServerAutoConfiguration$ZuulMetricsConfiguration; factoryMethodName=counterFactory; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/zuul/ZuulServerAutoConfiguration$ZuulMetricsConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.zuul.ZuulServerAutoConfiguration$ZuulCounterFactoryConfiguration; factoryMethodName=counterFactory; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/zuul/ZuulServerAutoConfiguration$ZuulCounterFactoryConfiguration.class]]
+2019-01-24 16:04:28.909 [main] INFO  o.s.cloud.context.scope.GenericScope
+				-BeanFactory id=c17f11a3-a074-3629-8b71-2218fea7ae80
+2019-01-24 16:04:28.933 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor
+				-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-01-24 16:04:29.234 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				-Bean 'com.nepxion.eventbus.configuration.EventAutoConfiguration' of type [com.nepxion.eventbus.configuration.EventAutoConfiguration$$EnhancerBySpringCGLIB$$db55d331] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-24 16:04:29.265 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				-Bean 'threadPoolFactory' of type [com.nepxion.eventbus.thread.ThreadPoolFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-24 16:04:29.266 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				-Bean 'eventControllerFactory' of type [com.nepxion.eventbus.core.EventControllerFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-24 16:04:29.288 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				-Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c0f9cb2e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-24 16:04:29.711 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				-Tomcat initialized with port(s): 1400 (http)
+2019-01-24 16:04:29.724 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				-Initializing ProtocolHandler ["http-nio-1400"]
+2019-01-24 16:04:29.733 [main] INFO  o.a.catalina.core.StandardService
+				-Starting service [Tomcat]
+2019-01-24 16:04:29.733 [main] INFO  o.a.catalina.core.StandardEngine
+				-Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-01-24 16:04:29.738 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener
+				-The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\VanDyke Software\Clients\;D:\Program Files\Redis\;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\PostgreSQL\pg10\bin;C:\Program Files\TortoiseSVN\bin;D:\Program Files\nodejs\;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\Program Files\apache-maven-3.3.9\bin;C:\Users\chenmingcan\AppData\Roaming\npm;D:\Program Files\erl10.1\bin;D:\Program Files\RabbitMQ Server\rabbitmq_server-3.7.9\sbin;E:\consul;.]
+2019-01-24 16:04:29.955 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+				-Initializing Spring embedded WebApplicationContext
+2019-01-24 16:04:29.956 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader
+				-Root WebApplicationContext: initialization completed in 2475 ms
+2019-01-24 16:04:30.279 [localhost-startStop-1] WARN  c.n.c.sources.URLConfigurationSource
+				-No URLs will be polled as dynamic configuration sources.
+2019-01-24 16:04:30.280 [localhost-startStop-1] INFO  c.n.c.sources.URLConfigurationSource
+				-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-01-24 16:04:30.299 [localhost-startStop-1] INFO  c.n.config.DynamicPropertyFactory
+				-DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@69d711e1
+2019-01-24 16:04:31.939 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean
+				-Servlet dispatcherServlet mapped to [/]
+2019-01-24 16:04:31.941 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean
+				-Servlet zuulServlet mapped to [/zuul/*]
+2019-01-24 16:04:31.945 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+				-Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-24 16:04:31.946 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+				-Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-24 16:04:31.946 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+				-Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-24 16:04:31.946 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+				-Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-24 16:04:31.946 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+				-Mapping filter: 'httpTraceFilter' to: [/*]
+2019-01-24 16:04:31.946 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+				-Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2019-01-24 16:04:32.502 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				-Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-01-24 16:04:32.503 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				-Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-01-24 16:04:32.504 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				-Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-01-24 16:04:32.509 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-24 16:04:32.510 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-24 16:04:32.514 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				-Mapped "{[/config/clear],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.nepxion.discovery.plugin.admincenter.endpoint.ConfigEndpoint.clear()
+2019-01-24 16:04:32.515 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				-Mapped "{[/config/view],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<java.lang.String>> com.nepxion.discovery.plugin.admincenter.endpoint.ConfigEndpoint.view()
+2019-01-24 16:04:32.515 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				-Mapped "{[/config/update-async],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.nepxion.discovery.plugin.admincenter.endpoint.ConfigEndpoint.updateAsync(java.lang.String)
+2019-01-24 16:04:32.515 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				-Mapped "{[/config/update-sync],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.nepxion.discovery.plugin.admincenter.endpoint.ConfigEndpoint.updateSync(java.lang.String)
+2019-01-24 16:04:32.516 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				-Mapped "{[/version/update],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.nepxion.discovery.plugin.admincenter.endpoint.VersionEndpoint.update(java.lang.String)
+2019-01-24 16:04:32.517 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				-Mapped "{[/version/clear],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.nepxion.discovery.plugin.admincenter.endpoint.VersionEndpoint.clear(java.lang.String)
+2019-01-24 16:04:32.517 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				-Mapped "{[/version/view],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<java.lang.String>> com.nepxion.discovery.plugin.admincenter.endpoint.VersionEndpoint.view()
+2019-01-24 16:04:32.521 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				-Mapped "{[/router/info],methods=[GET]}" onto public com.nepxion.discovery.plugin.framework.entity.RouterEntity com.nepxion.discovery.plugin.admincenter.endpoint.RouterEndpoint.info()
+2019-01-24 16:04:32.521 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				-Mapped "{[/router/instances/{serviceId}],methods=[GET]}" onto public java.util.List<org.springframework.cloud.client.ServiceInstance> com.nepxion.discovery.plugin.admincenter.endpoint.RouterEndpoint.instances(java.lang.String)
+2019-01-24 16:04:32.521 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				-Mapped "{[/router/services],methods=[GET]}" onto public java.util.List<java.lang.String> com.nepxion.discovery.plugin.admincenter.endpoint.RouterEndpoint.services()
+2019-01-24 16:04:32.522 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				-Mapped "{[/router/route/{routeServiceId}/{routeHost}/{routePort}],methods=[GET]}" onto public java.util.List<com.nepxion.discovery.plugin.framework.entity.RouterEntity> com.nepxion.discovery.plugin.admincenter.endpoint.RouterEndpoint.route(java.lang.String,java.lang.String,int)
+2019-01-24 16:04:32.522 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				-Mapped "{[/router/route/{routeServiceId}],methods=[GET]}" onto public java.util.List<com.nepxion.discovery.plugin.framework.entity.RouterEntity> com.nepxion.discovery.plugin.admincenter.endpoint.RouterEndpoint.route(java.lang.String)
+2019-01-24 16:04:32.522 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+				-Mapped "{[/router/routes],methods=[POST]}" onto public com.nepxion.discovery.plugin.framework.entity.RouterEntity com.nepxion.discovery.plugin.admincenter.endpoint.RouterEndpoint.routes(java.lang.String)
+2019-01-24 16:04:32.636 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver
+				-Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-01-24 16:04:32.653 [main] INFO  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping
+				-Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-01-24 16:04:32.654 [main] INFO  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping
+				-Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-01-24 16:04:32.655 [main] INFO  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping
+				-Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-24 16:04:32.850 [main] WARN  c.n.c.sources.URLConfigurationSource
+				-No URLs will be polled as dynamic configuration sources.
+2019-01-24 16:04:32.850 [main] INFO  c.n.c.sources.URLConfigurationSource
+				-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-01-24 16:04:32.930 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+				-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-24 16:04:33.180 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter
+				-Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@c827db: startup date [Thu Jan 24 16:04:27 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2ccca26f
+2019-01-24 16:04:33.241 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+				-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-24 16:04:33.241 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+				-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-24 16:04:33.492 [main] INFO  c.n.e.thread.ThreadPoolFactory
+				-Thread pool executor is created, threadPoolName=EventBus-192.168.62.181-thread, threadParameter=com.nepxion.eventbus.thread.entity.ThreadParameter@3c9f4376[
+  threadPoolCorePoolSize=16
+  threadPoolMaximumPoolSize=32
+  threadPoolKeepAliveTime=900000
+  threadPoolAllowCoreThreadTimeout=false
+  threadPoolQueue=LinkedBlockingQueue
+  threadPoolQueueCapacity=4096
+  threadPoolRejectedPolicy=BlockingPolicyWithReport
+]
+2019-01-24 16:04:33.615 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping
+				-Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-01-24 16:04:33.650 [main] INFO  c.n.d.p.c.ConfigInitializer
+				-Rule starts to initialize...
+2019-01-24 16:04:33.650 [main] INFO  c.n.d.p.c.e.r.a.RedisConfigAdapter
+				-Get config from Redis server, group=example-service-group, serviceId=discovery-springcloud-example-zuul
+2019-01-24 16:04:33.743 [main] INFO  io.lettuce.core.EpollProvider
+				-Starting without optional epoll library
+2019-01-24 16:04:33.745 [main] INFO  io.lettuce.core.KqueueProvider
+				-Starting without optional kqueue library
+2019-01-24 16:04:34.091 [main] INFO  c.n.d.p.c.ConfigInitializer
+				-Remote config isn't retrieved
+2019-01-24 16:04:34.115 [main] INFO  c.n.d.p.c.ConfigInitializer
+				-Local config is retrieved
+2019-01-24 16:04:34.134 [main] INFO  c.n.d.p.c.parser.xml.XmlConfigParser
+				-Start to parse rule xml...
+2019-01-24 16:04:34.137 [main] INFO  c.n.d.p.c.parser.xml.XmlConfigParser
+				-Rule entity=
+com.nepxion.discovery.plugin.framework.entity.RuleEntity@23ec63af[
+  registerEntity=com.nepxion.discovery.plugin.framework.entity.RegisterEntity@280d6a20[
+  countFilterEntity=com.nepxion.discovery.plugin.framework.entity.CountFilterEntity@56f72909[
+  filterValue=10000
+  filterMap={discovery-springcloud-example-a=5000}
+]
+  hostFilterEntity=<null>
+]
+  discoveryEntity=com.nepxion.discovery.plugin.framework.entity.DiscoveryEntity@7286827b[
+  versionFilterEntity=com.nepxion.discovery.plugin.framework.entity.VersionFilterEntity@1dd64243[
+  serviceEntityMap={discovery-springcloud-example-zuul=[com.nepxion.discovery.plugin.framework.entity.DiscoveryServiceEntity@2ef913a4[
+  consumerServiceName=discovery-springcloud-example-zuul
+  providerServiceName=discovery-springcloud-example-a
+  consumerVersionValueList=[1.0]
+  providerVersionValueList=[1.0]
+], com.nepxion.discovery.plugin.framework.entity.DiscoveryServiceEntity@520c3dcb[
+  consumerServiceName=discovery-springcloud-example-zuul
+  providerServiceName=discovery-springcloud-example-a
+  consumerVersionValueList=[1.1]
+  providerVersionValueList=[1.1]
+]], discovery-springcloud-example-a=[com.nepxion.discovery.plugin.framework.entity.DiscoveryServiceEntity@145fe8ab[
+  consumerServiceName=discovery-springcloud-example-a
+  providerServiceName=discovery-springcloud-example-b
+  consumerVersionValueList=[1.0]
+  providerVersionValueList=[1.0]
+], com.nepxion.discovery.plugin.framework.entity.DiscoveryServiceEntity@3b347439[
+  consumerServiceName=discovery-springcloud-example-a
+  providerServiceName=discovery-springcloud-example-b
+  consumerVersionValueList=[1.1]
+  providerVersionValueList=[1.1]
+]], discovery-springcloud-example-b=[com.nepxion.discovery.plugin.framework.entity.DiscoveryServiceEntity@5d3634c8[
+  consumerServiceName=discovery-springcloud-example-b
+  providerServiceName=discovery-springcloud-example-c
+  consumerVersionValueList=[1.0]
+  providerVersionValueList=[1.0, 1.1]
+], com.nepxion.discovery.plugin.framework.entity.DiscoveryServiceEntity@6e67a8c0[
+  consumerServiceName=discovery-springcloud-example-b
+  providerServiceName=discovery-springcloud-example-c
+  consumerVersionValueList=[1.1]
+  providerVersionValueList=[1.2]
+]]}
+]
+  hostFilterEntity=<null>
+]
+  content=<?xml version="1.0" encoding="UTF-8"?>
+<rule>
+    <!-- 如果不想开启相关功能，只需要把相关节点删除即可，例如不想要黑名单功能，把blacklist节点删除 -->
+    <register>
+        <!-- 服务注册的黑/白名单注册过滤，只在服务启动的时候生效。白名单表示只允许指定IP地址前缀注册，黑名单表示不允许指定IP地址前缀注册。每个服务只能同时开启要么白名单，要么黑名单 -->
+        <!-- filter-type，可选值blacklist/whitelist，表示白名单或者黑名单 -->
+        <!-- service-name，表示服务名 -->
+        <!-- filter-value，表示黑/白名单的IP地址列表。IP地址一般用前缀来表示，如果多个用“;”分隔，不允许出现空格 -->
+        <!-- 表示下面所有服务，不允许10.10和11.11为前缀的IP地址注册（全局过滤） -->
+<!--         <blacklist filter-value="10.10;11.11">
+            表示下面服务，不允许172.16和10.10和11.11为前缀的IP地址注册
+            <service service-name="discovery-springcloud-example-a" filter-value="172.16"/>
+        </blacklist> -->
+
+        <!-- <whitelist filter-value="">
+            <service service-name="" filter-value=""/>
+        </whitelist>  -->
+
+        <!-- 服务注册的数目限制注册过滤，只在服务启动的时候生效。当某个服务的实例注册达到指定数目时候，更多的实例将无法注册 -->
+        <!-- service-name，表示服务名 -->
+        <!-- filter-value，表示最大实例注册数 -->
+        <!-- 表示下面所有服务，最大实例注册数为10000（全局配置） -->
+        <count filter-value="10000">
+            <!-- 表示下面服务，最大实例注册数为5000，全局配置值10000将不起作用，以局部配置值为准 -->
+            <service service-name="discovery-springcloud-example-a" filter-value="5000"/>
+        </count>
+    </register>
+
+    <discovery>
+        <!-- 服务发现的黑/白名单发现过滤，使用方式跟“服务注册的黑/白名单过滤”一致 -->
+        <!-- 表示下面所有服务，不允许10.10和11.11为前缀的IP地址被发现（全局过滤） -->
+<!--         <blacklist filter-value="10.10;11.11">
+            表示下面服务，不允许172.16和10.10和11.11为前缀的IP地址被发现
+            <service service-name="discovery-springcloud-example-b" filter-value="172.16"/>
+        </blacklist> -->
+
+        <!-- 服务发现的多版本灰度访问控制 -->
+        <!-- service-name，表示服务名 -->
+        <!-- version-value，表示可供访问的版本，如果多个用“;”分隔，不允许出现空格 -->
+        <!-- 版本策略介绍 -->
+        <!-- 1. 标准配置，举例如下 -->
+        <!--    <service consumer-service-name="a" provider-service-name="b" consumer-version-value="1.0" provider-version-value="1.0;1.1"/> 表示消费端1.0版本，允许访问提供端1.0和1.1版本 -->
+        <!-- 2. 版本值不配置，举例如下 -->
+        <!--    <service consumer-service-name="a" provider-service-name="b" provider-version-value="1.0;1.1"/> 表示消费端任何版本，允许访问提供端1.0和1.1版本 -->
+        <!--    <service consumer-service-name="a" provider-service-name="b" consumer-version-value="1.0"/> 表示消费端1.0版本，允许访问提供端任何版本 -->
+        <!--    <service consumer-service-name="a" provider-service-name="b"/> 表示消费端任何版本，允许访问提供端任何版本 -->
+        <!-- 3. 版本值空字符串，举例如下 -->
+        <!--    <service consumer-service-name="a" provider-service-name="b" consumer-version-value="" provider-version-value="1.0;1.1"/> 表示消费端任何版本，允许访问提供端1.0和1.1版本 -->
+        <!--    <service consumer-service-name="a" provider-service-name="b" consumer-version-value="1.0" provider-version-value=""/> 表示消费端1.0版本，允许访问提供端任何版本 -->
+        <!--    <service consumer-service-name="a" provider-service-name="b" consumer-version-value="" provider-version-value=""/> 表示消费端任何版本，允许访问提供端任何版本 -->
+        <!-- 4. 版本对应关系未定义，默认消费端任何版本，允许访问提供端任何版本 -->
+        <!-- 特殊情况处理，在使用上需要极力避免该情况发生 -->
+        <!-- 1. 消费端的application.properties未定义版本号，则该消费端可以访问提供端任何版本 -->
+        <!-- 2. 提供端的application.properties未定义版本号，当消费端在xml里不做任何版本配置，才可以访问该提供端 -->
+        <version>
+            <!-- 表示网关z的1.0，允许访问提供端服务a的1.0版本 -->
+            <service consumer-service-name="discovery-springcloud-example-zuul" provider-service-name="discovery-springcloud-example-a" consumer-version-value="1.0" provider-version-value="1.0"/>
+            <!-- 表示网关z的1.1，允许访问提供端服务a的1.1版本 -->
+            <service consumer-service-name="discovery-springcloud-example-zuul" provider-service-name="discovery-springcloud-example-a" consumer-version-value="1.1" provider-version-value="1.1"/>
+            <!-- 表示消费端服务a的1.0，允许访问提供端服务b的1.0版本 -->
+            <service consumer-service-name="discovery-springcloud-example-a" provider-service-name="discovery-springcloud-example-b" consumer-version-value="1.0" provider-version-value="1.0"/>
+            <!-- 表示消费端服务a的1.1，允许访问提供端服务b的1.1版本 -->
+            <service consumer-service-name="discovery-springcloud-example-a" provider-service-name="discovery-springcloud-example-b" consumer-version-value="1.1" provider-version-value="1.1"/>
+            <!-- 表示消费端服务b的1.0，允许访问提供端服务c的1.0和1.1版本 -->
+            <service consumer-service-name="discovery-springcloud-example-b" provider-service-name="discovery-springcloud-example-c" consumer-version-value="1.0" provider-version-value="1.0;1.1"/>
+            <!-- 表示消费端服务b的1.1，允许访问提供端服务c的1.2版本 -->
+            <service consumer-service-name="discovery-springcloud-example-b" provider-service-name="discovery-springcloud-example-c" consumer-version-value="1.1" provider-version-value="1.2"/>
+        </version>
+    </discovery>
+</rule>
+]
+2019-01-24 16:04:35.214 [main] INFO  o.s.c.n.zuul.ZuulFilterInitializer
+				-Starting filter initializer
+2019-01-24 16:04:35.262 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter
+				-Registering beans for JMX exposure on startup
+2019-01-24 16:04:35.273 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter
+				-Bean with name 'environmentManager' has been autodetected for JMX exposure
+2019-01-24 16:04:35.275 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter
+				-Bean with name 'refreshScope' has been autodetected for JMX exposure
+2019-01-24 16:04:35.276 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter
+				-Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2019-01-24 16:04:35.280 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter
+				-Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2019-01-24 16:04:35.291 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter
+				-Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2019-01-24 16:04:35.299 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter
+				-Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=c827db,type=ConfigurationPropertiesRebinder]
+2019-01-24 16:04:35.312 [main] INFO  o.s.c.s.DefaultLifecycleProcessor
+				-Starting beans in phase 0
+2019-01-24 16:04:35.328 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory
+				-Setting initial instance status as: STARTING
+2019-01-24 16:04:35.375 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Initializing Eureka in region us-east-1
+2019-01-24 16:04:35.460 [main] INFO  c.n.d.p.DiscoveryJerseyProvider
+				-Using JSON encoding codec LegacyJacksonJson
+2019-01-24 16:04:35.461 [main] INFO  c.n.d.p.DiscoveryJerseyProvider
+				-Using JSON decoding codec LegacyJacksonJson
+2019-01-24 16:04:35.827 [main] INFO  c.n.d.p.DiscoveryJerseyProvider
+				-Using XML encoding codec XStreamXml
+2019-01-24 16:04:35.827 [main] INFO  c.n.d.p.DiscoveryJerseyProvider
+				-Using XML decoding codec XStreamXml
+2019-01-24 16:04:36.016 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-01-24 16:04:36.120 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Disable delta property : false
+2019-01-24 16:04:36.121 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Single vip registry refresh property : null
+2019-01-24 16:04:36.121 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Force full registry fetch : false
+2019-01-24 16:04:36.121 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Application is null : false
+2019-01-24 16:04:36.121 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Registered Applications size is zero : true
+2019-01-24 16:04:36.121 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Application version is -1: true
+2019-01-24 16:04:36.121 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Getting all instance registry info from the eureka server
+2019-01-24 16:04:36.262 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-The response status is 200
+2019-01-24 16:04:36.265 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Starting heartbeat executor: renew interval is: 30
+2019-01-24 16:04:36.268 [main] INFO  c.n.discovery.InstanceInfoReplicator
+				-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-01-24 16:04:36.272 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Discovery Client initialized at timestamp 1548317076270 with initial instances count: 1
+2019-01-24 16:04:36.286 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry
+				-Registering application discovery-springcloud-example-zuul with eureka with status UP
+2019-01-24 16:04:36.287 [main] INFO  c.netflix.discovery.DiscoveryClient
+				-Saw local status change event StatusChangeEvent [timestamp=1548317076287, current=UP, previous=STARTING]
+2019-01-24 16:04:36.289 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient
+				-DiscoveryClient_DISCOVERY-SPRINGCLOUD-EXAMPLE-ZUUL/CHENMINGCAN.jw.hongshu.com:discovery-springcloud-example-zuul:1400: registering service...
+2019-01-24 16:04:36.294 [main] INFO  o.s.c.s.DefaultLifecycleProcessor
+				-Starting beans in phase 2147483647
+2019-01-24 16:04:36.294 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper
+				-Context refreshed
+2019-01-24 16:04:36.313 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper
+				-Found 1 custom documentation plugin(s)
+2019-01-24 16:04:36.327 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient
+				-DiscoveryClient_DISCOVERY-SPRINGCLOUD-EXAMPLE-ZUUL/CHENMINGCAN.jw.hongshu.com:discovery-springcloud-example-zuul:1400 - registration status: 204
+2019-01-24 16:04:36.371 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner
+				-Scanning for api listing references
+2019-01-24 16:04:36.573 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator
+				-Generating unique operation named: routeUsingGET_1
+2019-01-24 16:04:36.593 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator
+				-Generating unique operation named: clearUsingPOST_1
+2019-01-24 16:04:36.602 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator
+				-Generating unique operation named: viewUsingGET_1
+2019-01-24 16:04:36.670 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				-Starting ProtocolHandler ["http-nio-1400"]
+2019-01-24 16:04:36.671 [main] INFO  o.a.tomcat.util.net.NioSelectorPool
+				-Using a shared selector for servlet write/read
+2019-01-24 16:04:36.691 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				-Tomcat started on port(s): 1400 (http) with context path ''
+2019-01-24 16:04:36.692 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration
+				-Updating port to 1400
+2019-01-24 16:04:36.696 [main] INFO  c.m.z.ZuulServiceApplication
+				-Started ZuulServiceApplication in 10.987 seconds (JVM running for 12.729)
+2019-01-24 16:04:36.978 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+				-Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-01-24 16:04:36.978 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet
+				-FrameworkServlet 'dispatcherServlet': initialization started
+2019-01-24 16:04:37.028 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet
+				-FrameworkServlet 'dispatcherServlet': initialization completed in 50 ms
