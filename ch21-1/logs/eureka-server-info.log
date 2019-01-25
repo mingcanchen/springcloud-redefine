@@ -1174,3 +1174,241 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 				-Resolving eureka endpoints via configuration
 2019-01-24 16:03:22.190 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
 				-Running the evict task with compensationTime 2ms
+2019-01-24 16:04:22.190 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 16:04:36.322 [http-nio-8888-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Registered instance DISCOVERY-SPRINGCLOUD-EXAMPLE-ZUUL/CHENMINGCAN.jw.hongshu.com:discovery-springcloud-example-zuul:1400 with status UP (replication=false)
+2019-01-24 16:04:36.836 [http-nio-8888-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Registered instance DISCOVERY-SPRINGCLOUD-EXAMPLE-ZUUL/CHENMINGCAN.jw.hongshu.com:discovery-springcloud-example-zuul:1400 with status UP (replication=true)
+2019-01-24 16:05:17.015 [http-nio-8888-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Registered instance DISCOVERY-SPRINGCLOUD-EXAMPLE-CONSOLE/CHENMINGCAN.jw.hongshu.com:discovery-springcloud-example-console:2222 with status UP (replication=false)
+2019-01-24 16:05:17.527 [http-nio-8888-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Registered instance DISCOVERY-SPRINGCLOUD-EXAMPLE-CONSOLE/CHENMINGCAN.jw.hongshu.com:discovery-springcloud-example-console:2222 with status UP (replication=true)
+2019-01-24 16:05:22.190 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 16:06:22.190 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 16:07:22.190 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 16:07:49.433 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-01-24 16:07:51.853 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl
+				-Current renewal threshold is : 5
+2019-01-24 16:08:22.190 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 16:09:22.190 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 16:10:22.190 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 16:11:22.190 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 16:12:22.190 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 16:12:49.421 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-01-24 16:13:22.190 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 16:14:22.190 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 16:15:22.190 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 16:16:22.190 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 16:17:22.190 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 3ms
+2019-01-24 16:17:49.409 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-01-24 16:18:22.190 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 16:19:22.190 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 16:20:22.190 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 3ms
+2019-01-24 16:21:22.192 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 0ms
+2019-01-24 16:22:22.196 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 0ms
+2019-01-24 16:22:49.410 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-01-24 16:22:51.853 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl
+				-Current renewal threshold is : 5
+2019-01-24 16:23:22.199 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 0ms
+2019-01-24 16:24:22.203 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 0ms
+2019-01-24 16:25:22.206 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 0ms
+2019-01-24 16:26:22.209 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 0ms
+2019-01-24 16:27:22.212 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 0ms
+2019-01-24 16:27:49.428 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-01-24 16:28:22.216 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 0ms
+2019-01-24 16:29:22.219 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 0ms
+2019-01-24 16:30:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 0ms
+2019-01-24 16:31:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 1ms
+2019-01-24 16:32:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 16:32:49.433 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-01-24 16:33:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 16:34:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 16:35:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 16:36:22.223 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 3ms
+2019-01-24 16:37:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 16:37:49.421 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-01-24 16:37:51.853 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl
+				-Current renewal threshold is : 5
+2019-01-24 16:38:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 16:39:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 16:40:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 16:41:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 16:42:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 16:42:49.410 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-01-24 16:43:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 16:44:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 16:45:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 16:46:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 16:47:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 16:47:49.398 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-01-24 16:48:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 16:49:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 16:50:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 16:51:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 16:52:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 16:52:49.386 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-01-24 16:52:51.853 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl
+				-Current renewal threshold is : 5
+2019-01-24 16:53:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 16:54:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 16:55:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 16:56:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 16:57:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 16:57:49.374 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-01-24 16:58:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 3ms
+2019-01-24 16:59:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 17:00:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 17:01:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 17:02:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 17:02:49.362 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-01-24 17:03:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 17:04:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 17:05:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 17:06:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 17:07:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 17:07:49.350 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-01-24 17:07:51.853 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl
+				-Current renewal threshold is : 5
+2019-01-24 17:08:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 17:09:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 17:10:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 17:11:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 17:12:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 17:12:49.338 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-01-24 17:13:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 17:14:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 17:15:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 17:16:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 17:17:22.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2019-01-24 17:17:49.326 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-01-24 17:18:05.853 [Thread-38] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext
+				-Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@15deb1dc: startup date [Thu Jan 24 15:52:42 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6986bbaf
+2019-01-24 17:18:06.101 [Thread-38] INFO  o.s.c.n.e.s.EurekaServiceRegistry
+				-Unregistering application discovery-springcloud-example-eureka with eureka with status DOWN
+2019-01-24 17:18:06.101 [Thread-38] WARN  c.netflix.discovery.DiscoveryClient
+				-Saw local status change event StatusChangeEvent [timestamp=1548321486101, current=DOWN, previous=UP]
+2019-01-24 17:18:06.101 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient
+				-DiscoveryClient_DISCOVERY-SPRINGCLOUD-EXAMPLE-EUREKA/CHENMINGCAN.jw.hongshu.com:discovery-springcloud-example-eureka:8888: registering service...
+2019-01-24 17:18:06.143 [http-nio-8888-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Registered instance DISCOVERY-SPRINGCLOUD-EXAMPLE-EUREKA/CHENMINGCAN.jw.hongshu.com:discovery-springcloud-example-eureka:8888 with status DOWN (replication=false)
+2019-01-24 17:18:06.153 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient
+				-DiscoveryClient_DISCOVERY-SPRINGCLOUD-EXAMPLE-EUREKA/CHENMINGCAN.jw.hongshu.com:discovery-springcloud-example-eureka:8888 - registration status: 204
+2019-01-24 17:18:06.409 [http-nio-8888-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Registered instance DISCOVERY-SPRINGCLOUD-EXAMPLE-CONSOLE/CHENMINGCAN.jw.hongshu.com:discovery-springcloud-example-console:2222 with status DOWN (replication=false)
+2019-01-24 17:18:06.704 [http-nio-8888-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Registered instance DISCOVERY-SPRINGCLOUD-EXAMPLE-ZUUL/CHENMINGCAN.jw.hongshu.com:discovery-springcloud-example-zuul:1400 with status DOWN (replication=false)
+2019-01-24 17:18:06.713 [http-nio-8888-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Registered instance DISCOVERY-SPRINGCLOUD-EXAMPLE-EUREKA/CHENMINGCAN.jw.hongshu.com:discovery-springcloud-example-eureka:8888 with status DOWN (replication=true)
+2019-01-24 17:18:06.716 [http-nio-8888-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Registered instance DISCOVERY-SPRINGCLOUD-EXAMPLE-CONSOLE/CHENMINGCAN.jw.hongshu.com:discovery-springcloud-example-console:2222 with status DOWN (replication=true)
+2019-01-24 17:18:06.860 [Thread-38] INFO  o.s.c.s.DefaultLifecycleProcessor
+				-Stopping beans in phase 0
+2019-01-24 17:18:06.936 [Thread-38] INFO  c.n.e.DefaultEurekaServerContext
+				-Shutting down ...
+2019-01-24 17:18:07.018 [Thread-38] INFO  c.n.e.DefaultEurekaServerContext
+				-Shut down
+2019-01-24 17:18:07.143 [Thread-38] INFO  o.s.j.e.a.AnnotationMBeanExporter
+				-Unregistering JMX-exposed beans on shutdown
+2019-01-24 17:18:07.165 [Thread-38] INFO  o.s.j.e.a.AnnotationMBeanExporter
+				-Unregistering JMX-exposed beans
+2019-01-24 17:18:07.328 [Thread-38] INFO  c.netflix.discovery.DiscoveryClient
+				-Shutting down DiscoveryClient ...
+2019-01-24 17:18:10.183 [http-nio-8888-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Cancelled instance DISCOVERY-SPRINGCLOUD-EXAMPLE-CONSOLE/CHENMINGCAN.jw.hongshu.com:discovery-springcloud-example-console:2222 (replication=false)
+2019-01-24 17:18:10.329 [Thread-38] INFO  c.netflix.discovery.DiscoveryClient
+				-Unregistering ...
+2019-01-24 17:18:10.410 [http-nio-8888-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Cancelled instance DISCOVERY-SPRINGCLOUD-EXAMPLE-EUREKA/CHENMINGCAN.jw.hongshu.com:discovery-springcloud-example-eureka:8888 (replication=false)
+2019-01-24 17:18:10.412 [Thread-38] INFO  c.netflix.discovery.DiscoveryClient
+				-DiscoveryClient_DISCOVERY-SPRINGCLOUD-EXAMPLE-EUREKA/CHENMINGCAN.jw.hongshu.com:discovery-springcloud-example-eureka:8888 - deregister  status: 200
+2019-01-24 17:18:10.675 [Thread-38] INFO  c.netflix.discovery.DiscoveryClient
+				-Completed shut down of DiscoveryClient

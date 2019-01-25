@@ -1669,3 +1669,1647 @@ com.nepxion.discovery.plugin.framework.entity.RuleEntity@23ec63af[
 				-FrameworkServlet 'dispatcherServlet': initialization started
 2019-01-24 16:04:37.028 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet
 				-FrameworkServlet 'dispatcherServlet': initialization completed in 50 ms
+2019-01-24 16:09:36.110 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-01-24 16:14:36.099 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-01-24 16:19:36.088 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-01-24 16:24:36.100 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-01-24 16:29:36.119 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-01-24 16:32:10.479 [lettuce-nioEventLoop-4-1] INFO  i.l.core.protocol.CommandHandler
+				-null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:345)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:647)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:582)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:461)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-24 16:32:10.489 [lettuce-nioEventLoop-4-2] INFO  i.l.core.protocol.CommandHandler
+				-null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:345)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:647)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:582)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:461)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-24 16:32:10.490 [lettuce-nioEventLoop-4-3] INFO  i.l.core.protocol.CommandHandler
+				-null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:345)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:647)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:582)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:461)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-24 16:32:10.610 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost/127.0.0.1:6379
+2019-01-24 16:32:10.610 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost/127.0.0.1:6379
+2019-01-24 16:32:10.610 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost/127.0.0.1:6379
+2019-01-24 16:32:11.616 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:32:11.622 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:32:11.631 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:32:16.108 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:32:16.108 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:32:16.109 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:32:17.108 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:32:17.108 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:32:17.108 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:32:21.307 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:32:21.307 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:32:21.312 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:32:22.311 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:32:22.317 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:32:22.320 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:32:26.507 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:32:26.508 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:32:26.507 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:32:27.520 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:32:27.520 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:32:27.545 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:32:31.708 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:32:31.710 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:32:31.708 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:32:32.711 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:32:32.720 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:32:32.726 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:32:40.907 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:32:41.007 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:32:41.007 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:32:41.913 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:32:42.006 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:32:42.021 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:32:58.306 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:32:58.406 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:32:58.406 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:32:59.308 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:32:59.407 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:32:59.408 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:33:29.405 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:33:29.505 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:33:29.505 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:33:30.417 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:33:30.507 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:33:30.517 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:34:00.503 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:34:00.603 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:34:00.603 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:34:01.508 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:34:01.598 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:34:01.610 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:34:31.602 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:34:31.602 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:34:31.702 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:34:32.613 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:34:32.615 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:34:32.705 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:34:36.114 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-01-24 16:35:02.701 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:35:02.701 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:35:02.801 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:35:03.711 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:35:03.711 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:35:03.805 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:35:33.799 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:35:33.800 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:35:33.899 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:35:34.805 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:35:34.812 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:35:34.896 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:36:04.898 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:36:04.898 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:36:04.898 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:36:05.906 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:36:05.908 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:36:05.906 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:36:35.996 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:36:35.998 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:36:36.002 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:36:37.006 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:36:37.008 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:36:37.022 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:37:07.095 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:37:07.095 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:37:07.096 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:37:08.092 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:37:08.094 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:37:08.110 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:37:38.094 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:37:38.094 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:37:38.194 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:37:39.100 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:37:39.115 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:37:39.195 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:38:09.192 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:38:09.192 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:38:09.292 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:38:10.197 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:38:10.204 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:38:10.297 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:38:40.291 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:38:40.291 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:38:40.391 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:38:41.298 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:38:41.298 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:38:41.392 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:39:11.390 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:39:11.390 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:39:11.490 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:39:12.401 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:39:12.402 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:39:12.493 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:39:36.102 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-01-24 16:39:42.488 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:39:42.488 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:39:42.588 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:39:43.494 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:39:43.499 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:39:43.585 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:40:13.587 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:40:13.587 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:40:13.590 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:40:14.595 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:40:14.596 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:40:14.598 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:40:44.685 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:40:44.685 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:40:44.685 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:40:45.694 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:40:45.699 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:40:45.701 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:41:15.784 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:41:15.785 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:41:15.785 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:41:16.780 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:41:16.780 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:41:16.786 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:41:46.783 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:41:46.783 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:41:46.884 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:41:47.795 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:41:47.795 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:41:47.882 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:42:17.882 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:42:17.885 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:42:17.981 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:42:18.890 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:42:18.891 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:42:18.982 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:42:48.980 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:42:48.981 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:42:49.080 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:42:49.988 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:42:49.992 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:42:50.084 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:43:20.079 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:43:20.079 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:43:20.179 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:43:21.088 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:43:21.089 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:43:21.178 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:43:51.177 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:43:51.177 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:43:51.277 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:43:52.172 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:43:52.175 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:43:52.281 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:44:22.176 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:44:22.176 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:44:22.376 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:44:23.177 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:44:23.177 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:44:23.377 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:44:36.091 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-01-24 16:44:53.275 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:44:53.275 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:44:53.474 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:44:54.280 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:44:54.296 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:44:54.476 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:45:24.373 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:45:24.373 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:45:24.573 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:45:25.383 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:45:25.385 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:45:25.573 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:45:55.471 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:45:55.471 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:45:55.671 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:45:56.481 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:45:56.482 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:45:56.672 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:46:26.570 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:46:26.570 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:46:26.770 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:46:27.573 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:46:27.581 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:46:27.774 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:46:57.669 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:46:57.672 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:46:57.869 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:46:58.683 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:46:58.683 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:46:58.872 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:47:28.767 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:47:28.772 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:47:28.967 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:47:29.777 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:47:29.779 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:47:29.963 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:47:59.866 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:47:59.869 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:47:59.967 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:48:00.875 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:48:00.879 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:48:00.972 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:48:30.965 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:48:30.967 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:48:31.064 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:48:31.970 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:48:31.975 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:48:32.066 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:49:02.063 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:49:02.063 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:49:02.163 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:49:03.073 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:49:03.077 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:49:03.167 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:49:33.162 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:49:33.163 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:49:33.262 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:49:34.168 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:49:34.174 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:49:34.264 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:49:36.079 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-01-24 16:50:04.261 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:50:04.261 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:50:04.361 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:50:05.266 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:50:05.273 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:50:05.363 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:50:35.360 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:50:35.360 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:50:35.460 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:50:36.362 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:50:36.367 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:50:36.460 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:51:06.458 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:51:06.458 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:51:06.558 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:51:07.469 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:51:07.469 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:51:07.559 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:51:37.557 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:51:37.557 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:51:37.657 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:51:38.563 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:51:38.563 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:51:38.658 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:52:08.655 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:52:08.656 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:52:08.755 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:52:09.666 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:52:09.666 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:52:09.757 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:52:39.753 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:52:39.754 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:52:39.853 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:52:40.764 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:52:40.767 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:52:40.857 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:53:10.852 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:53:10.852 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:53:10.952 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:53:11.860 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:53:11.863 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:53:11.949 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:53:41.951 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:53:41.951 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:53:41.951 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:53:42.958 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:53:42.963 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:53:42.964 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:54:13.049 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:54:13.049 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:54:13.049 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:54:14.063 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:54:14.073 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:54:14.074 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:54:36.067 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-01-24 16:54:44.149 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:54:44.149 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:54:44.149 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:54:45.154 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:54:45.154 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:54:45.160 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:55:15.247 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:55:15.247 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:55:15.247 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:55:16.251 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:55:16.256 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:55:16.263 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:55:46.345 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:55:46.345 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:55:46.345 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:55:47.351 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:55:47.351 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:55:47.370 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:56:17.444 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:56:17.445 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:56:17.454 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:56:18.469 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:56:18.479 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:56:18.487 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:56:48.542 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:56:48.544 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:56:48.545 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:56:49.551 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:56:49.560 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:56:49.564 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:57:19.642 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:57:19.642 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:57:19.643 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:57:20.644 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:57:20.652 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:57:20.654 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:57:50.740 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:57:50.740 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:57:50.741 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:57:51.738 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:57:51.743 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:57:51.750 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:58:21.738 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:58:21.838 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:58:21.838 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:58:22.744 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:58:22.847 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:58:22.849 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:58:52.837 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:58:52.937 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:58:52.937 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:58:53.838 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:58:53.936 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:58:53.938 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:59:23.936 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:59:23.936 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:59:24.036 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:59:24.938 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:59:24.947 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:59:25.038 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:59:36.055 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-01-24 16:59:55.034 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:59:55.035 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:59:55.134 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 16:59:56.041 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:59:56.060 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 16:59:56.135 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:00:26.133 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:00:26.134 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:00:26.233 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:00:27.136 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:00:27.147 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:00:27.236 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:00:57.237 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:00:57.240 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:00:57.331 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:00:58.245 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:00:58.247 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:00:58.335 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:01:28.330 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:01:28.330 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:01:28.430 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:01:29.341 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:01:29.343 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:01:29.433 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:01:59.429 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:01:59.430 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:01:59.529 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:02:00.430 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:02:00.432 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:02:00.534 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:02:30.530 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:02:30.532 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:02:30.628 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:02:31.538 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:02:31.542 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:02:31.639 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:03:01.627 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:03:01.630 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:03:01.726 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:03:02.632 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:03:02.637 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:03:02.727 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:03:32.724 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:03:32.726 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:03:32.824 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:03:33.735 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:03:33.736 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:03:33.836 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:04:03.823 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:04:03.823 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:04:03.923 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:04:04.824 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:04:04.824 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:04:04.928 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:04:34.922 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:04:34.922 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:04:35.022 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:04:35.939 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:04:35.943 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:04:36.024 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:04:36.042 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-01-24 17:05:06.020 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:05:06.020 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:05:06.120 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:05:07.029 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:05:07.030 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:05:07.116 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:05:37.120 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:05:37.120 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:05:37.120 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:05:38.120 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:05:38.122 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:05:38.133 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:06:08.217 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:06:08.219 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:06:08.221 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:06:09.224 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:06:09.243 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:06:09.244 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:06:39.316 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:06:39.319 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:06:39.323 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:06:40.333 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:06:40.332 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:06:40.333 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:07:10.416 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:07:10.420 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:07:10.421 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:07:11.423 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:07:11.427 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:07:11.427 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:07:41.513 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:07:41.514 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:07:41.516 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:07:42.523 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:07:42.532 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:07:42.532 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:08:12.613 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:08:12.613 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:08:12.613 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:08:13.614 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:08:13.617 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:08:13.637 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:08:43.711 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:08:43.716 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:08:43.718 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:08:44.719 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:08:44.722 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:08:44.723 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:09:14.810 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:09:14.810 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:09:14.815 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:09:15.831 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:09:15.833 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:09:15.835 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:09:36.030 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-01-24 17:09:45.909 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:09:45.910 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:09:45.911 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:09:46.909 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:09:46.927 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:09:46.929 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:10:17.009 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:10:17.010 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:10:17.012 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:10:18.019 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:10:18.029 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:10:18.029 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:10:48.105 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:10:48.107 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:10:48.108 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:10:49.113 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:10:49.116 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:10:49.120 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:11:19.204 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:11:19.204 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:11:19.204 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:11:20.217 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:11:20.218 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:11:20.226 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:11:50.302 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:11:50.303 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:11:50.302 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:11:51.311 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:11:51.313 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:11:51.314 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:12:21.401 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:12:21.402 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:12:21.402 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:12:22.402 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:12:22.404 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:12:22.405 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:12:52.500 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:12:52.500 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:12:52.500 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:12:53.505 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:12:53.512 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:12:53.521 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:13:23.599 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:13:23.600 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:13:23.603 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:13:24.605 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:13:24.605 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:13:24.614 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:13:54.698 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:13:54.700 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:13:54.701 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:13:55.704 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:13:55.706 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:13:55.716 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:14:25.796 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:14:25.796 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:14:25.796 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:14:26.802 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:14:26.805 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:14:26.808 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:14:36.018 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver
+				-Resolving eureka endpoints via configuration
+2019-01-24 17:14:56.894 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:14:56.894 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:14:56.894 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:14:57.895 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:14:57.896 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:14:57.919 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:15:27.993 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:15:27.993 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:15:27.993 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:15:28.997 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:15:29.004 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:15:29.005 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:15:59.092 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:15:59.092 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:15:59.092 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:16:00.087 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:16:00.167 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:16:00.167 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:16:30.091 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:16:30.191 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:16:30.191 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:16:31.095 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:16:31.192 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:16:31.194 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:17:01.189 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:17:01.289 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:17:01.289 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:17:02.185 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:17:02.286 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:17:02.289 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:17:32.188 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:17:32.288 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:17:32.388 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:17:33.183 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:17:33.289 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:17:33.389 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:18:03.186 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:18:03.386 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:18:03.486 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:18:04.182 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:18:04.387 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:18:04.488 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:18:05.933 [Thread-37] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext
+				-Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@c827db: startup date [Thu Jan 24 16:04:27 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2ccca26f
+2019-01-24 17:18:05.948 [Thread-37] INFO  o.s.c.n.e.s.EurekaServiceRegistry
+				-Unregistering application discovery-springcloud-example-zuul with eureka with status DOWN
+2019-01-24 17:18:05.948 [Thread-37] WARN  c.netflix.discovery.DiscoveryClient
+				-Saw local status change event StatusChangeEvent [timestamp=1548321485948, current=DOWN, previous=UP]
+2019-01-24 17:18:05.948 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient
+				-DiscoveryClient_DISCOVERY-SPRINGCLOUD-EXAMPLE-ZUUL/CHENMINGCAN.jw.hongshu.com:discovery-springcloud-example-zuul:1400: registering service...
+2019-01-24 17:18:05.948 [Thread-37] INFO  c.n.e.thread.ThreadPoolFactory
+				-Shutting down thread pool executor [java.util.concurrent.ThreadPoolExecutor@595fd503[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]]...
+2019-01-24 17:18:06.560 [Thread-37] INFO  o.s.c.s.DefaultLifecycleProcessor
+				-Stopping beans in phase 2147483647
+2019-01-24 17:18:06.718 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient
+				-DiscoveryClient_DISCOVERY-SPRINGCLOUD-EXAMPLE-ZUUL/CHENMINGCAN.jw.hongshu.com:discovery-springcloud-example-zuul:1400 - registration status: 204
+2019-01-24 17:18:34.183 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:18:34.483 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:18:34.583 [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:18:35.184 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:18:35.483 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:18:35.583 [lettuce-nioEventLoop-4-4] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:18:39.830 [DiscoveryClient-HeartbeatExecutor-0] ERROR c.n.d.s.t.d.RedirectingEurekaHttpClient
+				-Request execution error
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.put(WebResource.java:529)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.sendHeartBeat(AbstractJerseyEurekaHttpClient.java:102)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:846)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1399)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 27 common frames omitted
+2019-01-24 17:18:39.830 [DiscoveryClient-CacheRefreshExecutor-0] ERROR c.n.d.s.t.d.RedirectingEurekaHttpClient
+				-Request execution error
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:194)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getDelta(AbstractJerseyEurekaHttpClient.java:170)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1085)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:967)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1471)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1438)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 30 common frames omitted
+2019-01-24 17:18:39.831 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient
+				-Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2019-01-24 17:18:39.832 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient
+				-Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2019-01-24 17:18:41.834 [DiscoveryClient-CacheRefreshExecutor-0] ERROR c.n.d.s.t.d.RedirectingEurekaHttpClient
+				-Request execution error
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:194)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getDelta(AbstractJerseyEurekaHttpClient.java:170)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1085)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:967)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1471)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1438)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 31 common frames omitted
+2019-01-24 17:18:41.835 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient
+				-Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2019-01-24 17:18:41.843 [DiscoveryClient-HeartbeatExecutor-0] ERROR c.n.d.s.t.d.RedirectingEurekaHttpClient
+				-Request execution error
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.put(WebResource.java:529)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.sendHeartBeat(AbstractJerseyEurekaHttpClient.java:102)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:846)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1399)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 28 common frames omitted
+2019-01-24 17:18:41.844 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient
+				-Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2019-01-24 17:18:41.890 [DiscoveryClient-CacheRefreshExecutor-0] ERROR c.netflix.discovery.DiscoveryClient
+				-DiscoveryClient_DISCOVERY-SPRINGCLOUD-EXAMPLE-ZUUL/CHENMINGCAN.jw.hongshu.com:discovery-springcloud-example-zuul:1400 - was unable to refresh its cache! status = Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1085)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:967)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1471)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1438)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-24 17:18:41.890 [DiscoveryClient-HeartbeatExecutor-0] ERROR c.netflix.discovery.DiscoveryClient
+				-DiscoveryClient_DISCOVERY-SPRINGCLOUD-EXAMPLE-ZUUL/CHENMINGCAN.jw.hongshu.com:discovery-springcloud-example-zuul:1400 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:846)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1399)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-24 17:19:05.281 [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:19:05.581 [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:19:05.681 [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog
+				-Reconnecting, last destination was localhost:6379
+2019-01-24 17:19:06.285 [lettuce-nioEventLoop-4-1] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:19:06.583 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:19:06.620 [Thread-37] WARN  o.s.d.r.l.RedisMessageListenerContainer
+				-Unable to unsubscribe from subscriptions
+io.lettuce.core.RedisCommandTimeoutException: Command timed out
+	at io.lettuce.core.LettuceFutures.awaitOrCancel(LettuceFutures.java:114)
+	at io.lettuce.core.FutureSyncInvocationHandler.handleInvocation(FutureSyncInvocationHandler.java:62)
+	at io.lettuce.core.internal.AbstractInvocationHandler.invoke(AbstractInvocationHandler.java:80)
+	at com.sun.proxy.$Proxy176.punsubscribe(Unknown Source)
+	at org.springframework.data.redis.connection.lettuce.LettuceSubscription.doClose(LettuceSubscription.java:66)
+	at org.springframework.data.redis.connection.util.AbstractSubscription.close(AbstractSubscription.java:106)
+	at org.springframework.data.redis.listener.RedisMessageListenerContainer$SubscriptionTask.cancel(RedisMessageListenerContainer.java:866)
+	at org.springframework.data.redis.listener.RedisMessageListenerContainer.stop(RedisMessageListenerContainer.java:225)
+	at org.springframework.data.redis.listener.RedisMessageListenerContainer.stop(RedisMessageListenerContainer.java:183)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStop(DefaultLifecycleProcessor.java:236)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$300(DefaultLifecycleProcessor.java:52)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.stop(DefaultLifecycleProcessor.java:373)
+	at org.springframework.context.support.DefaultLifecycleProcessor.stopBeans(DefaultLifecycleProcessor.java:209)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onClose(DefaultLifecycleProcessor.java:127)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1009)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:937)
+2019-01-24 17:19:06.621 [Thread-37] INFO  o.s.c.s.DefaultLifecycleProcessor
+				-Stopping beans in phase 0
+2019-01-24 17:19:06.621 [Thread-37] INFO  o.s.c.n.zuul.ZuulFilterInitializer
+				-Stopping filter initializer
+2019-01-24 17:19:06.682 [lettuce-nioEventLoop-4-3] WARN  i.l.core.protocol.ConnectionWatchdog
+				-Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+2019-01-24 17:19:06.755 [Thread-37] INFO  o.s.j.e.a.AnnotationMBeanExporter
+				-Unregistering JMX-exposed beans on shutdown
+2019-01-24 17:19:06.761 [Thread-37] INFO  o.s.j.e.a.AnnotationMBeanExporter
+				-Unregistering JMX-exposed beans
+2019-01-24 17:19:07.146 [Thread-37] INFO  c.netflix.discovery.DiscoveryClient
+				-Shutting down DiscoveryClient ...
+2019-01-24 17:19:10.148 [Thread-37] INFO  c.netflix.discovery.DiscoveryClient
+				-Unregistering ...
+2019-01-24 17:19:12.154 [Thread-37] ERROR c.n.d.s.t.d.RedirectingEurekaHttpClient
+				-Request execution error
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.delete(WebResource.java:591)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.cancel(AbstractJerseyEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:923)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:901)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:223)
+	at org.springframework.cloud.context.scope.GenericScope$LockedScopedProxyFactoryBean.invoke(GenericScope.java:494)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy115.shutdown(Unknown Source)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.close(EurekaRegistration.java:207)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:337)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:271)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:957)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:964)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1041)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1017)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:937)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 46 common frames omitted
+2019-01-24 17:19:12.155 [Thread-37] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient
+				-Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2019-01-24 17:19:12.156 [Thread-37] ERROR c.netflix.discovery.DiscoveryClient
+				-DiscoveryClient_DISCOVERY-SPRINGCLOUD-EXAMPLE-ZUUL/CHENMINGCAN.jw.hongshu.com:discovery-springcloud-example-zuul:1400 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:923)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:901)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:223)
+	at org.springframework.cloud.context.scope.GenericScope$LockedScopedProxyFactoryBean.invoke(GenericScope.java:494)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy115.shutdown(Unknown Source)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.close(EurekaRegistration.java:207)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:337)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:271)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:957)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:964)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1041)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1017)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:937)
+2019-01-24 17:19:12.203 [Thread-37] INFO  c.netflix.discovery.DiscoveryClient
+				-Completed shut down of DiscoveryClient

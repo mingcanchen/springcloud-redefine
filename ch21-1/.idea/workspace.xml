@@ -2,58 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e94512d4-5d78-4091-9f93-a98d3c5b29e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/discovery-consule/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-consule/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-consule/src/main/java/com/ming/DiscoveryConsuleApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-consule/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/ming/eurekaserver/EurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original-service/src/main/java/com/ming/DiscoveryApplicationA1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original-service/src/main/java/com/ming/DiscoveryApplicationA2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original-service/src/main/java/com/ming/DiscoveryApplicationB1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original-service/src/main/java/com/ming/DiscoveryApplicationB2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original-service/src/main/java/com/ming/DiscoveryApplicationC1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original-service/src/main/java/com/ming/DiscoveryApplicationC2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original-service/src/main/java/com/ming/DiscoveryApplicationC3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original-service/src/main/java/com/ming/extension/MyDiscoveryEnabledAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original-service/src/main/java/com/ming/extension/MyDiscoveryListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original-service/src/main/java/com/ming/extension/MyLoadBalanceListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original-service/src/main/java/com/ming/extension/MyRegisterListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original-service/src/main/java/com/ming/extension/MySubscriber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original-service/src/main/java/com/ming/feign/AFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original-service/src/main/java/com/ming/feign/AFeignImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original-service/src/main/java/com/ming/feign/AbstractFeignImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original-service/src/main/java/com/ming/feign/BFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original-service/src/main/java/com/ming/feign/BFeignImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original-service/src/main/java/com/ming/feign/CFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original-service/src/main/java/com/ming/feign/CFeignImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original-service/src/main/java/com/ming/feign/FeignConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original-service/src/main/resources/application-a1.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original-service/src/main/resources/application-a2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original-service/src/main/resources/application-b1.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original-service/src/main/resources/application-b2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original-service/src/main/resources/application-c1.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original-service/src/main/resources/application-c2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original-service/src/main/resources/application-c3.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original-service/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original-service/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original-service/src/main/resources/rule.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original-service/src/main/resources/rule.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-service/src/main/java/com/ming/zuulservice/ZuulServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-service/src/main/java/com/ming/zuulservice/extension/MyDiscoveryEnabledAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-service/src/main/resources/application-zuul.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-service/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-service/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-service/src/main/resources/rule.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-service/src/main/resources/rule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/eureka-server-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/eureka-server-error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/eureka-server-info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/eureka-server-info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/zuul-gateway-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/zuul-gateway-error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/zuul-gateway-info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/zuul-gateway-info.log" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -90,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/discovery-consule/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-586">
-              <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+            <state relative-caret-position="231">
+              <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -227,64 +180,6 @@
               <item name="ch21-1" type="b2602c69:ProjectViewProjectNode" />
               <item name="ch21-1" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ch21-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch21-1" type="462c0819:PsiDirectoryNode" />
-              <item name="discovery-consule" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch21-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch21-1" type="462c0819:PsiDirectoryNode" />
-              <item name="discovery-consule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch21-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch21-1" type="462c0819:PsiDirectoryNode" />
-              <item name="discovery-consule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch21-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch21-1" type="462c0819:PsiDirectoryNode" />
-              <item name="discovery-consule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch21-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch21-1" type="462c0819:PsiDirectoryNode" />
-              <item name="discovery-consule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch21-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch21-1" type="462c0819:PsiDirectoryNode" />
-              <item name="discovery-consule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ming" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch21-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch21-1" type="462c0819:PsiDirectoryNode" />
-              <item name="discovery-consule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ch21-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch21-1" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul-service" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -299,7 +194,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548318727514" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548346952550" />
     <property name="last_opened_file_path" value="E:/nepxion/Discovery" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -472,12 +367,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548301744786</updated>
-      <workItem from="1548301747366" duration="9287000" />
+      <workItem from="1548301747366" duration="11368000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9287000" />
+    <option name="totallyTimeSpent" value="11368000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -488,9 +383,9 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2234456" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2234456" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Run Dashboard" visible="true" weight="0.5034674" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" visible="true" weight="0.5034674" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -837,8 +732,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/discovery-consule/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-586">
-          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        <state relative-caret-position="231">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
         </state>
       </provider>
     </entry>
