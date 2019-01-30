@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ch25.iml" filepath="$PROJECT_DIR$/ch25.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crm-eureka/crm-eureka.iml" filepath="$PROJECT_DIR$/crm-eureka/crm-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crm-sales-app/crm-sales-app.iml" filepath="$PROJECT_DIR$/crm-sales-app/crm-sales-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crm-sales-client/crm-sales-client.iml" filepath="$PROJECT_DIR$/crm-sales-client/crm-sales-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crm-sales-consumer/crm-sales-consumer.iml" filepath="$PROJECT_DIR$/crm-sales-consumer/crm-sales-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crm-sales-domain/crm-sales-domain.iml" filepath="$PROJECT_DIR$/crm-sales-domain/crm-sales-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crm-sales-infrastructure/crm-sales-infrastructure.iml" filepath="$PROJECT_DIR$/crm-sales-infrastructure/crm-sales-infrastructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crm-sales-start/crm-sales-start.iml" filepath="$PROJECT_DIR$/crm-sales-start/crm-sales-start.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+server:
+  port: 8761
+spring:
+  application:
+    name: crm-eureka
+
+eureka:
+  instance:
+    appname: localhost
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      deflautZone: http://${eureka.instance.hostname}:${server.port}/eureka/

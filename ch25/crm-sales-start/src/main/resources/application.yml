@@ -1,0 +1,32 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+    instance:
+        prefer-ip-address: true
+
+spring:
+  application:
+      name: crm-sales-provider
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/crm?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT
+    username: root
+    password: root
+
+
+server:
+  port: 8080
+  compression:
+    enabled: true
+    mime-types:
+      - text/html
+      - text/css
+      - application/x-font-ttf
+      - application/javascript
+      - application/json
+
+mybatis:
+  typeAliasesPackage: cn.springcloud.book.crm.sales.tunnel.dataobject
+  mapper-locations:
+  - classpath:mapper/*.xml

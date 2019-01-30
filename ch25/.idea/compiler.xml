@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="crm-eureka" />
+        <module name="crm-sales-app" />
+        <module name="crm-sales-client" />
+        <module name="crm-sales-consumer" />
+        <module name="crm-sales-domain" />
+        <module name="crm-sales-infrastructure" />
+        <module name="crm-sales-start" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ch25" target="1.8" />
+      <module name="crm-eureka" target="1.8" />
+      <module name="crm-sales-app" target="1.8" />
+      <module name="crm-sales-client" target="1.8" />
+      <module name="crm-sales-consumer" target="1.8" />
+      <module name="crm-sales-domain" target="1.8" />
+      <module name="crm-sales-infrastructure" target="1.8" />
+      <module name="crm-sales-start" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="crm-eureka" options="-parameters" />
+    </option>
+  </component>
+</project>
